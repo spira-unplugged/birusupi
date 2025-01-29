@@ -1,0 +1,6 @@
+title: "びるすぴ"
+description: "GitHub PagesでJekyllを使ったブログ"
+theme: minima
+baseurl: "" # サブディレクトリがない場合は空白
+url: "https://spira-unplugged.github.io/birusupi/" # あなたのGitHub PagesのURL
+markdown: kramdown
