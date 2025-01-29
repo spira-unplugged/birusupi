@@ -1,4 +1,4 @@
-/* 基本スタイル */
+/* 全体設定 */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -8,53 +8,30 @@ body {
   color: #333;
 }
 
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 /* ヘッダー */
-.site-header {
-  background-color: #007BFF;
+header {
+  background: #007BFF;
   color: white;
-  padding: 1rem;
   text-align: center;
+  padding: 1rem 0;
 }
 
-.site-header h1 {
+header h1 {
   margin: 0;
+  font-size: 2rem;
 }
 
-.site-header p {
+header p {
   margin: 0;
-  font-size: 0.9rem;
-}
-
-/* メインコンテンツ */
-.site-content {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-/* フッター */
-.site-footer {
-  text-align: center;
-  font-size: 0.8rem;
-  color: #666;
-  padding: 1rem;
-  margin-top: 2rem;
-  border-top: 1px solid #ddd;
+  font-size: 1rem;
 }
 
 /* 記事一覧 */
 .post-list {
   list-style: none;
   padding: 0;
+  margin: 2rem auto;
+  max-width: 800px;
 }
 
 .post-item {
@@ -63,7 +40,8 @@ a:hover {
   border-bottom: 1px solid #ddd;
 }
 
-.post-item h2 {
+.post-item h3 {
+  margin: 0 0 0.5rem;
   font-size: 1.5rem;
 }
 
@@ -84,31 +62,19 @@ a:hover {
   background-color: #007BFF;
   color: white;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .read-more:hover {
   background-color: #0056b3;
 }
 
-/* 記事ページ */
-.post h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.post-meta {
+/* フッター */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
   font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-.post-content {
-  margin-bottom: 2rem;
-  line-height: 1.8;
-}
-
-.back-link {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #007BFF;
+  margin-top: 2rem;
 }
