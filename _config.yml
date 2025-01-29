@@ -1,6 +1,7 @@
 title: "びるすぴ"
 description: "GitHub PagesでJekyllを使ったブログ"
 theme: minima
-baseurl: "" # サブディレクトリがない場合は空白
-url: "https://spira-unplugged.github.io/birusupi/" # あなたのGitHub PagesのURL
+baseurl: "/birusupi" # サブディレクトリを設定
+url: "https://spira-unplugged.github.io" # ベースURL（末尾のスラッシュなし）
 markdown: kramdown
+permalink: /:categories/:title/
