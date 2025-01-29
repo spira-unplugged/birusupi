@@ -1,19 +1,114 @@
+/* 基本スタイル */
 body {
-	font-family: Arial, sans-serif;
-	line-height: 1.6;
-	margin: 20px;
-  }
-  
-  h1, h2 {
-	color: #333;
-  }
-  
-  a {
-	text-decoration: none;
-	color: #007BFF;
-  }
-  
-  a:hover {
-	text-decoration: underline;
-  }
-  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ヘッダー */
+.site-header {
+  background-color: #007BFF;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-header p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* メインコンテンツ */
+.site-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* フッター */
+.site-footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+/* 記事一覧 */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-item h2 {
+  font-size: 1.5rem;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-excerpt {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+/* 記事ページ */
+.post h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007BFF;
+}
