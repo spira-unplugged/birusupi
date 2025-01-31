@@ -2,21 +2,22 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <h1><a href="/">{{ site.title }}</a></h1>
     <p>{{ site.description }}</p>
   </header>
 
-  <main>
+  <main class="site-content">
     {{ content }}
   </main>
 
-  <footer>
-    <p>&copy; 2025 {{ site.title }}</p>
+  <footer class="site-footer">
+    <p>&copy; 2025 {{ site.title }} - All Rights Reserved.</p>
   </footer>
 </body>
 </html>
