@@ -1,0 +1,108 @@
+/* 全体設定 */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ヘッダー */
+header, .site-header {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1, .site-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p, .site-header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* 記事一覧 */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-excerpt {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+/* 投稿ページ */
+.post {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background: #0056b3;
+}
+
+/* フッター */
+footer, .site-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}

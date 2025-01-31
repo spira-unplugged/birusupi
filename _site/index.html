@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GitHub Pagesで構築したブログサイト『びるすぴ』。初心者にもわかりやすく、Jekyllを活用したウェブサイト構築の方法を解説します。">
+  <meta name="keywords" content="ブログ, Jekyll, GitHub Pages, ウェブサイト, 初心者">
+  <title>びるすぴ - GitHub Pagesブログ</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ site.baseurl }}/">びるすぴ</a></h1>
+    <p>GitHub Pagesで作ったブログサイト</p>
+  </header>
+
+  <main>
+    <h2>ブログ記事一覧</h2>
+    <ul class="post-list" aria-label="記事一覧">
+      {% for post in site.posts %}
+      <li class="post-item">
+        <h3><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
+        <p class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</p>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">続きを読む</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </main>
+
+  <aside>
+    <h2 class="side-title">メニュー</h2>
+    <nav aria-label="サイドメニュー">
+      <ul class="side">
+        <li><a href="{{ site.baseurl }}/about/">サイトについて</a></li>
+        <li><a href="{{ site.baseurl }}/contact/">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 びるすぴ - All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
