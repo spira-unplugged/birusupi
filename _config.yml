@@ -4,4 +4,4 @@ theme: minima
 baseurl: "/birusupi" # サブディレクトリを設定
 url: "https://spira-unplugged.github.io" # ベースURL（末尾のスラッシュなし）
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:categories/:year:month:day/:slug/
