@@ -9,19 +9,19 @@ body {
 }
 
 /* ヘッダー */
-header {
+header, .site-header {
   background: #007BFF;
   color: white;
   text-align: center;
   padding: 1rem 0;
 }
 
-header h1 {
+header h1, .site-header h1 {
   margin: 0;
   font-size: 2rem;
 }
 
-header p {
+header p, .site-header p {
   margin: 0;
   font-size: 1rem;
 }
@@ -69,8 +69,36 @@ header p {
   background-color: #0056b3;
 }
 
+/* 投稿ページ */
+.post {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #007BFF;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background: #0056b3;
+}
+
 /* フッター */
-footer {
+footer, .site-footer {
   text-align: center;
   padding: 1rem;
   background: #333;
