@@ -1,0 +1,54 @@
+<div class="related">
+  <h2>{{ site.data.settings.related_posts }}</h2>
+
+  {% assign related_posts = "" | split: "" %} 
+
+  {% if page.tags and page.tags != empty %}
+    {% for tag in page.tags %}
+      {% if site.tags[tag] %}
+        {% for mypost in site.tags[tag] %}
+          {% if mypost.url != page.url and related_posts contains mypost.url == false %}
+            <li>
+              <a href="{{ site.url }}{{ site.baseurl }}{{ mypost.url }}">
+                {% if mypost.image %}
+                <div class="related-thumbnail">
+                  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.image }}" alt="{{ mypost.title }}">
+                </div>
+                {% endif %}
+                <div class="related-title">
+                  {{ mypost.title }}
+                </div>
+              </a>
+            </li>
+            {% assign related_posts = related_posts | push: mypost.url %}
+          {% endif %}
+          {% if related_posts | size >= 4 %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+  {% if related_posts == empty %}
+    <p>関連記事が見つかりませんでした。最新の記事をチェックしてみてください。</p>
+    <ul class="related-posts">
+      {% for mypost in site.posts limit:4 %}
+        {% if mypost.url != page.url %}
+          <li>
+            <a href="{{ site.url }}{{ site.baseurl }}{{ mypost.url }}">
+              {% if mypost.image %}
+              <div class="related-thumbnail">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.image }}" alt="{{ mypost.title }}">
+              </div>
+              {% endif %}
+              <div class="related-title">
+                {{ mypost.title }}
+              </div>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>

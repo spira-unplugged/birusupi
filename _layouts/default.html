@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
-</head>
-<body>
-  <header class="site-header">
-    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-    <p>{{ site.description }}</p>
-  </header>
+  {% include head.html %}
+  <body class="{{ page.layout }}">
+    <div class="container">
+      {% include header.html %}
 
-  <main class="site-content">
-    {{ content }}
-  </main>
+      <main class="content-wrapper">
+        {{ content }}
+      </main>
 
-  <footer class="site-footer">
-    <p>&copy; 2025 {{ site.title }} - All Rights Reserved.</p>
-  </footer>
-</body>
+      {% include footer.html %}
+    </div>
+  </body>
 </html>
