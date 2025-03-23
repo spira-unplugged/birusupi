@@ -1,1 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-02-01T01:44:34+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">びるすぴ</title><subtitle>GitHub PagesでJekyllを使ったブログ</subtitle><entry><title type="html">初めての記事</title><link href="http://localhost:4000/birusupi/blog/20250129/my-first-post/" rel="alternate" type="text/html" title="初めての記事" /><published>2025-01-29T00:00:00+09:00</published><updated>2025-01-29T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/blog/20250129/my-first-post</id><content type="html" xml:base="http://localhost:4000/birusupi/blog/20250129/my-first-post/"><![CDATA[<p>GitHub PagesでJekyllを使ってサイトを構築する方法のテスト記事</p>]]></content><author><name></name></author><category term="blog" /><category term="Jekyll" /><category term="GitHub Pages" /><summary type="html"><![CDATA[GitHub PagesでJekyllを使ってサイトを構築する方法のテスト記事]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-23T22:16:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>birusupi</name></author><entry><title type="html">Filmphotography Bot</title><link href="http://localhost:4000/autolomography" rel="alternate" type="text/html" title="Filmphotography Bot" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/autolomography</id><content type="html" xml:base="http://localhost:4000/autolomography"><![CDATA[<h1 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h1>
+
+<p>X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
+このプロジェクトは、Lomographyというフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
+
+<hr />
+
+<h2 id="背景">背景</h2>
+
+<p>過去にフィルムカメラでの撮影を趣味にしていましたが、継続的なコスト（フィルム代、現像代、スキャン等）により中断しました。フィルム代マジで高い。
+撮影はしなくなったものの、フィルム写真に対する関心は残っており、Lomographyを閲覧する習慣は続いていました。</p>
+
+<p>ある時、LomographyのAPIが公開されていることに気づき、同サービスの担当者に連絡を取り、APIキーを提供してもらいました。
+これをきっかけに、自動投稿ボットの構築を開始。</p>
+
+<hr />
+
+<h2 id="autolomography-について">AutoLomography について</h2>
+
+<p><strong>リポジトリ</strong>：<a href="https://github.com/spira-unplugged/AutoLomography">GitHub - AutoLomography</a></p>
+
+<p><strong>投稿アカウント</strong>：<a href="https://x.com/AutoLomography">https://x.com/AutoLomography</a></p>
+
+<p>AutoLomographyは、Lomography APIから取得したフィルム写真を6時間ごとにXへ投稿するボットです。
+同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。</p>
+
+<hr />
+
+<h2 id="主な構成と機能">主な構成と機能</h2>
+
+<ul>
+  <li>
+    <p><strong>Lomography API</strong>
+写真のメタデータ（タイトル、説明、画像URL等）を取得。</p>
+  </li>
+  <li>
+    <p><strong>重複チェック</strong>
+Googleスプレッドシート上で、過去に投稿した写真IDと照合。</p>
+  </li>
+  <li>
+    <p><strong>自動投稿処理</strong>
+XのAPIを使用し、取得した写真とキャプション、Altテキスト（説明文）を投稿。</p>
+  </li>
+  <li>
+    <p><strong>記録</strong>
+投稿後、使用した写真の情報をスプレッドシートに記録。</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="技術要素">技術要素</h2>
+
+<ul>
+  <li><strong>Google Apps Script</strong>：定期実行タスク、API連携、スプレッドシート操作を統括</li>
+  <li><strong>Twitter API v2</strong>：投稿機能</li>
+  <li><strong>Lomography API</strong>：写真取得用</li>
+  <li><strong>Google Spreadsheet</strong>：投稿履歴の保存・参照</li>
+</ul>
+
+<hr />
+
+<h2 id="運用状況と今後の展望">運用状況と今後の展望</h2>
+
+<p>現在は6時間ごとに自動投稿を実行。
+Lomographyの写真は多様性があり、特定のテーマに偏らず、毎回異なる空気感の写真が流れるのが特徴です。
+ただ、時折XのAPIの仕様が変わることで投稿が止まってしまうことがあるのが課題。</p>
+
+<hr />
+
+<h2 id="終わりに">終わりに</h2>
+
+<p>フィルム写真との直接的な関わりは減ったが、本ボットを通じて間接的に接点を持ち続ける形になりました。</p>]]></content><author><name>birusupi</name></author><category term="documentation" /><category term="documentation" /><category term="sample" /><summary type="html"><![CDATA[Xでのフィルム写真ボット運用について]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Filmphotography-Bot.jpg" /><media:content medium="image" url="http://localhost:4000/Filmphotography-Bot.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -1,0 +1,22 @@
+<span class="post-date">
+  {{ site.data.settings.post_date_prefix }}
+  {% assign d = page.date | date: "%-d" %}
+  {{ page.date | date: "%B" }}
+  {% case d %}
+    {% when '1' %}1st
+    {% when '21' %}21st
+    {% when '31' %}31st
+    {% when '2' %}2nd
+    {% when '22' %}22nd
+    {% when '3' %}3rd
+    {% when '23' %}23rd
+    {% else %}{{ d }}th
+  {% endcase %},
+  {{ page.date | date: "%Y" }}
+  by
+  {% if page.author %}
+    {{ page.author }}
+  {% else %}
+    {{ site.author }}
+  {% endif %}
+</span>

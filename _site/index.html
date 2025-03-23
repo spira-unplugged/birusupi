@@ -1,45 +1,169 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8">
+  <head>
+  <title>
+    
+      Birusupi | Blog and Documentation
+    
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="GitHub Pagesで構築したブログサイト『びるすぴ』。初心者にもわかりやすく、Jekyllを活用したウェブサイト構築の方法を解説します。">
-  <meta name="keywords" content="ブログ, Jekyll, GitHub Pages, ウェブサイト, 初心者">
-  <title>びるすぴ - GitHub Pagesブログ</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Birusupi" />
+  <!-- RSS-v2.0
+  <link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Birusupi | Blog and Documentation"/>
+  //-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <!-- Google Analytics -->
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1PYX136X2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W1PYX136X2');
+  </script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | Birusupi</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Home" />
+<meta name="author" content="birusupi" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Blog and Documentation" />
+<meta property="og:description" content="Blog and Documentation" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Birusupi" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"birusupi"},"description":"Blog and Documentation","headline":"Home","name":"Birusupi","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
 </head>
-<body>
-  <header>
-    <h1><a href="{{ site.baseurl }}/">びるすぴ</a></h1>
-    <p>GitHub Pagesで作ったブログサイト</p>
-  </header>
 
-  <main>
-    <h2>ブログ記事一覧</h2>
-    <ul class="post-list" aria-label="記事一覧">
-      {% for post in site.posts %}
-      <li class="post-item">
-        <h3><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a></h3>
-        <p class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</p>
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">続きを読む</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </main>
+  <body class="home">
+    <div class="container">
+      <header class="site-header">
+  <h3 class="site-title">
+    <a href="http://localhost:4000/">Birusupi</a>
+  </h3>
+  <nav class="menu-list">
+    
+      <a href="http://localhost:4000/blog" class="menu-link">Blog</a>
+    
+      <a href="http://localhost:4000/documentation" class="menu-link">Documentation</a>
+    
+      <a href="http://localhost:4000/playlist" class="menu-link">Playlist</a>
+    
+      <a href="http://localhost:4000/about" class="menu-link">About</a>
+    
+      <a href="http://localhost:4000/contact" class="menu-link">Contact</a>
+    
+    
+      <a href="https://x.com/singingsores" class="menu-link" target="_blank" rel="noopener">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+    
+      <a href="https://github.com/spira-unplugged" class="menu-link" target="_blank" rel="noopener">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+    
+      <a href="feed.xml" class="menu-link" target="_blank" rel="noopener">
+        <i class="fa fa-rss-square" aria-hidden="true"></i>
+      </a>
+    
+  </nav>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      
+        <a href="http://localhost:4000/blog" class="menu-link">Blog</a>
+      
+        <a href="http://localhost:4000/documentation" class="menu-link">Documentation</a>
+      
+        <a href="http://localhost:4000/playlist" class="menu-link">Playlist</a>
+      
+        <a href="http://localhost:4000/about" class="menu-link">About</a>
+      
+        <a href="http://localhost:4000/contact" class="menu-link">Contact</a>
+      
+      
+        <a href="https://x.com/singingsores" class="menu-link" target="_blank" rel="noopener">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      
+        <a href="https://github.com/spira-unplugged" class="menu-link" target="_blank" rel="noopener">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      
+        <a href="feed.xml" class="menu-link" target="_blank" rel="noopener">
+          <i class="fa fa-rss-square" aria-hidden="true"></i>
+        </a>
+      
+    </div>
+  </div>
+</header>
 
-  <aside>
-    <h2 class="side-title">メニュー</h2>
-    <nav aria-label="サイドメニュー">
-      <ul class="side">
-        <li><a href="{{ site.baseurl }}/about/">サイトについて</a></li>
-        <li><a href="{{ site.baseurl }}/contact/">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </aside>
 
-  <footer>
-    <p>&copy; 2025 びるすぴ - All Rights Reserved.</p>
-  </footer>
-</body>
+      <main class="content-wrapper">
+        
+  <article>
+  <a href="http://localhost:4000/autolomography">
+    <div class="featured-post" style="background-image:url('http://localhost:4000/assets/img/Filmphotography-Bot.jpg')">
+      <h2><span>Filmphotography Bot</span></h2>
+    </div>
+  </a>
+</article>
+
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  
+    <span class="pagination-button">Older</span>
+  
+
+  
+    <span class="pagination-button">Newer</span>
+  
+</div>
+
+      </main>
+
+      <footer class="footer">
+  
+    <a href="https://x.com/singingsores" class="menu-link" target="_blank" rel="noopener">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+  
+    <a href="https://github.com/spira-unplugged" class="menu-link" target="_blank" rel="noopener">
+      <i class="fa fa-github" aria-hidden="true"></i>
+    </a>
+  
+    <a href="feed.xml" class="menu-link" target="_blank" rel="noopener">
+      <i class="fa fa-rss-square" aria-hidden="true"></i>
+    </a>
+  
+  
+  <div class="footer-description">
+    <a href="http://localhost:4000/">
+      Birusupi | Blog and Documentation by birusupi
+    </a>
+  </div>
+</footer>
+
+    </div>
+  </body>
 </html>
