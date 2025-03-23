@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about
 ---
-![代替テキスト](/assets/img/about.jpg)
+![代替テキスト]({{ site.baseurl }}/assets/img/about.jpg)
 
 Here, I publish articles and updates on topics that interest me.  
 The goal is to create a simple and organized space to share ideas, knowledge, and experiences.
