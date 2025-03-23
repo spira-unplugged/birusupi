@@ -10,9 +10,12 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Birusupi"
-description:	       "Blog and Documentation"
+title:               "Birusupi"
+description:         "Blog and Documentation"
 author:              "birusupi"
+
+url: "https://spira-unplugged.github.io"
+baseurl: "/birusupi"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
