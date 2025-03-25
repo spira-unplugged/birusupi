@@ -31,6 +31,12 @@ permalink: /playlist
 
 ## その他
 
+### 好きなゲーム音楽
+
+任天堂を除く。FF曲が多くなりました。
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4tpTfkLNADkSXACTroXatk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ### Funeral Playlist
 
 ジャズが好きだった親戚のお葬式で流した曲たち
