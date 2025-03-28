@@ -37,3 +37,35 @@ $rss-color: #ff6600;
     overflow: hidden;
   }
   
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.page-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.featured-image {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+.featured-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.sharing-icons {
+  font-size: 0;
+}
+
+.sharing-icons a {
+  font-size: 16px; /* ← ここで元のサイズに戻す */
+  margin: 0 6px;   /* ← アイコンの間にちょっとスペース */
+  display: inline-block;
+}

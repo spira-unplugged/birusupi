@@ -3,7 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-![代替テキスト]({{ site.baseurl }}/assets/img/contact.jpg)
+![contact]({{ site.baseurl }}/assets/img/contact.jpg)
 
 Feel free to get in touch.
 

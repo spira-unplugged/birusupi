@@ -7,7 +7,15 @@ paginate:            5
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Ensure Jekyll includes favicon.ico in the output
+include:
+  - favicon.ico
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:               "Birusupi"

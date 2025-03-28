@@ -3,10 +3,11 @@ layout: page
 title: Playlist
 permalink: /playlist
 ---
+![playlist]({{ site.baseurl }}/assets/img/playlist.jpg)
 
 これまで作ったものをまとめました。
 
-## 四季Playlist
+## 四季のPlaylist
 
 友人と四季に合わせてプレイリストを作る催しがあります。
 
@@ -33,18 +34,18 @@ permalink: /playlist
 
 ### 好きなゲーム音楽
 
-任天堂を除く。FF曲が多くなりました。
+任天堂を除く。どうしてもスクエニ系が多くなる。
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4tpTfkLNADkSXACTroXatk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### Funeral Playlist
 
-ジャズが好きだった親戚のお葬式で流した曲たち
+ジャズが好きだった親戚のお葬式で流した曲たち。
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7i27GNowEUoE3Dukl4lc6t?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### Dedf1sh: Influences
 
-スプラトゥーンのNPCであるDedf1shっぽい曲たち
+スプラトゥーンのNPCであるDedf1shっぽい曲たち。
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4VYDqZQNjv9qJu2RjqmB5P?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
