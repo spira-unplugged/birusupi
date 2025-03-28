@@ -10,7 +10,7 @@ title: Home
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.url }}{{ site.baseurl }}{{ paginator.next_page_path }}">
+    <a class="pagination-button pagination-active next" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
       {{ site.data.settings.pagination.previous_page }}
     </a>
   {% else %}
@@ -18,7 +18,7 @@ title: Home
   {% endif %}
 
   {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.url }}{{ site.baseurl }}{{ paginator.previous_page_path }}">
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
       {{ site.data.settings.pagination.next_page }}
     </a>
   {% else %}

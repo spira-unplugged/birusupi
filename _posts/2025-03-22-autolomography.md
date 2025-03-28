@@ -10,7 +10,7 @@ image: Filmphotography-Bot.jpg
 # Xでのフィルム写真ボット運用について
 
 X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
-このプロジェクトは、Lomographyというフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。
+フィルム写真をやっている人は知っていることが多い、[Lomography](https://www.lomography.com/)というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。
 
 ---
 
@@ -30,7 +30,8 @@ X（旧Twitter）上で、フィルム写真を自動投稿するボット「Aut
 
 **投稿アカウント**：[https://x.com/AutoLomography](https://x.com/AutoLomography)
 
-AutoLomographyは、Lomography APIから取得したフィルム写真を6時間ごとにXへ投稿するボットです。
+投稿情報：[Googleスプレッドシート](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&single=true)
+
 同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。
 
 ---
@@ -63,11 +64,11 @@ AutoLomographyは、Lomography APIから取得したフィルム写真を6時間
 ## 運用状況と今後の展望
 
 現在は6時間ごとに自動投稿を実行。
-Lomographyの写真は多様性があり、特定のテーマに偏らず、毎回異なる空気感の写真が流れるのが特徴です。
+Lomographyの写真は多様性があり、特定のテーマに偏らず、毎回異なる空気感の写真が流れるのが特徴。
 ただ、時折XのAPIの仕様が変わることで投稿が止まってしまうことがあるのが課題。
 
 ---
 
 ## 終わりに
 
-フィルム写真との直接的な関わりは減ったが、本ボットを通じて間接的に接点を持ち続ける形になりました。
+フィルム写真との直接的な関わりは減りましたが、本ボットを通じて間接的に接点を持ち続ける形になりました。

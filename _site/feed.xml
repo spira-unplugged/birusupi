@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-03-23T23:09:18+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>birusupi</name></author><entry><title type="html">Filmphotography Bot</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Filmphotography Bot" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h1 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-03-28T23:34:20+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>birusupi</name></author><entry><title type="html">Filmphotography Bot</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Filmphotography Bot" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h1 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h1>
 
 <p>X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
-このプロジェクトは、Lomographyというフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
+フィルム写真をやっている人は知っていることが多い、<a href="https://www.lomography.com/">Lomography</a>というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
 
 <hr />
 
@@ -21,8 +21,9 @@
 
 <p><strong>投稿アカウント</strong>：<a href="https://x.com/AutoLomography">https://x.com/AutoLomography</a></p>
 
-<p>AutoLomographyは、Lomography APIから取得したフィルム写真を6時間ごとにXへ投稿するボットです。
-同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。</p>
+<p>投稿情報：<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&amp;single=true">Googleスプレッドシート</a></p>
+
+<p>同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。</p>
 
 <hr />
 
@@ -63,11 +64,11 @@ XのAPIを使用し、取得した写真とキャプション、Altテキスト�
 <h2 id="運用状況と今後の展望">運用状況と今後の展望</h2>
 
 <p>現在は6時間ごとに自動投稿を実行。
-Lomographyの写真は多様性があり、特定のテーマに偏らず、毎回異なる空気感の写真が流れるのが特徴です。
+Lomographyの写真は多様性があり、特定のテーマに偏らず、毎回異なる空気感の写真が流れるのが特徴。
 ただ、時折XのAPIの仕様が変わることで投稿が止まってしまうことがあるのが課題。</p>
 
 <hr />
 
 <h2 id="終わりに">終わりに</h2>
 
-<p>フィルム写真との直接的な関わりは減ったが、本ボットを通じて間接的に接点を持ち続ける形になりました。</p>]]></content><author><name>birusupi</name></author><category term="documentation" /><category term="documentation" /><category term="sample" /><summary type="html"><![CDATA[Xでのフィルム写真ボット運用について]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/Filmphotography-Bot.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/Filmphotography-Bot.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>フィルム写真との直接的な関わりは減りましたが、本ボットを通じて間接的に接点を持ち続ける形になりました。</p>]]></content><author><name>birusupi</name></author><category term="documentation" /><category term="documentation" /><category term="sample" /><summary type="html"><![CDATA[Xでのフィルム写真ボット運用について]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/Filmphotography-Bot.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/Filmphotography-Bot.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
