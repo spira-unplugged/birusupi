@@ -30,7 +30,7 @@ X（旧Twitter）上で、フィルム写真を自動投稿するボット「Aut
 
 **投稿アカウント**：[https://x.com/AutoLomography](https://x.com/AutoLomography)
 
-投稿情報：[Googleスプレッドシート](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&single=true)
+**投稿情報**：[Googleスプレッドシート](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&single=true)
 
 同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。
 

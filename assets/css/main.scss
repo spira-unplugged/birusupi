@@ -4,9 +4,11 @@
 // =============================
 // フォント設定
 // =============================
-$base-font-family: 'Roboto', sans-serif;
-$body-font-family: 'Roboto', sans-serif;
-$code-font-family: "Source Code Pro", monospace;
+:root {
+  $base-font-family: 'Roboto', sans-serif;
+  $body-font-family: 'Roboto', sans-serif;
+  $code-font-family: "Source Code Pro", monospace;
+}
 
 // =============================
 // カラー / サイズ変数
@@ -90,6 +92,25 @@ img {
   margin: 0 6px;
   display: inline-block;
 }
+
+// =============================
+// コンテナ設定（例）
+// =============================
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 1rem; // 横の余白を調整
+  box-sizing: border-box; // パディングを含むサイズ指定
+}
+
+// スマホなど画面幅が狭い場合の調整
+@media (max-width: $phone-width) {
+  .container {
+    width: 100%;
+    padding: 0 0.5rem; // 必要に応じて余白を微調整
+  }
+}
+
 
 // =============================
 // ダークモード対応
