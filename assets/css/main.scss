@@ -172,3 +172,14 @@ img {
     color: #eee;
   }
 }
+
+/* Markdownで入れた画像含め、記事中すべての画像に適用 */
+.post-content img,
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
