@@ -3,7 +3,7 @@ layout: post
 title: "Filmphotography Bot"
 author: "birusupi"
 categories: documentation
-tags: [documentation,sample]
+tags: [xbot,filmphotography]
 image: Filmphotography-Bot.jpg
 ---
 
