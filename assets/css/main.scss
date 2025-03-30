@@ -110,69 +110,6 @@ img {
   }
 }
 
-
-// =============================
-// ダークモード対応
-// =============================
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #eee;
-  }
-
-  a {
-    color: #8ab4f8;
-  }
-
-  .site-header,
-  .footer {
-    background-color: #1e1e1e;
-  }
-
-  .site-title a,
-  .menu-link {
-    color: #fff;
-  }
-
-  .footer-description a {
-    color: #fff;
-  }
-
-  .footer .fa {
-    color: #fff;
-  }
-
-  .post-content,
-  .page-content {
-    background: #1e1e1e;
-    border-radius: 8px;
-    padding: 1rem;
-  }
-
-  .featured-post {
-    filter: brightness(0.8);
-  }
-
-  .dropdown-content {
-    background-color: #2a2a2a;
-    color: #eee;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
-
-    a {
-      color: #eee;
-
-      &:hover {
-        background-color: #444 !important;
-      }
-    }
-  }
-
-  .dropbtn {
-    background-color: #1e1e1e;
-    color: #eee;
-  }
-}
-
 /* Markdownで入れた画像含め、記事中すべての画像に適用 */
 .post-content img,
 .page-content img {
@@ -182,4 +119,43 @@ img {
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
+}
+
+.toc {
+  background: #f7f7f7;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-left: 4px solid #ccc;
+  border-radius: 8px;
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      margin: 0.25rem 0;
+
+      &.h2 a {
+        font-weight: bold;
+      }
+
+      &.h3 {
+        margin-left: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
