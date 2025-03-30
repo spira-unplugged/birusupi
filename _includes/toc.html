@@ -1,0 +1,27 @@
+<nav class="toc">
+  <h2>目次</h2>
+  <ul id="toc-list"></ul>
+</nav>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headings = document.querySelectorAll(".post-content h2, .post-content h3");
+    const tocList = document.getElementById("toc-list");
+
+    headings.forEach(heading => {
+      const text = heading.innerText;
+      const id = text.toLowerCase().replace(/[^\w]+/g, "-");
+      heading.id = id;
+
+      const li = document.createElement("li");
+      li.className = heading.tagName.toLowerCase();
+
+      const a = document.createElement("a");
+      a.href = `#${id}`;
+      a.textContent = text;
+
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+  });
+</script>
