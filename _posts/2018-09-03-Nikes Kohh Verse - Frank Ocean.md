@@ -12,7 +12,7 @@ image: frank-ocean-blonde-header.jpg
 とても稚拙な英訳だったのにアクセス数が結構あったので、この際英訳をブラッシュアップして本記事として再公開することにしました。
 
 
-[はてなブログの当該記事（※そのうち閉鎖するかも）](https://languageoflife.hatenablog.jp/entry/2018/09/03/231023)
+[はてなブログの当該記事（※閉鎖済み）](https://languageoflife.hatenablog.jp/entry/2018/09/03/231023)
 
 ---
 
@@ -42,7 +42,7 @@ Many cute girls.
 
 誰かのことを誰も縛れはしない（無理）
 
-No one can truly control someone else.
+No heart can be tied if it doesn't want to be.
 
 
 他人の心
@@ -57,27 +57,27 @@ Well, if you feel like it, have a drink.
 
 彼女がいたり、彼氏がいたり
 
-Some people have girlfriends, some have boyfriends.
+Some got girlfriends, some got boyfriends.
 
 
 気の合っちゃう人間ふたり
 
-Two people who just click.
+Two people just clicking, that’s all it takes.
 
 
 しょうがない男たちと女たち
 
-Men and women—imperfect, but it is what it is.
+Men, women—flawed, but that’s just life.
 
 
 去るもの追わず、
 
-Don’t chase after those who leave.
+Don’t chase who’s leaving.
 
 
 来るものを選ぶ
 
-Choose those who come to you.
+Choose who comes.
 
 
 それだけの話
@@ -97,17 +97,17 @@ There are countless great matches out there.
 
 あの子がまたモデルの子に嫉妬
 
-That girl is jealous again, of the model girl.
+That girl’s jealous again—of that model.
 
 
 でも好きなら好き（好き）
 
-But if you love someone, then love them.
+But if you love them, love them.
 
 
 無理なら無理だし
 
-If it’s impossible, then it’s impossible.
+If it’s not gonna work, it won’t.
 
 
 次から次に （次に）
@@ -122,7 +122,7 @@ Like attracts like—it always works that way.
 
 たまには離れてみるのも必要 （必要…必要…）
 
-Sometimes, taking some distance is necessary.
+Sometimes, you’ve got to take some distance.
 
 
 自由にする まるでパリスヒルトン (パリスヒルトン)
