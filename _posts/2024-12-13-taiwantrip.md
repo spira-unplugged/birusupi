@@ -3,7 +3,7 @@ layout: post
 title: "台湾旅行記 SONY RX100とともに"
 author: "Birusupi"
 categories: blog
-tags: [RX100, SONY, コンデジ, カメラ修理, フィルムライク, 台湾旅行, フレキケーブル, ガジェット, 作例紹介, 写真日記]
+tags: [台湾旅行, RX100, SONY, 旅カメラ, コンデジ, 写真日記, ガジェット紹介, 軽量装備, ミニマル旅行, 出張ログ]
 image: 2024-12-13-taiwantrip/001.png
 ---
 ※noteでも同内容を投稿しています。
