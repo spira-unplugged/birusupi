@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "noisereduceを用いた音声ノイズの除去"
-author: "birusupi"
+author: "Birusupi"
 categories: blog
-tags: [python,Web会議,ノイズ除去,ハイブリッドセミナー,NoiseReduction,noisereduce]
+tags: [Python, ノイズ除去, 音声処理, noisereduce, ハイブリッドセミナー, 録音トラブル, Web会議, 社内DX, 音声ファイル処理, 技術メモ]
 image: 2024-12-3-noisereduce/001.jpg
 ---
 ※noteでも同内容を投稿しています。
