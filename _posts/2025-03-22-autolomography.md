@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Filmphotography Bot"
-author: "birusupi"
+author: "Birusupi"
 categories: documentation
-tags: [xbot,filmphotography]
+tags: [フィルム写真, 自動投稿ボット, Google Apps Script, Lomography, Twitter API, Xbot, 写真API, 作例共有, Bot開発, アナログ写真]
 image: Filmphotography-Bot.jpg
 ---
 

@@ -20,7 +20,7 @@ include:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:               "Birusupi"
 description:         "Blog and Documentation"
-author:              "birusupi"
+author:              "Birusupi"
 
 url: "https://spira-unplugged.github.io"
 baseurl: "/birusupi"
