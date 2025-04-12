@@ -5,7 +5,10 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const headings = document.querySelectorAll(".post-content h2, .post-content h3");
+    const container = document.querySelector(".post-content article");
+    if (!container) return;
+
+    const headings = container.querySelectorAll("h2, h3");
     const tocList = document.getElementById("toc-list");
 
     headings.forEach(heading => {

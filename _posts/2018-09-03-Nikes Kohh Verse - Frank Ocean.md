@@ -16,7 +16,7 @@ image: frank-ocean-blonde-header.jpg
 
 ---
 
-### はじめに
+## はじめに
 
 Frank OceanのBlondeはここ数年で1番聴いているアルバムだと思う。
 
@@ -28,7 +28,7 @@ Apple Musicの説明文を借りるが、この先何年も聴かれ、語り継
 
 ---
 
-### English Translation
+## English Translation
 
 一人の男
 

@@ -1,17 +1,10 @@
 ---
 ---
 
-// =============================
-// フォント設定（※ :root に入れない）
-// =============================
-
 $base-font-family: 'Roboto', sans-serif;
 $body-font-family: 'Roboto', sans-serif;
 $code-font-family: "Source Code Pro", monospace;
 
-// =============================
-// カラー / サイズ変数
-// =============================
 $brand-color: black;
 $container-width: 1100px;
 $tablet-width: 600px;
@@ -19,7 +12,6 @@ $phone-width: 480px;
 $header-thickness: 56px;
 $icon-transition-time: 1.0s;
 
-// ソーシャルカラー
 $envelope-color: #f39c12;
 $twitter-color: #00aced;
 $instagram-color: #375989;
@@ -31,10 +23,9 @@ $pinterest-color: #bd081c;
 $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
+$tumblr-color: #023c88;
+$lastfm-color: #fd0101;
 
-// =============================
-// セクションインポート
-// =============================
 @import "-sections-dir";
 
 // =============================
@@ -44,6 +35,7 @@ $rss-color: #ff6600;
 body {
   background: white;
   color: #111;
+  font-family: $body-font-family;
 }
 
 img {
@@ -72,10 +64,36 @@ img {
 .featured-post {
   background-size: cover;
   background-position: center;
-  aspect-ratio: 16 / 3;
+  aspect-ratio: 16 / 2.5;
   height: auto;
   border-radius: 4px;
   overflow: hidden;
+  position: relative;
+
+  h2 {
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+
+    span {
+      display: inline-block;
+      color: white;
+      font: bold 20px/1.4 $base-font-family;
+      letter-spacing: -0.5px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+    }
+  }
+}
+
+// モバイル用フォントサイズ調整
+@media (max-width: $phone-width) {
+  .featured-post h2 span {
+    font-size: 14px;
+    line-height: 1.3;
+    padding: 6px 8px;
+  }
 }
 
 // =============================
@@ -93,24 +111,27 @@ img {
 }
 
 // =============================
-// コンテナ設定（例）
+// コンテナ
 // =============================
+
 .container {
   max-width: $container-width;
   margin: 0 auto;
-  padding: 0 1rem; // 横の余白を調整
-  box-sizing: border-box; // パディングを含むサイズ指定
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
-// スマホなど画面幅が狭い場合の調整
 @media (max-width: $phone-width) {
   .container {
     width: 100%;
-    padding: 0 0.5rem; // 必要に応じて余白を微調整
+    padding: 0 0.5rem;
   }
 }
 
-/* Markdownで入れた画像含め、記事中すべての画像に適用 */
+// =============================
+// 記事・画像
+// =============================
+
 .post-content img,
 .page-content img {
   max-width: 100%;
@@ -121,12 +142,16 @@ img {
   box-sizing: border-box;
 }
 
+// =============================
+// 目次（TOC）
+// =============================
+
 .toc {
-  background: #f7f7f7;
+  background: #eeecec;
   padding: 1rem;
   margin: 2rem 0;
-  border-left: 4px solid #ccc;
-  border-radius: 8px;
+  border-left: 4px solid #000000;
+  border-radius: 0px;
 
   h2 {
     margin-top: 0;
@@ -159,4 +184,3 @@ img {
     }
   }
 }
-
