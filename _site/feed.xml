@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-04-12T19:25:14+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">Filmphotography Bot</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Filmphotography Bot" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h1 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-04-12T21:38:49+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">Filmphotography Bot</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Filmphotography Bot" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h2 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h2>
 
 <p>X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
 フィルム写真をやっている人は知っていることが多い、<a href="https://www.lomography.com/">Lomography</a>というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
 
 <hr />
 
-<h2 id="背景">背景</h2>
+<h3 id="背景">背景</h3>
 
 <p>過去にフィルムカメラでの撮影を趣味にしていましたが、継続的なコスト（フィルム代、現像代、スキャン等）により中断しました。フィルム代マジで高い。
 撮影はしなくなったものの、フィルム写真に対する関心は残っており、Lomographyを閲覧する習慣は続いていました。</p>
@@ -15,7 +15,7 @@
 
 <hr />
 
-<h2 id="autolomography-について">AutoLomography について</h2>
+<h3 id="autolomography-について">AutoLomography について</h3>
 
 <p><strong>リポジトリ</strong>：<a href="https://github.com/spira-unplugged/AutoLomography">GitHub - AutoLomography</a></p>
 
@@ -27,7 +27,7 @@
 
 <hr />
 
-<h2 id="主な構成と機能">主な構成と機能</h2>
+<h3 id="主な構成と機能">主な構成と機能</h3>
 
 <ul>
   <li>
@@ -50,7 +50,7 @@ XのAPIを使用し、取得した写真とキャプション、Altテキスト�
 
 <hr />
 
-<h2 id="技術要素">技術要素</h2>
+<h3 id="技術要素">技術要素</h3>
 
 <ul>
   <li><strong>Google Apps Script</strong>：定期実行タスク、API連携、スプレッドシート操作を統括</li>
@@ -61,7 +61,7 @@ XのAPIを使用し、取得した写真とキャプション、Altテキスト�
 
 <hr />
 
-<h2 id="運用状況と今後の展望">運用状況と今後の展望</h2>
+<h3 id="運用状況と今後の展望">運用状況と今後の展望</h3>
 
 <p>現在は6時間ごとに自動投稿を実行。
 Lomographyの写真は多様性があり、特定のテーマに偏らず、毎回異なる空気感の写真が流れるのが特徴。
@@ -69,7 +69,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 
 <hr />
 
-<h2 id="終わりに">終わりに</h2>
+<h3 id="終わりに">終わりに</h3>
 
 <p>フィルム写真との直接的な関わりは減りましたが、本ボットを通じて間接的に接点を持ち続ける形になりました。</p>]]></content><author><name>Birusupi</name></author><category term="documentation" /><category term="フィルム写真" /><category term="自動投稿ボット" /><category term="Google Apps Script" /><category term="Lomography" /><category term="Twitter API" /><category term="Xbot" /><category term="写真API" /><category term="作例共有" /><category term="Bot開発" /><category term="アナログ写真" /><summary type="html"><![CDATA[Xでのフィルム写真ボット運用について]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/Filmphotography-Bot.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/Filmphotography-Bot.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SONYのコンデジ DSC-RX100（初代）を修理に出したお話</title><link href="http://localhost:4000/birusupi/rx100repair" rel="alternate" type="text/html" title="SONYのコンデジ DSC-RX100（初代）を修理に出したお話" /><published>2024-12-21T00:00:00+09:00</published><updated>2024-12-21T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/rx100repair</id><content type="html" xml:base="http://localhost:4000/birusupi/rx100repair"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
 
@@ -342,7 +342,7 @@ Zeissの名レンズ Vario-Sonnar T*と1.0型（13.2×8.8mm）サイズのセン
 <p><a href="https://amzn.to/3VyzAbc">Amazon.co.jpで購入する</a></p>
 
 <p>以上です。
-お読みいただきありがとうございました。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="RX100" /><category term="SONY" /><category term="コンデジ" /><category term="カメラ修理" /><category term="フィルムライク" /><category term="台湾旅行" /><category term="フレキケーブル" /><category term="ガジェット" /><category term="作例紹介" /><category term="写真日記" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">私のコックピットデスク</title><link href="http://localhost:4000/birusupi/mydesk" rel="alternate" type="text/html" title="私のコックピットデスク" /><published>2024-12-10T00:00:00+09:00</published><updated>2024-12-10T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/mydesk</id><content type="html" xml:base="http://localhost:4000/birusupi/mydesk"><![CDATA[<h2 id="はじめに">はじめに</h2>
+お読みいただきありがとうございました。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="台湾旅行" /><category term="RX100" /><category term="SONY" /><category term="旅カメラ" /><category term="コンデジ" /><category term="写真日記" /><category term="ガジェット紹介" /><category term="軽量装備" /><category term="ミニマル旅行" /><category term="出張ログ" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">私のコックピットデスク</title><link href="http://localhost:4000/birusupi/mydesk" rel="alternate" type="text/html" title="私のコックピットデスク" /><published>2024-12-10T00:00:00+09:00</published><updated>2024-12-10T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/mydesk</id><content type="html" xml:base="http://localhost:4000/birusupi/mydesk"><![CDATA[<h2 id="はじめに">はじめに</h2>
 
 <p>こんばんは、びるすぴと申します。<br />
 私はゲーム、DTMのほか在宅勤務も全て同じデスクで行っています。<br />
