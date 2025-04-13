@@ -52,6 +52,15 @@
 {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Birusupi"},"description":"Birusupi - Blog, Documentation, Playlists and more","headline":"Home","name":"Birusupi","url":"http://localhost:4000/birusupi/"}</script>
 <!-- End Jekyll SEO tag -->
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const links = document.querySelectorAll("a[href^='http']:not([href*='" + window.location.hostname + "'])");
+      links.forEach(link => {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      });
+    });
+  </script>
 </head>
 
   <body class="home">
@@ -135,7 +144,7 @@
   <article>
   <a href="/birusupi/autolomography">
     <div class="featured-post" style="background-image:url('/birusupi/assets/img/Filmphotography-Bot.jpg')">
-      <h2><span>2025/03/22 Filmphotography Bot</span></h2>
+      <h2><span>2025/03/22 Xでのフィルム写真ボット運用について</span></h2>
     </div>
   </a>
 </article>
