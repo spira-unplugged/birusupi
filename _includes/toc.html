@@ -5,16 +5,19 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const container = document.querySelector(".post-content article");
+    const tocList = document.getElementById("toc-list");
+    const container = document.querySelector(".post-body"); // ← ここ！
+
     if (!container) return;
 
     const headings = container.querySelectorAll("h2, h3");
-    const tocList = document.getElementById("toc-list");
 
     headings.forEach(heading => {
-      const text = heading.innerText;
-      const id = text.toLowerCase().replace(/[^\w]+/g, "-");
-      heading.id = id;
+      const text = heading.textContent;
+      const existingId = heading.id;
+      const id = existingId || text.toLowerCase().replace(/[^\w]+/g, "-");
+
+      if (!existingId) heading.id = id;
 
       const li = document.createElement("li");
       li.className = heading.tagName.toLowerCase();

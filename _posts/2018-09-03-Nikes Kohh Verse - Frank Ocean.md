@@ -12,7 +12,7 @@ image: frank-ocean-blonde-header.jpg
 とても稚拙な英訳だったのにアクセス数が結構あったので、この際英訳をブラッシュアップして本記事として再公開することにしました。
 
 
-[はてなブログの当該記事（※閉鎖済み）](https://languageoflife.hatenablog.jp/entry/2018/09/03/231023)
+[はてなブログの当該記事（※閉鎖済み）](https://languageoflife.hatenablog.jp/entry/2018/09/03/231023){:target="_blank" rel="noopener noreferrer"}
 
 ---
 
