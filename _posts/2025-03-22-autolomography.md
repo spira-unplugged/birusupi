@@ -4,7 +4,7 @@ title: "Xでのフィルム写真ボット運用について"
 author: "Birusupi"
 categories: documentation
 tags: [フィルム写真, 自動投稿ボット, Google Apps Script, Lomography, Twitter API, Xbot, 写真API, 作例共有, Bot開発, アナログ写真]
-image: Filmphotography-Bot.jpg
+image: 2025-03-22-autolomography.jpg
 ---
 
 ## Xでのフィルム写真ボット運用について

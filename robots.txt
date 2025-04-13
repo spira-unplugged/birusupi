@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://spira-unplugged.github.io/birusupi/sitemap.xml
