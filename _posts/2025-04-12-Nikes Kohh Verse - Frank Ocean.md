@@ -4,15 +4,15 @@ title: "Frank Ocean – Nikes (Kohh Verse) English Translation 英訳"
 author: "Birusupi"
 categories: documentation
 tags: [英訳, 歌詞, Frank Ocean, Kohh, Blonde, 音楽翻訳, 洋楽解説, ヒップホップ, サブカルチャー, 和訳比較]
-image: 2018-09-03-frank-ocean-blonde-header.jpg
+image: 2025-04-12-frank-ocean-blonde-header.jpg
 ---
 
-はてなブログで投稿した記事の移設です。
+昔はてなブログで投稿した記事の移設です。
 
 とても稚拙な英訳だったのにアクセス数が結構あったので、この際英訳をブラッシュアップして本記事として再公開することにしました。
 
 
-[はてなブログの当該記事（※閉鎖済み）](https://languageoflife.hatenablog.jp/entry/2018/09/03/231023){:target="_blank" rel="noopener noreferrer"}
+[はてなブログの当該記事](https://languageoflife.hatenablog.jp/entry/2018/09/03/231023){:target="_blank" rel="noopener noreferrer"}
 
 ---
 
