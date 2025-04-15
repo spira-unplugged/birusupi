@@ -3,13 +3,13 @@ layout: post
 title: "静かな山小屋をつくる理由―思想と表現の純度を保つために"
 author: "Birusupi"
 categories: blog
-tags: []
+tags: [思想, 自己表現, GitHub Pages]
 image: 2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg
 ---
 
 トップ絵: 背を向けた若い女性のいる室内 (1903-04) - ヴィルヘルム・ハンマースホイ
 
-GitHub Pagesに移行した理由を文章にしました。
+GitHub Pagesに移行した理由を文章にしました。    
 
 ## はじめに 言葉が濁る時代に
 
