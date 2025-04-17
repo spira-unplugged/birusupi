@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about
+last_modified_at: 2025-04-06 00:00:00 +0900
 ---
 ![about]({{ site.baseurl }}/assets/img/about.jpg)
 

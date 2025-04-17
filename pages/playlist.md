@@ -2,6 +2,7 @@
 layout: page
 title: Playlist
 permalink: /playlist
+last_modified_at: 2025-04-01 00:00:00 +0900
 ---
 ![playlist]({{ site.baseurl }}/assets/img/playlist.jpg)
 
