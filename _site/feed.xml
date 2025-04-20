@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-04-20T20:53:57+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">ヤフコメを構造的に理解してヤフコメGPTを作った</title><link href="http://localhost:4000/birusupi/yhcm" rel="alternate" type="text/html" title="ヤフコメを構造的に理解してヤフコメGPTを作った" /><published>2025-04-20T00:00:00+09:00</published><updated>2025-04-20T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/yhcm</id><content type="html" xml:base="http://localhost:4000/birusupi/yhcm"><![CDATA[<p>副題：<em>誰も頼んでないけど、誰かがやらなきゃ見えない地層がある</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-04-20T20:56:09+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">ヤフコメを構造的に理解してヤフコメGPTを作った</title><link href="http://localhost:4000/birusupi/yhcm" rel="alternate" type="text/html" title="ヤフコメを構造的に理解してヤフコメGPTを作った" /><published>2025-04-20T00:00:00+09:00</published><updated>2025-04-20T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/yhcm</id><content type="html" xml:base="http://localhost:4000/birusupi/yhcm"><![CDATA[<p>副題：<em>誰も頼んでないけど、誰かがやらなきゃ見えない地層がある</em></p>
 
 <h3 id="1-はじめに">1. はじめに</h3>
 
@@ -188,16 +188,25 @@
 <p>「うまい棒の値段が15円になっている」と入力してみたところ——</p>
 
 <blockquote>
-  <p>うまい棒の値上げ、まず「コスト高」が原因とされていますが、さらに、日本の購買力低下を隠すためのカモフラージュという側面もあります。
-（けれども、たった5円の値上げ（と言っても実際は33％増し）だと、政府もマスコミも「企業努力の限界」などと報じていますが、実際には<strong>円安とインフレの影響を誤魔化すための布石</strong>であることは明らかです。）
-実際、今日の昼はうまい棒を買おうとしましたが、昔の10円の感覚が抜けず、そっと棚に戻しました。
-私だけでなく、多くの人が同じように「10円で買えた時代」を思い出しながらため息をついているはずですが、なぜか誰も声を上げません。
-私がスーパーで値札を確認している間、特にレジの人は無反応、<strong>まるで15円になることが前々から決まっていた</strong>かのような対応でした。
-つまり、それはさらに数年前から仕組まれていたということになります。
-そもそも駄菓子の値段を維持することは、日本の経済安定の指標であり、物価上昇をここで止めておくべきだったのですが…。
-この国は「失われた30年」を経験しましたが、<strong>次の30年も失われる可能性が高いでしょう。</strong>
-果たして<strong>気付いているのか、我慢しているのか</strong>も知れません。
-私は知っていましたが、年長者が指摘すべきだと思い、ここに書き残します。</p>
+  <p>うまい棒の値上げ、まず「コスト高」が原因とされていますが、さらに、日本の購買力低下を隠すためのカモフラージュという側面もあります。</p>
+
+  <p>（けれども、たった5円の値上げ（と言っても実際は33％増し）だと、政府もマスコミも「企業努力の限界」などと報じていますが、実際には<strong>円安とインフレの影響を誤魔化すための布石</strong>であることは明らかです。）</p>
+
+  <p>実際、今日の昼はうまい棒を買おうとしましたが、昔の10円の感覚が抜けず、そっと棚に戻しました。</p>
+
+  <p>私だけでなく、多くの人が同じように「10円で買えた時代」を思い出しながらため息をついているはずですが、なぜか誰も声を上げません。</p>
+
+  <p>私がスーパーで値札を確認している間、特にレジの人は無反応、<strong>まるで15円になることが前々から決まっていた</strong>かのような対応でした。</p>
+
+  <p>つまり、それはさらに数年前から仕組まれていたということになります。</p>
+
+  <p>そもそも駄菓子の値段を維持することは、日本の経済安定の指標であり、物価上昇をここで止めておくべきだったのですが…。</p>
+
+  <p>この国は「失われた30年」を経験しましたが、<strong>次の30年も失われる可能性が高いでしょう。</strong></p>
+
+  <p>果たして<strong>気付いているのか、我慢しているのか</strong>も知れません。</p>
+
+  <p>私は知っていましたが、年長者が指摘すべきだと思い、ここに書き残します。</p>
 </blockquote>
 
 <p>うわっ、出てきた。この「何かを断じずにはいられない」にかかったヤフコメおじさんが。</p>
