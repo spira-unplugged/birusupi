@@ -2,7 +2,7 @@
 layout: page
 title: GPTs
 permalink: /gpts
-image: /birusupi/assets/img/gpts.png
+image: /assets/img/gpts.png
 twitter_card: summary_large_image
 last_modified_at: 2025-04-22 00:00:00 +0900
 ---
