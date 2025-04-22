@@ -2,6 +2,7 @@
 layout: page
 title: GPTs
 permalink: /gpts
+image: /birusupi/assets/img/gpts.png
 last_modified_at: 2025-04-22 00:00:00 +0900
 ---
 ![gpts]({{ site.baseurl }}/assets/img/gpts.png)
