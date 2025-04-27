@@ -5,7 +5,7 @@ author: "Birusupi"
 categories: blog
 tags: [思想, 自己表現, GitHub Pages]
 excerpt: "なぜGitHub Pagesに言葉を置くのか。思想の純度を守るための静かな山小屋を作った話。"
-image: 2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg
+image: /assets/img/2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg
 ---
 
 トップ絵: 背を向けた若い女性のいる室内 (1903-04) - ヴィルヘルム・ハンマースホイ

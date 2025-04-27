@@ -2,9 +2,10 @@
 layout: page
 title: Playlist
 permalink: /playlist
+image: /assets/img/playlist.jpg
+twitter_card: summary_large_image
 last_modified_at: 2025-04-01 00:00:00 +0900
 ---
-![playlist]({{ site.baseurl }}/assets/img/playlist.jpg)
 
 これまで作ったものをまとめました。
 

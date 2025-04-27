@@ -1,6 +1,6 @@
 <article>
   <a href="{{ site.baseurl }}{{ post.url }}">
-    <div class="featured-post" {% if post.image %}style="background-image:url('{{ site.baseurl }}/assets/img/{{ post.image }}')"{% endif %}>
+    <div class="featured-post" {% if post.image %}style="background-image:url('{{ site.baseurl }}/{{ post.image }}')"{% endif %}>
       <h2><span>{{ post.date | date: "%Y/%m/%d" }} {{ post.title }}</span></h2>
     </div>
   </a>
