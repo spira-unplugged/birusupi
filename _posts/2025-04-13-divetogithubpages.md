@@ -4,6 +4,7 @@ title: "静かな山小屋をつくる理由―思想と表現の純度を保つ
 author: "Birusupi"
 categories: blog
 tags: [思想, 自己表現, GitHub Pages]
+excerpt: "なぜGitHub Pagesに言葉を置くのか。思想の純度を守るための静かな山小屋を作った話。"
 image: 2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg
 ---
 

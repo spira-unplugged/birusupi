@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-04-23T07:23:02+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">ヤフコメを構造的に理解してヤフコメGPTを作った</title><link href="http://localhost:4000/birusupi/yhcm" rel="alternate" type="text/html" title="ヤフコメを構造的に理解してヤフコメGPTを作った" /><published>2025-04-20T00:00:00+09:00</published><updated>2025-04-20T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/yhcm</id><content type="html" xml:base="http://localhost:4000/birusupi/yhcm"><![CDATA[<p>副題：<em>誰も頼んでないけど、誰かがやらなきゃ見えない地層がある</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" /><updated>2025-04-27T17:08:40+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">あの頃のTwitterを取り戻せ</title><link href="http://localhost:4000/birusupi/cpft" rel="alternate" type="text/html" title="あの頃のTwitterを取り戻せ" /><published>2025-04-26T00:00:00+09:00</published><updated>2025-04-26T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/cpft</id><content type="html" xml:base="http://localhost:4000/birusupi/cpft"><![CDATA[<blockquote>
+  <p><em>「また村がひとつ死んだ。行こう。ここもじきに腐海に沈む。」</em><br />
+<em>―――ユパ 風の谷のナウシカ</em></p>
+</blockquote>
+
+<h3 id="1はじめに">1.はじめに</h3>
+<p>みなさん、TwitterもといXは日々ご利用になられていますでしょうか。</p>
+
+<p>いきなり本題ですが、現在のXの押し付けUIはひどい。今に始まったことではありませんが。最末期のTwitter社時点で、かなり瘴気に蝕まれていましたが、2023年7月にX社になってから一気に腐海に沈んだ気がします。</p>
+
+<p><img src="/birusupi/assets/img/2025-04-26-cpft/image1.png" alt="" /></p>
+<div style="text-align: center;">情報量がすごい。（ブラウザ版）</div>
+
+<ul>
+  <li>
+    <p><strong>おすすめタブの強制優先表示</strong><br />
+せめてフォローTL表示をデフォにしてくれ。</p>
+  </li>
+  <li>
+    <p><strong>不審なアルゴリズムによる他者ポストのおすすめ</strong><br />
+他人のレスバトルを見せんでくれ。</p>
+  </li>
+  <li>
+    <p><strong>求人、認証済み組織などの左サイドメニュー</strong><br />
+求める人が探したら見つかる場所に置いてくれ。</p>
+  </li>
+  <li>
+    <p><strong>右サイドメニューのトレンド、おすすめユーザーの存在</strong><br />
+ここは大きく人によるのかもしれませんが、パーソナライズされたXのおすすめやトレンド情報で最新のニュースを追うことは私はしていません。追おうとすると余計な情報（それこそ興味のないレスバとか）が目に入ってしまうのですもの。</p>
+  </li>
+  <li>
+    <p><strong>その他タイムラインを埋め尽くす広告の数々</strong><br />
+広告は本来、良い商品を消費者に紹介し購入を促すためのものですが、現在のウェブ広告は掲載前の適切なチェック機能が働いておらず、多くの人に不快感を与えていると考えています。写真のはネトフリですけどね。でも広告デカ過ぎんだろ…。</p>
+  </li>
+</ul>
+
+<p>XをRSSというか、昔のTwitterのように使いたい、つまり<strong>自分</strong>が<strong>フォローしているアカウント</strong>の<strong>最新の情報</strong>だけを仕入れたい方にとって、今のXはデフォルトの状態はとにかくノイズが多すぎる。昔のTwitterの影も形も無い、見るも無惨な状況です。</p>
+
+<p>まあX社も営利企業ですから、ある程度の利益追求はせねばならないとは思います。</p>
+
+<p>しかし、のべつ幕なしにXや広告配信主の収益源となる要素を乱雑に配置し、結果ユーザー側の利用体験を著しく損ねるのはいかがなものかと思います。</p>
+
+<p>アプリ側で設定ができればまだ擁護できるのですが、そういう訳にもいかず…。</p>
+
+<p>Xから脱却しようにも、フォローしてる情報元のアカウントが一斉にBlueskyとかに民族大移動してくれないと脱却する意味が無いですし、私はこの押し付けUIの瘴気に無抵抗で過ごさねばならないのか…と2023年頃から思っていました。ガスマスクが欲しい。</p>
+
+<p>しかしそこに陽光が射します。</p>
+
+<h3 id="2control-panel-for-twitterとは">2.Control Panel for Twitterとは</h3>
+
+<p><img src="/birusupi/assets/img/2025-04-26-cpft/image3.png" alt="" /></p>
+
+<p>今回紹介する拡張機能「Control Panel for Twitter」は、<strong>Xを徹底的にカスタマイズし、快適な時代のUXを取り戻すためのオープンソースのブラウザ拡張機能</strong>です。
+これを見つけたときは、ありがとうって感じでした。</p>
+
+<p><a href="https://github.com/insin/control-panel-for-twitter">Control Panel for Twitter - GitHubリポジトリ</a></p>
+
+<h4 id="主な機能">主な機能</h4>
+
+<ul>
+  <li>
+    <p><strong>ホームタイムラインの最適化</strong><br />
+時系列順固定、「おすすめ」完全排除、リツイートや引用ツイートの非表示設定。</p>
+  </li>
+  <li>
+    <p><strong>UIの改善</strong><br />
+動画自動再生防止、即ブロック、検索デフォルト「最新」、リスト・引用周りもクリーンに。</p>
+  </li>
+  <li>
+    <p><strong>X固有の仕様の修正</strong><br />
+Xロゴ除去、ブルーチェックやGrokも非表示。</p>
+  </li>
+  <li>
+    <p><strong>アルゴリズム・エンゲージメント排除</strong><br />
+発見・話題・通知バッジを消し、ツイート作成・いいね数も非表示に可能。</p>
+  </li>
+</ul>
+
+<p>などなど。</p>
+
+<p>この拡張機能を使うことで不要なものを徹底排除し、本当に見たいタイムラインだけを楽しむことができます。</p>
+
+<h3 id="3インストール方法と設定ガイド">3.インストール方法と設定ガイド</h3>
+
+<h4 id="iosの場合">iOSの場合</h4>
+
+<p><a href="https://apps.apple.com/jp/app/control-panel-for-twitter/id1668516167">Control Panel for Twitter - Mac App Store</a></p>
+
+<p>iOSの場合はSafariでXをブラウジングする形で見ることになります。</p>
+
+<p>Safariの拡張機能として配信されており、App Storeで800円で購入可能です。（2025年4月27日時点。）</p>
+
+<ol>
+  <li>
+    <p>Safariで拡張機能を有効化<br />
+インストール後、設定アプリ → 「アプリ」 → 「Safari」 → 「機能拡張」と進み、「Control Panel for Twitter」をオンにします。<br />
+「機能拡張を許可」をオンにしましょう。<br />
+<img src="/birusupi/assets/img/2025-04-26-cpft/image4.png" alt="" /></p>
+  </li>
+  <li>
+    <p>拡張機能の権限設定<br />
+同じ「拡張機能」メニュー内で「設定」をタップし、Safariで設定をカスタマイズします。</p>
+  </li>
+  <li>
+    <p>拡張機能の設定<br />
+  かなり細かく設定が出来ますが、一部を紹介します。
+<img src="/birusupi/assets/img/2025-04-26-cpft/image5.png" alt="" />
+  ここらへんをONにしてけば、昔のTwitterがほぼ復活します。</p>
+
+    <p><img src="/birusupi/assets/img/2025-04-26-cpft/image6.png" alt="" />
+  ここらへんも個人的には推奨です。かつて跋扈していたインプレゾンビ対策の機能ですが、いまでもONにしたままです。</p>
+  </li>
+</ol>
+
+<p>これでSafariで<a href="https://x.com/home">X</a>にアクセスすると、拡張機能が動作します。
+おすすめタイムライン、広告、リツイート数などを非表示にでき、フォロー中アカウント中心のクリーンなタイムラインを楽しめます。</p>
+
+<h4 id="pcの場合">PCの場合</h4>
+
+<p><a href="https://chromewebstore.google.com/detail/kpmjjdhbcfebfjgdnpjagcndoelnidfj?utm_source=item-share-cb">Control Panel for Twitter - Chrome ウェブストア</a></p>
+
+<p>Chromeウェブストアから「Chromeに追加」を押してインストールするだけです。</p>
+
+<h3 id="4実際に使ってみた感想">4.実際に使ってみた感想</h3>
+
+<h4 id="beforeafter比較">Before/After比較</h4>
+
+<p><img src="/birusupi/assets/img/2025-04-26-cpft/image1.png" alt="" /></p>
+<div style="text-align: center;">何もしてないX。（ブラウザ版）</div>
+
+<p><img src="/birusupi/assets/img/2025-04-26-cpft/image2.png" alt="" /></p>
+<div style="text-align: center;">拡張機能適用後のX。（ブラウザ版）</div>
+
+<p>おすすめ欄の非表示化、左右パネルの雑多なメニューの非表示化、広告の非表示、トレンドの非表示（とにかく非表示）が実施されたことによって、かなりすっきりしています。ロゴが青い鳥になっているのもウケる。</p>
+
+<p>もちろん、iOSでも同様に動作します。</p>
+
+<p>欲しい情報を障害物に邪魔されずに取得できるって素晴らしいことだ…。</p>
+
+<p>ちなみにiOSではSafariを通じて見ることになるため、<strong>プッシュ通知を受け取ることができません。</strong>この点はデメリットとなる方もいらっしゃるかもしれません。
+また、Xアプリがインストールされた状態だと様々なタイミングで勝手にXアプリが開かさるので、アンインストールする必要があります。</p>
+
+<h3 id="5終わりに">5.終わりに</h3>
+
+<p>今のインターネット時代、私たちは自由にネットの海を泳いでいるつもりでも、いつの間にか巨大なアルゴリズムの波に揉まれ、流され、気づけば見たくもない情報に囲まれています。
+自分で選んでいるようで、選ばされた世界。<br />
+本来、インターネットはもっと広く、もっと自由で、もっと静かに好きなものを追いかけられる場所だったような。</p>
+
+<p>※本記事内のスクリーンショットは X（旧Twitter）の画面を引用したものです。<br />
+© 2025 X Corp. All rights reserved.</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="twitter" /><category term="x" /><category term="control-panel-for-twitter" /><category term="ブラウザ拡張機能" /><category term="sns" /><category term="ui" /><category term="カスタマイズ" /><category term="広告ブロック" /><summary type="html"><![CDATA[Control Panel for Twitter で X のUIを旧Twitter風に戻す方法と感想。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-26-cpft/image3.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-26-cpft/image3.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">ヤフコメを構造的に理解してヤフコメGPTを作った</title><link href="http://localhost:4000/birusupi/yhcm" rel="alternate" type="text/html" title="ヤフコメを構造的に理解してヤフコメGPTを作った" /><published>2025-04-20T00:00:00+09:00</published><updated>2025-04-20T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/yhcm</id><content type="html" xml:base="http://localhost:4000/birusupi/yhcm"><![CDATA[<p>副題：<em>誰も頼んでないけど、誰かがやらなきゃ見えない地層がある</em></p>
 
 <h3 id="1-はじめに">1. はじめに</h3>
 
@@ -339,7 +488,7 @@
 
 <p>ああ、あなたがもしマイGPTを使うなら、どんなGPTを作りますか？</p>
 
-<p>もし面白いGPTが生まれたら紹介してください。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="ChatGPT" /><category term="マイGPT" /><category term="ヤフコメ" /><category term="GPT活用" /><category term="自然言語処理" /><category term="構文分析" /><category term="ミーム" /><category term="社会観察" /><category term="AIと社会" /><category term="プロンプト設計" /><category term="生成AI" /><summary type="html"><![CDATA[副題：誰も頼んでないけど、誰かがやらなきゃ見えない地層がある]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-20-yhcm/2025-04-20-yahoonewscomment.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-20-yhcm/2025-04-20-yahoonewscomment.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">静かな山小屋をつくる理由―思想と表現の純度を保つために</title><link href="http://localhost:4000/birusupi/divetogithubpages" rel="alternate" type="text/html" title="静かな山小屋をつくる理由―思想と表現の純度を保つために" /><published>2025-04-13T00:00:00+09:00</published><updated>2025-04-13T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/divetogithubpages</id><content type="html" xml:base="http://localhost:4000/birusupi/divetogithubpages"><![CDATA[<p>トップ絵: 背を向けた若い女性のいる室内 (1903-04) - ヴィルヘルム・ハンマースホイ</p>
+<p>もし面白いGPTが生まれたら紹介してください。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="ChatGPT" /><category term="マイGPT" /><category term="ヤフコメ" /><category term="GPT活用" /><category term="自然言語処理" /><category term="構文分析" /><category term="ミーム" /><category term="社会観察" /><category term="AIと社会" /><category term="プロンプト設計" /><category term="生成AI" /><summary type="html"><![CDATA[ヤフコメって何がそんなに変なのか？を言語化して、ヤフコメおじさんGPTを作った話。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-20-yhcm/2025-04-20-yahoonewscomment.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-20-yhcm/2025-04-20-yahoonewscomment.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">静かな山小屋をつくる理由―思想と表現の純度を保つために</title><link href="http://localhost:4000/birusupi/divetogithubpages" rel="alternate" type="text/html" title="静かな山小屋をつくる理由―思想と表現の純度を保つために" /><published>2025-04-13T00:00:00+09:00</published><updated>2025-04-13T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/divetogithubpages</id><content type="html" xml:base="http://localhost:4000/birusupi/divetogithubpages"><![CDATA[<p>トップ絵: 背を向けた若い女性のいる室内 (1903-04) - ヴィルヘルム・ハンマースホイ</p>
 
 <p>GitHub Pagesに移行した理由を文章にしました。</p>
 
@@ -580,7 +729,7 @@ noteのような賑やかなカフェも、決して悪くはありません。<
 <p>思想とは、決して焦って伝えるべきものではありません。
 静かにそして丁寧に育てていくものだと、私は思います。</p>
 
-<p>そして、そのためには思想を静かに育てていくための「空間」が、どうしても必要なのです。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="思想" /><category term="自己表現" /><category term="GitHub Pages" /><summary type="html"><![CDATA[トップ絵: 背を向けた若い女性のいる室内 (1903-04) - ヴィルヘルム・ハンマースホイ]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Frank Ocean – Nikes (Kohh Verse) English Translation 英訳</title><link href="http://localhost:4000/birusupi/Nikes-Kohh-Verse-Frank-Ocean" rel="alternate" type="text/html" title="Frank Ocean – Nikes (Kohh Verse) English Translation 英訳" /><published>2025-04-12T00:00:00+09:00</published><updated>2025-04-12T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/Nikes%20Kohh%20Verse%20-%20Frank%20Ocean</id><content type="html" xml:base="http://localhost:4000/birusupi/Nikes-Kohh-Verse-Frank-Ocean"><![CDATA[<p>昔はてなブログで投稿した記事の移設です。</p>
+<p>そして、そのためには思想を静かに育てていくための「空間」が、どうしても必要なのです。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="思想" /><category term="自己表現" /><category term="GitHub Pages" /><summary type="html"><![CDATA[なぜGitHub Pagesに言葉を置くのか。思想の純度を守るための静かな山小屋を作った話。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-13-divetogithubpages/Vilhelm_Hammershoi_-_Interieur_mit_Rueckenansicht_einer_Frau_-_1903-1904_-_Randers_Kunstmuseum.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Frank Ocean – Nikes (Kohh Verse) English Translation 英訳</title><link href="http://localhost:4000/birusupi/Nikes-Kohh-Verse-Frank-Ocean" rel="alternate" type="text/html" title="Frank Ocean – Nikes (Kohh Verse) English Translation 英訳" /><published>2025-04-12T00:00:00+09:00</published><updated>2025-04-12T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/Nikes%20Kohh%20Verse%20-%20Frank%20Ocean</id><content type="html" xml:base="http://localhost:4000/birusupi/Nikes-Kohh-Verse-Frank-Ocean"><![CDATA[<p>昔はてなブログで投稿した記事の移設です。</p>
 
 <p>とても稚拙な英訳だったのにアクセス数が結構あったので、この際英訳をブラッシュアップして本記事として再公開することにしました。</p>
 
@@ -682,7 +831,7 @@ noteのような賑やかなカフェも、決して悪くはありません。<
 
 <p>Live freely—just like Paris Hilton.</p>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/19YKaevk2bce4odJkP5L22?utm_source=generator&amp;theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content><author><name>Birusupi</name></author><category term="documentation" /><category term="英訳" /><category term="歌詞" /><category term="Frank Ocean" /><category term="Kohh" /><category term="Blonde" /><category term="音楽翻訳" /><category term="洋楽解説" /><category term="ヒップホップ" /><category term="サブカルチャー" /><category term="和訳比較" /><summary type="html"><![CDATA[昔はてなブログで投稿した記事の移設です。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-12-frank-ocean-blonde-header.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-12-frank-ocean-blonde-header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Xでのフィルム写真ボット運用について</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Xでのフィルム写真ボット運用について" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h2 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h2>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/19YKaevk2bce4odJkP5L22?utm_source=generator&amp;theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content><author><name>Birusupi</name></author><category term="documentation" /><category term="英訳" /><category term="歌詞" /><category term="Frank Ocean" /><category term="Kohh" /><category term="Blonde" /><category term="音楽翻訳" /><category term="洋楽解説" /><category term="ヒップホップ" /><category term="サブカルチャー" /><category term="和訳比較" /><summary type="html"><![CDATA[Frank Ocean『Nikes (Kohh Verse)』の英訳。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-04-12-frank-ocean-blonde-header.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-04-12-frank-ocean-blonde-header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Xでのフィルム写真ボット運用について</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Xでのフィルム写真ボット運用について" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h2 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h2>
 
 <p>X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
 フィルム写真をやっている人は知っていることが多い、<a href="https://www.lomography.com/" target="_blank" rel="noopener noreferrer">Lomography</a>というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
@@ -825,7 +974,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 <p><img src="/birusupi/assets/img/2025-01-03-gnosia/005.jpg" alt="" /></p>
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">グノーシアのアクリルブロックめちゃええやん！ <a href="https://t.co/D6mwbiOLNg">pic.twitter.com/D6mwbiOLNg</a></p>&mdash; びるすぴ (@singingsores) <a href="https://twitter.com/singingsores/status/1884932664572137672?ref_src=twsrc%5Etfw">January 30, 2025</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="RX100" /><category term="SONY" /><category term="コンデジ" /><category term="カメラ修理" /><category term="フィルムライク" /><category term="台湾旅行" /><category term="フレキケーブル" /><category term="ガジェット" /><category term="作例紹介" /><category term="写真日記" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-01-03-gnosia/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-01-03-gnosia/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SONYのコンデジ DSC-RX100（初代）を修理に出したお話</title><link href="http://localhost:4000/birusupi/rx100repair" rel="alternate" type="text/html" title="SONYのコンデジ DSC-RX100（初代）を修理に出したお話" /><published>2024-12-21T00:00:00+09:00</published><updated>2024-12-21T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/rx100repair</id><content type="html" xml:base="http://localhost:4000/birusupi/rx100repair"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="RX100" /><category term="SONY" /><category term="コンデジ" /><category term="カメラ修理" /><category term="フィルムライク" /><category term="台湾旅行" /><category term="フレキケーブル" /><category term="ガジェット" /><category term="作例紹介" /><category term="写真日記" /><summary type="html"><![CDATA[人狼×SFの傑作『グノーシア』をプレイした感想。ループする物語の中で、キャラクターへの愛着が深まる稀有なゲーム体験。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2025-01-03-gnosia/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2025-01-03-gnosia/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SONYのコンデジ DSC-RX100（初代）を修理に出したお話</title><link href="http://localhost:4000/birusupi/rx100repair" rel="alternate" type="text/html" title="SONYのコンデジ DSC-RX100（初代）を修理に出したお話" /><published>2024-12-21T00:00:00+09:00</published><updated>2024-12-21T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/rx100repair</id><content type="html" xml:base="http://localhost:4000/birusupi/rx100repair"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
 
 <p><a href="https://note.com/vonflume/n/n902cd372b1fc">SONYのコンデジ DSC-RX100（初代）を修理に出したお話｜びるすぴ</a></p>
 
@@ -910,7 +1059,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 
 <p>どうでしょう、よく撮れているでしょう？</p>
 
-<p><a href="https://amzn.to/4fjsq1E">SONY デジタルカメラ DSC-RX100 1.0型センサー F1.8レンズ搭載 ブラック Cyber-shot DSC-RX100 Amazon.co.jpで購入する</a></p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="RX100" /><category term="SONY" /><category term="コンデジ" /><category term="カメラ修理" /><category term="フィルムライク" /><category term="台湾旅行" /><category term="フレキケーブル" /><category term="ガジェット" /><category term="作例紹介" /><category term="写真日記" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-21-rx100repair/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-21-rx100repair/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">台湾旅行記 SONY RX100とともに</title><link href="http://localhost:4000/birusupi/taiwantrip" rel="alternate" type="text/html" title="台湾旅行記 SONY RX100とともに" /><published>2024-12-13T00:00:00+09:00</published><updated>2024-12-13T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/taiwantrip</id><content type="html" xml:base="http://localhost:4000/birusupi/taiwantrip"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
+<p><a href="https://amzn.to/4fjsq1E">SONY デジタルカメラ DSC-RX100 1.0型センサー F1.8レンズ搭載 ブラック Cyber-shot DSC-RX100 Amazon.co.jpで購入する</a></p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="RX100" /><category term="SONY" /><category term="コンデジ" /><category term="カメラ修理" /><category term="フィルムライク" /><category term="台湾旅行" /><category term="フレキケーブル" /><category term="ガジェット" /><category term="作例紹介" /><category term="写真日記" /><summary type="html"><![CDATA[長年愛用しているSONY RX100（初代）を公式修理に出しました。修理プロセスや作例を写真付きでレポートします。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-21-rx100repair/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-21-rx100repair/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">台湾旅行記 SONY RX100とともに</title><link href="http://localhost:4000/birusupi/taiwantrip" rel="alternate" type="text/html" title="台湾旅行記 SONY RX100とともに" /><published>2024-12-13T00:00:00+09:00</published><updated>2024-12-13T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/taiwantrip</id><content type="html" xml:base="http://localhost:4000/birusupi/taiwantrip"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
 
 <p><a href="https://note.com/vonflume/n/n56556222024d">台湾旅行記 SONY RX100とともに｜びるすぴ</a></p>
 
@@ -1096,7 +1245,7 @@ Zeissの名レンズ Vario-Sonnar T*と1.0型（13.2×8.8mm）サイズのセン
 <p><a href="https://amzn.to/3VyzAbc">Amazon.co.jpで購入する</a></p>
 
 <p>以上です。
-お読みいただきありがとうございました。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="台湾旅行" /><category term="RX100" /><category term="SONY" /><category term="旅カメラ" /><category term="コンデジ" /><category term="写真日記" /><category term="ガジェット紹介" /><category term="軽量装備" /><category term="ミニマル旅行" /><category term="出張ログ" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">私のデスク環境について</title><link href="http://localhost:4000/birusupi/mydesk" rel="alternate" type="text/html" title="私のデスク環境について" /><published>2024-12-10T00:00:00+09:00</published><updated>2024-12-10T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/mydesk</id><content type="html" xml:base="http://localhost:4000/birusupi/mydesk"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
+お読みいただきありがとうございました。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="台湾旅行" /><category term="RX100" /><category term="SONY" /><category term="旅カメラ" /><category term="コンデジ" /><category term="写真日記" /><category term="ガジェット紹介" /><category term="軽量装備" /><category term="ミニマル旅行" /><category term="出張ログ" /><summary type="html"><![CDATA[2泊3日の台北出張（ほぼ旅行）を、名機RX100と共に記録。軽量装備で巡った台湾の街並みと旅メモ。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-13-taiwantrip/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">私のデスク環境について</title><link href="http://localhost:4000/birusupi/mydesk" rel="alternate" type="text/html" title="私のデスク環境について" /><published>2024-12-10T00:00:00+09:00</published><updated>2024-12-10T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/mydesk</id><content type="html" xml:base="http://localhost:4000/birusupi/mydesk"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
 
 <p><a href="https://note.com/vonflume/n/n88c1d25d431c">ゲーム、DTM、テレワークなどなど全てをこなせる私のコックピットデスクのご紹介｜びるすぴ</a></p>
 
@@ -1360,7 +1509,7 @@ AI処理性能については、ローカル環境で構築したStable Diffusio
 <p><a href="https://jp.daisonet.com/products/4549131779370">ダイソーネットストア</a></p>
 
 <p>以上です。また必要に応じて更新を行いたいと思います。
-参考になれば幸いです。</p>]]></content><author><name>Birusupi</name></author><category term="documentation" /><category term="デスク環境" /><category term="作業環境" /><category term="ガジェット紹介" /><category term="ゲーミング環境" /><category term="DTM環境" /><category term="配信環境" /><category term="モニターアーム" /><category term="自作PC" /><category term="オーディオインターフェース" /><category term="ケーブルマネジメント" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-10-mydesk/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-10-mydesk/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">noisereduceを用いた音声ノイズの除去</title><link href="http://localhost:4000/birusupi/noisereduce" rel="alternate" type="text/html" title="noisereduceを用いた音声ノイズの除去" /><published>2024-12-03T00:00:00+09:00</published><updated>2024-12-03T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/noisereduce</id><content type="html" xml:base="http://localhost:4000/birusupi/noisereduce"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
+参考になれば幸いです。</p>]]></content><author><name>Birusupi</name></author><category term="documentation" /><category term="デスク環境" /><category term="作業環境" /><category term="ガジェット紹介" /><category term="ゲーミング環境" /><category term="DTM環境" /><category term="配信環境" /><category term="モニターアーム" /><category term="自作PC" /><category term="オーディオインターフェース" /><category term="ケーブルマネジメント" /><summary type="html"><![CDATA[ゲーム、DTM、テレワークすべてをこなす私のデスク環境を紹介。5年かけて作り上げたコックピットの全貌。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-10-mydesk/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-10-mydesk/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">noisereduceを用いた音声ノイズの除去</title><link href="http://localhost:4000/birusupi/noisereduce" rel="alternate" type="text/html" title="noisereduceを用いた音声ノイズの除去" /><published>2024-12-03T00:00:00+09:00</published><updated>2024-12-03T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/noisereduce</id><content type="html" xml:base="http://localhost:4000/birusupi/noisereduce"><![CDATA[<p>※noteでも同内容を投稿しています。</p>
 
 <p><a href="https://note.com/vonflume/n/n3788d8770df7">Pythonを用いた音声ファイルのノイズの除去（ライブラリ: noisereduce）｜びるすぴ</a></p>
 
@@ -1496,112 +1645,4 @@ print("ノイズ除去、ローカットフィルタリング、ノーマライ�
 <p>本プログラムで職場の講演録音に含まれたノイズをある程度除去できました。当日聴講できなかった、音割れがあって聴講を辞めてしまったなどの理由で後日配信を視聴する職員が多かったと聞いているので、役に立ったようで良かったです。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-3-noisereduce/003.png" alt="" /></p>
-<div style="text-align: center;">お礼に連れてっていただいたランチのお刺身</div>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="Python" /><category term="ノイズ除去" /><category term="音声処理" /><category term="noisereduce" /><category term="ハイブリッドセミナー" /><category term="録音トラブル" /><category term="Web会議" /><category term="社内DX" /><category term="音声ファイル処理" /><category term="技術メモ" /><summary type="html"><![CDATA[※noteでも同内容を投稿しています。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-3-noisereduce/001.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-3-noisereduce/001.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">母が詐欺業者に騙された話</title><link href="http://localhost:4000/birusupi/scam" rel="alternate" type="text/html" title="母が詐欺業者に騙された話" /><published>2024-12-02T00:00:00+09:00</published><updated>2024-12-02T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/scam</id><content type="html" xml:base="http://localhost:4000/birusupi/scam"><![CDATA[<p>日常生活の中で、気づかないうちに悪徳商法に巻き込まれることがあります…というかありました。私の母親が先日、その被害者となってしまいました。母と子である私が体験したことを通じて、他の人も同じような被害に遭わないための注意点と対策を紹介したいと思います。</p>
-
-<h2 id="母親が詐欺業者に騙された経緯">母親が詐欺業者に騙された経緯</h2>
-
-<p>まずはどのような状況で母が被害に遭ったのかを説明します。
-母親が長年使っていたスマホが陳腐化しろくに動作しなくなったことや、高齢であることから健康管理も心配になってきたため、数ヶ月前に母親にiPhoneとApple Watchをセットで購入しました。前の機種より随分と動作が軽快になったようで、ネットサーフィンを楽しんでいるようでした。その中で今回の被害のきっかけとなった、化粧品の試供品をお得に手に入れられるというネット広告が目に入ったようでした。</p>
-
-<p><img src="/birusupi/assets/img/2024-12-2-scam/003.png" alt="" />
-出展：<a href="ttps://www3.nhk.or.jp/news/special/net-koukoku/article/article_30.html">“消えない広告” ×マークが押せません!?｜NEWS WE</a></p>
-
-<p>ネット広告がきっかけで商品の購入をするのは自然なことかもしれませんが（私はネット広告を親の仇だと思っている（後述））、母親は申し込みの際に巧妙に仕組まれた所謂「ダークパターン」により、不利な契約を結ばされてしまったようです。試供品だけが届くと思っていたところ、いつの間にか強制的な定期購入契約に移行し、高額な契約金まで発生してしまいました。これに気がつくことが初見では難しい契約ページの設計になっていたようです。</p>
-
-<p><a href="https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%AF%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3#:~:text=%E3%83%80%E3%83%BC%E3%82%AF%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3%EF%BC%88%E8%8B%B1%E8%AA%9E%3A%20Dark%20pattern,%E3%81%AB%E8%A8%AD%E8%A8%88%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%80%82">ダークパターン - Wikipedia</a></p>
-
-<p>上記のほか、実際に当該化粧品の通販ページには下記のようないくつかの別ダークパターンが見受けられました。スクショを貼って皆様にもご覧いただきたいところですが、ここでは控えておきます。</p>
-
-<ol>
-  <li><strong>返金保証の制限</strong>: 商品が肌に合わない場合は返金すると書いてあるが、返金の申し込みには電話のみで申請を受け付ける必要があり、また到着から10日以内に連絡しなければならないという制限があった。</li>
-  <li><strong>定期購入縛り</strong>: 定期購入の解約手数料に関しては「回数の約束なし」とあったが、実際には2回目の受け取り前に解約すると手数料が発生するという条件があった。</li>
-  <li><strong>初回特別価格</strong>: 初回は安価に設定されていたが、その後の価格が大幅に上がりその乖離に気づくことが難しかった。また長期的に見た場合の費用が高いにも関わらず初回価格が購買決定に影響を与えている可能性があった。</li>
-  <li><strong>限定セールや完売の強調</strong>: 「再入荷お待たせしました」や「残り僅かです」という文言で急かす手法が利用されていたが、実際の入荷状況や需要供給を反映しているとは限らず、消費者に早急な購入を促すプレッシャーを与えている可能性があった。</li>
-</ol>
-
-<p>これらの要素は、消費者の注意を逸らしたり、購買の決定を急かすことに寄与する可能性があるため、ダークパターンと考えられます。</p>
-
-<h2 id="詐欺業者との戦い">詐欺業者との戦い</h2>
-
-<p>基本的には下記のような流れで対応を行いました。</p>
-
-<ol>
-  <li><strong>状況確認</strong>: 母が受け取った契約書と商品を確認し、ダークパターンの詳細を特定</li>
-  <li><strong>相談先の決定</strong>: 行政機関や県警に相談して、詐欺の疑いがあることを報告</li>
-  <li><strong>詐欺業者への連絡</strong>: 業者に電話やメール、書面で特定商取引法に違反している可能性を指摘し、行政処分の対象になる可能性があることを警告の上契約解除及び契約金返金の要請</li>
-</ol>
-
-<p>母親は既に受け取ってしまった商品を送り返そうと、送り状にあった送り元住所に返送していたようです。そこで判明したのですが送付元の住所にオフィスあるいは事業所が存在せず、商品が返ってくる始末でした。もうこの時点で完全に黒やんこの業者…と怒り心頭でした。
-このままでは延々と商品が送られ、料金も発生することになるのでまずいと考え、いくつか手段を講じました。
-なおネット通販などの通信販売には、法律上のクーリング・オフ制度はありません。これは、通信販売は広告を見て自らの意思で申し込むもので、不意打ち的に契約させられるといった状況ではないため（<strong>最早そんなことはないが</strong>）とされています。この点を悪徳業者は逆手に取って不意打ち的に契約させられるような状況をダークパターンを用いて作り出そうとしていることが多いです。
-基本的には行政機関や県警に相談の上、電話、メール、書面にて特定商取引法違反として行政処分の対象となり得るという主張を伝えることを武器に戦うことにしました。</p>
-
-<p><a href="https://www.no-trouble.caa.go.jp/what/">特定商取引法とは｜特定商取引法ガイド</a></p>
-
-<h2 id="改正特定商取引法によるダークパターンへの対応">改正特定商取引法によるダークパターンへの対応</h2>
-
-<p>2022年に特定商取引法が改正され、ダークパターンによって消費者を誤認させ契約を結ばせる手法への対応が強化されました。この改正により、申込み書面や画面での表記の厳格化、誤認表示の禁止、契約撤回や解除を妨げる行為の禁止などが規定されました。これにより、不意打ち的な有償契約を避け、消費者を保護するための法的基盤が整備されました。</p>
-
-<p><a href="">2022年改正特定商取引法の施行－ダークパターン等への対応</a>https://www.nli-research.co.jp/report/detail/id=70695?site=nli</p>
-
-<blockquote>
-  <p>(1)ダークパターンとは、お試し無料などと広告して申し込ませるが、無料なのは初回だけで、次回以降の取引も同時に申し込んだこととされ、次回以降は正規の値段を徴収するものである。この次回以降分への申込みが消費者にはわかりにくく、かつ解約しようにも解約方法が電話に限定されており、その電話はずっと会話中であってつながらないような不適正な販売手法である。</p>
-</blockquote>
-
-<p>この電話がつながらないという点もこの業者は該当していて、本当に腹がたった
-※なおこれはローチモーテル（ゴキブリホイホイ）というダークパターンに該当するらしい</p>
-
-<p>今回の広告からアクセスした当該化粧品の通販ページには、前述のようにダークパターンが多数含まれ、また本商品の解約手段の乏しさにおいてもダークパターンであり不適正な販売手法と見做され行政処分の対象になり得るということを業者に電話、メール、書面にてしつこく伝えました。
-電話が掛かりづらかったり担当者をたらい回しにされる等、最初はかなり不躾な対応をされましたが、メール及び書面の通知も来ていることがどうやら担当者側に伝わったからか、最終的にはかなり丁寧な喋り方をされる担当者から電話があり、契約解除に持ち込むことが出来ました。
-契約金等については返金され、商品については先方に伝えたうえでこちらで破棄しました。</p>
-
-<h2 id="そもそもどうすれば対策できたのか広告ブロックの導入">そもそもどうすれば対策できたのか（広告ブロックの導入）</h2>
-
-<p>生まれたときからインターネットに居た私は悪質広告やダークパターンの類を親の仇くらい嫌っているので、広告詐欺に引っかかる事自体信じられないのですが、親世代にはそれは厳しいようです。
-一方で親には折角買ってあげたスマホを存分に使ってほしいという気持ちもあるので、私が行っている簡単な対策を母親のスマホにもすることにしました。</p>
-
-<p>それはブラウザ拡張機能である「広告ブロック」の導入です。</p>
-
-<p>詐欺の温床となる広告を根本的にシャットアウトするという考えです。
-広告ブロックを導入することでまず広告の煩わしさから解放されるという利点がありますが、それに加えて今回のような不意打ちの詐欺や不正な広告クリックを未然に防ぐことができます。他、データ量の大幅な削減などといった利点もあります。
-なお、広告ブロックは利用者がサイト等からダウンロードしたデータを全て読み取ることが可能というかなり強権な機能を、システムの都合上持っています。開発元やユーザー数、オープンソースかなどを参考に信用できるものを選んでください。</p>
-
-<p>参考: 広告ブロックがマルウェアになった例
-<a href="https://internet.watch.impress.co.jp/docs/yajiuma/1283656.html">Chrome向け広告ブロッカーが突如マルウェアへと変貌、アンインストールを呼び掛け中</a></p>
-
-<p>なお私が推奨する広告ブロックアプリ・拡張機能は下記です。
-私同様、iOS及びWindowsユーザーを想定しています。</p>
-
-<h3 id="ios">iOS</h3>
-
-<p><a href="https://apps.apple.com/jp/app/280blocker-%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF-%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84%E3%83%96%E3%83%AD%E3%83%83%E3%82%AB%E3%83%BC/id1071235820"><del>280blocker - 広告ブロック-コンテンツブロッカー</del></a></p>
-
-<p>280blocker、かつては日本最強クラスのローカルフィルタ持ちでしたが、今となっては：
-トビラシステムズによる買収後のブラックボックス化
-フィルタの更新頻度の低下
-明確な開発ロードマップや透明性の欠如
-──など、信頼性が“じわじわ”削られてきてるのは否めません。</p>
-
-<p><a href="https://apps.apple.com/jp/app/adguard-%E3%83%BC-safari%E3%81%A7%E3%81%97%E3%81%A3%E3%81%8B%E3%82%8A%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF/id1047223162">AdGuard ー Safariでしっかり広告ブロック」をApp Store</a></p>
-
-<p>今はAdGuard for iOSをおすすめします。なお、AdGuardは今のところ健全寄りの商用プロダクトですが少しずつ企業色は濃くなってきているので、注意は必要だと思います。</p>
-
-<h3 id="pc">PC</h3>
-<p><a href="https://github.com/gorhill/uBlock">uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean | GitHub</a>
-<a href="https://ublockorigin.com/jp">uBlock Origin – フリーかつオープンソースの広告ブロッカー。</a></p>
-
-<p>PCでは現状これ一択だと思います。</p>
-
-<p>また、母親には日常的に注意してもらいたい点として、見慣れないリンクやメッセージはクリックせずに、不明な送信元の連絡は無視するようアドバイスをしました。最初は少し手間取っていた母も練習（？）を重ねるうちに、すぐに習慣化され実践するようになったようで、安心してインターネットを楽しむことができるようになったと思います。</p>
-
-<p>広告は本来、良い商品を消費者に紹介し購入を促すためのものですが、現在のウェブ広告は多くの人に不快感を与えています。画面を埋め尽くす広告や誤クリックを誘う動きのある広告が多く、広告本来の目的を失っていると感じられます。その結果、消費者は広告ブロックを使用するようになるのでしょう。広告主は、有益で購買意欲を引き出すような広告を提供すれば、ブロックされることもないでしょう。</p>
-
-<h2 id="最後に">最後に</h2>
-
-<p>正直言って今回契約解除ができたとしても契約金が返金されるという好例に至ったのは、単に運が良かったからだと考えています。自分は法律の専門家でもありませんので、主張した改正特定商取引法違反を指摘したところで素人だからと最後まで強気に業者側が立ち回ってくる可能性もあったと思います。おそらく業者側に「こいつ面倒だから早く手を切っておこう。」と思われたため、このような結末を迎えたのではないかと考えています。
-契約解除まで持っていくことは出来ても、法外な契約金を勉強代として支払って泣き寝入りする例が大半なのではないでしょうか。
-となると、やはり前述の通りそもそも詐欺の類に引っかからないための対策を怠らないことが大切だと思います。</p>
-
-<p>私は母親を扶養に入れています。つまり金銭的援助を母親に対して行っているということです。詐欺業者に自分のお金が流れ、彼奴らの懐が温まるなんて考えただけで全身の毛が逆立ち、全てを破壊し尽くしてしまうところでしたが、その怒りを今回の記事に書いたような行動のモチベーションに切り替えて良かったと思います。</p>
-
-<p>詐欺に引っかからないために大切なことは、常に疑いの目を持つことです。広告ブロックの設定は一例ですが、特に親世代の方々には何かしらサポートしてあげてください。予防策を講じ、家族みんなで詐欺被害から身を守りましょう。</p>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="詐欺被害" /><category term="ダークパターン" /><category term="消費者保護" /><category term="特定商取引法" /><category term="高齢者とIT" /><category term="ネット広告" /><category term="広告ブロック" /><category term="ITリテラシー" /><category term="フィッシング詐欺" /><category term="サイバー犯罪対策" /><summary type="html"><![CDATA[日常生活の中で、気づかないうちに悪徳商法に巻き込まれることがあります…というかありました。私の母親が先日、その被害者となってしまいました。母と子である私が体験したことを通じて、他の人も同じような被害に遭わないための注意点と対策を紹介したいと思います。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-2-scam/001.png" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-2-scam/001.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<div style="text-align: center;">お礼に連れてっていただいたランチのお刺身</div>]]></content><author><name>Birusupi</name></author><category term="blog" /><category term="Python" /><category term="ノイズ除去" /><category term="音声処理" /><category term="noisereduce" /><category term="ハイブリッドセミナー" /><category term="録音トラブル" /><category term="Web会議" /><category term="社内DX" /><category term="音声ファイル処理" /><category term="技術メモ" /><summary type="html"><![CDATA[Pythonライブラリnoisereduceを使って、社内セミナー録音のノイズ除去に挑戦。実際のコードと処理手順を紹介します。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/2024-12-3-noisereduce/001.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/2024-12-3-noisereduce/001.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

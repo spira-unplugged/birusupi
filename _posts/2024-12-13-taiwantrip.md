@@ -4,6 +4,7 @@ title: "台湾旅行記 SONY RX100とともに"
 author: "Birusupi"
 categories: blog
 tags: [台湾旅行, RX100, SONY, 旅カメラ, コンデジ, 写真日記, ガジェット紹介, 軽量装備, ミニマル旅行, 出張ログ]
+excerpt: "2泊3日の台北出張（ほぼ旅行）を、名機RX100と共に記録。軽量装備で巡った台湾の街並みと旅メモ。"
 image: 2024-12-13-taiwantrip/001.png
 ---
 ※noteでも同内容を投稿しています。
