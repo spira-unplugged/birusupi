@@ -6,7 +6,6 @@ image: /assets/img/gpts.png
 twitter_card: summary_large_image
 last_modified_at: 2025-04-22 00:00:00 +0900
 ---
-![gpts]({{ site.baseurl }}/assets/img/gpts.png)
 
 作成したGPTsをまとめました。各見出しをクリックするとGPTに飛びます。
 

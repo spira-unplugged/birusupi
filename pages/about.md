@@ -2,9 +2,10 @@
 layout: page
 title: About
 permalink: /about
+image: /assets/img/about.jpg
+twitter_card: summary_large_image
 last_modified_at: 2025-04-06 00:00:00 +0900
 ---
-![about]({{ site.baseurl }}/assets/img/about.jpg)
 
 ## びるすぴについて
 
