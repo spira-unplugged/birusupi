@@ -30,6 +30,9 @@ baseurl: "/birusupi"
 # Timezone
 timezone: Asia/Tokyo
 
+# Language (for SEO and og:locale)
+lang: ja
+
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
