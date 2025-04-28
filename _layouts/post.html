@@ -25,9 +25,24 @@ layout: default
     {% include post-share.html %}
   {% endif %}
 
+  <div class="post-navigation">
+    {% if page.next %}
+      <a class="next-post" href="{{ site.baseurl }}{{ page.next.url }}">
+        次の記事：{{ page.next.title }}
+      </a>
+    {% endif %}
+    {% if page.previous %}
+      <a class="prev-post" href="{{ site.baseurl }}{{ page.previous.url }}">
+        前の記事：{{ page.previous.title }}
+      </a>
+    {% endif %}
+  </div>
+
+  {% comment %}
   {% if site.hide_related_posts != true %}
     {% include related-posts.html %}
   {% endif %}
+  {% endcomment %}
 
   {% if site.data.settings.disqus.comments %}
     {% include disqus.html %}
