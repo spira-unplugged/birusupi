@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-28T17:16:57+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">あの頃のTwitterを取り戻せ</title><link href="http://localhost:4000/birusupi/cpft" rel="alternate" type="text/html" title="あの頃のTwitterを取り戻せ" /><published>2025-04-26T00:00:00+09:00</published><updated>2025-04-26T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/cpft</id><content type="html" xml:base="http://localhost:4000/birusupi/cpft"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-29T07:34:22+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">あの頃のTwitterを取り戻せ</title><link href="http://localhost:4000/birusupi/cpft" rel="alternate" type="text/html" title="あの頃のTwitterを取り戻せ" /><published>2025-04-26T00:00:00+09:00</published><updated>2025-04-26T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/cpft</id><content type="html" xml:base="http://localhost:4000/birusupi/cpft"><![CDATA[<blockquote>
   <p><em>「また村がひとつ死んだ。行こう。ここもじきに腐海に沈む。」</em><br />
 <em>―――ユパ 風の谷のナウシカ</em></p>
 </blockquote>
@@ -10,6 +10,8 @@
 
 <p><img src="/birusupi/assets/img/2025-04-26-cpft/image1.png" alt="" /></p>
 <div style="text-align: center;">情報量がすごい。（ブラウザ版）</div>
+
+<p>色々困ったポイントを挙げてみます。</p>
 
 <ul>
   <li>
@@ -134,6 +136,34 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 <p>おすすめ欄の非表示化、左右パネルの雑多なメニューの非表示化、広告の非表示、トレンドの非表示（とにかく非表示）が実施されたことによって、かなりすっきりしています。ロゴが青い鳥になっているのもウケる。</p>
 
 <p>もちろん、iOSでも同様に動作します。</p>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+
+<div style="text-align: center;">
+  <img src="/birusupi/assets/img/2025-04-26-cpft/image9.png" style="width: 200px;" />
+  <div>拡張機能適用前のX。（iOS版 Safari）</div>
+</div>
+
+<div style="text-align: center;">
+  <img src="/birusupi/assets/img/2025-04-26-cpft/image10.png" style="width: 200px;" />
+  <div>拡張機能適用前のX。（iOS版 Safari）</div>
+</div>
+
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+
+<div style="text-align: center;">
+  <img src="/birusupi/assets/img/2025-04-26-cpft/image7.png" style="width: 200px;" />
+  <div>拡張機能適用後のX。（iOS版 Safari）</div>
+</div>
+
+<div style="text-align: center;">
+  <img src="/birusupi/assets/img/2025-04-26-cpft/image8.png" style="width: 200px;" />
+  <div>拡張機能適用後のX。（iOS版 Safari）</div>
+</div>
+
+</div>
 
 <p>欲しい情報を障害物に邪魔されずに取得できるって素晴らしいことだ…。</p>
 
@@ -369,7 +399,7 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 <p>そして…</p>
 
 <blockquote>
-  <p><em>「昔の10円の感覚が抜けず、そっと棚に戻しました。」</em></p>
+  <p>「昔の10円の感覚が抜けず、そっと棚に戻しました。」</p>
 </blockquote>
 
 <p>たかが5円なのにこのセコさもヤフコメっぽくて哀しくなってきます。</p>
@@ -436,15 +466,15 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 
 <h3 id="4-chatgptで社会を理解する">4. ChatGPTで社会を理解する</h3>
 
-<p>正直に言いますと、ヤフコメGPTを作り始めたときは、ちょっとしたお遊びのつもりでした。
+<p>ヤフコメGPTを作り始めたときは、ちょっとしたお遊びのつもりでした。
 「こんな感じの”それっぽい”コメント、GPTで出せたらおもしろいな〜」という、ただの軽いノリです。</p>
 
 <p>でも、いざプロンプトを練って、構文を組み立てて、出力を観察していくうちに、思いのほかいろんなことが見えてきました。</p>
 
 <p>たとえば、あの決まり文句。
 「私は知っていましたが、年長者が指摘すべきだと思い、ここに書き残します。」
-笑えますよね。ただ、なぜ笑えるのか？と考えると、それって私たちが「ヤフコメ的なるもの」を体感的に理解しているからなんです。
-冒頭でも触れたように、感覚ではわかっている。でも、じゃあ”それ”って何なの？と問われると、言葉にするのは案外むずかしい。</p>
+笑えます。ただ、なぜ笑えるのか？と考えると、それは私が「ヤフコメ的なるもの」を体感的に理解しているから。冒頭でも触れたように、感覚ではわかっている。<br />
+でも、じゃあ”それ”って何なの？と問われると、言葉にするのは案外むずかしい。</p>
 
 <p>で、それを言語化しようとする過程で、「こういう語り口って、どういうときに出てくるんだろう？」とか、「こういう論法、現実でも見かけるな」みたいな視点が出てくる。</p>
 
@@ -483,7 +513,7 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 
 <p>そう考えると、GPTって「便利な道具」というより、<strong>自分の思考を反射してくれる鏡</strong>のような存在ではないかと思うようになりました。</p>
 
-<p>まあ、ヤフコメGPTは、ただの悪ノリかもしれません。
+<p>色々針小棒大なことを書きましたが、結局ヤフコメGPTは、ただの悪ノリかもしれません。
 でも、言葉を使って社会を観察するという遊びに、本気で付き合ってくれるGPTに感謝しています。</p>
 
 <p>ああ、あなたがもしマイGPTを使うなら、どんなGPTを作りますか？</p>
