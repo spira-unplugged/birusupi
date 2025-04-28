@@ -97,6 +97,33 @@ img {
 }
 
 // =============================
+// 前後記事ナビゲーション
+// =============================
+
+.post-navigation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  flex-wrap: wrap; /* ←追加！ */
+  gap: 0.5rem;      /* ←ちょっと空ける */
+}
+
+.post-navigation a {
+  flex: 1 1 auto; /* ←両方あるときは均等に、片方だけなら自然な幅 */
+  text-align: center;
+  padding: 0.5em 1em;
+  background: #f7f7f7;
+  border-radius: 6px;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.post-navigation a:hover {
+  background: #e0e0e0;
+}
+
+// =============================
 // シェアアイコン
 // =============================
 
