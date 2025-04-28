@@ -119,8 +119,45 @@ img {
   text-decoration: none;
 }
 
+// =============================
+// 引用ブロック
+// =============================
+
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  background: #f9f9f9;
+  border-left: 4px solid #eeecec;
+  color: #555;
+  border-radius: 0px;
+}
+
+blockquote p {
+  margin: 0;
+}
+
 .post-navigation a:hover {
   background: #e0e0e0;
+}
+
+// =============================
+// コードブロック
+// =============================
+
+pre {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  position: relative; /* コピーボタン配置用 */
+  font-family: $code-font-family;
+}
+
+code {
+  background: transparent;
+  color: inherit;
+  font-family: $code-font-family;
 }
 
 // =============================
