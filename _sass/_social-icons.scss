@@ -9,14 +9,9 @@
   }
 }
 
-.fa-envelope {
+.fa-x-twitter {
   padding: 5px;
-  @include social-media-icon($envelope-color, $icon-transition-time);
-}
-
-.fa-twitter {
-  padding: 5px;
-  @include social-media-icon($twitter-color, $icon-transition-time);
+  @include social-media-icon($x-twitter-color, $icon-transition-time);
 }
 
 .fa-instagram {
@@ -29,9 +24,9 @@
   @include social-media-icon($github-color, $icon-transition-time);
 }
 
-.fa-linkedin {
+.fa-github {
   padding: 5px;
-  @include social-media-icon($linkedin-color, $icon-transition-time);
+  @include social-media-icon($github-color, $icon-transition-time);
 }
 
 .fa-facebook {
@@ -39,27 +34,22 @@
   @include social-media-icon($facebook-color, $icon-transition-time);
 }
 
-.fa-google-plus {
-  padding: 5px;
-  @include social-media-icon($google-color, $icon-transition-time);
-}
-
-.fa-pinterest {
-  padding: 5px;
-  @include social-media-icon($pinterest-color, $icon-transition-time);
-}
-
-.fa-medium {
-  padding: 5px;
-  @include social-media-icon($medium-color, $icon-transition-time);
-}
-
-.fa-codepen {
-  padding: 5px;
-  @include social-media-icon($codepen-color, $icon-transition-time);
-}
-
 .fa-rss-square {
   padding: 5px;
   @include social-media-icon($rss-color, $icon-transition-time);
+}
+
+.fa-tumblr {
+  padding: 5px;
+  @include social-media-icon($tumblr-color, $icon-transition-time);
+}
+
+.fa-lastfm {
+  padding: 5px;
+  @include social-media-icon($lastfm-color, $icon-transition-time);
+}
+
+.fa-paypal {
+  padding: 5px;
+  @include social-media-icon($paypal-color, $icon-transition-time);
 }
