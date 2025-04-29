@@ -15,7 +15,7 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    'https://x.com/singingsores'}
+- {icon: 'x-twitter', link:    'https://x.com/singingsores'}
 - {icon: 'tumblr', link:    'https://kiyosawa.tumblr.com/'}
 - {icon: 'github', link:    'https://github.com/spira-unplugged'}
 - {icon: 'lastfm', link:    'https://www.last.fm/ja/user/realmofflight'}
