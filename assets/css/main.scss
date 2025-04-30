@@ -188,7 +188,7 @@ code {
 }
 
 // =============================
-// 記事・画像
+// レスポンシブ対応 YouTube埋め込みスタイル
 // =============================
 
 .post-content img,
@@ -200,6 +200,22 @@ code {
   margin-right: auto;
   box-sizing: border-box;
 }
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9の比率 */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 // =============================
 // 目次（TOC）
