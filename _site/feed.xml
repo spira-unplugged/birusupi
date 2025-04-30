@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-04-30T20:32:14+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">数年前に行ったベトナム旅行記</title><link href="http://localhost:4000/birusupi/memoryofvietnam" rel="alternate" type="text/html" title="数年前に行ったベトナム旅行記" /><published>2025-04-30T00:00:00+09:00</published><updated>2025-04-30T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/memoryofvietnam</id><content type="html" xml:base="http://localhost:4000/birusupi/memoryofvietnam"><![CDATA[<h2 id="はじめに">はじめに</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/birusupi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/birusupi/" rel="alternate" type="text/html" hreflang="ja" /><updated>2025-05-01T00:35:50+09:00</updated><id>http://localhost:4000/birusupi/feed.xml</id><title type="html">Birusupi</title><subtitle>Blog and Documentation</subtitle><author><name>Birusupi</name></author><entry><title type="html">数年前に行ったベトナム旅行記</title><link href="http://localhost:4000/birusupi/memoryofvietnam" rel="alternate" type="text/html" title="数年前に行ったベトナム旅行記" /><published>2025-04-30T00:00:00+09:00</published><updated>2025-04-30T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/memoryofvietnam</id><content type="html" xml:base="http://localhost:4000/birusupi/memoryofvietnam"><![CDATA[<h2 id="はじめに">はじめに</h2>
 
 <p>今からおよそ5年ほど前に旅行したベトナムの思い出をまとめた。</p>
 
@@ -131,7 +131,7 @@
 
 <p>ベトナムは、楽しかった。想像していたよりもずっと人の顔がやさしかったし、食べ物が美味しかったし、時間がゆるやかだった。</p>
 
-<p>帰りの便は、定刻を過ぎても一向に動く気配がなかった。搭乗口の前で座って待つ乗客たちの顔には、次第に諦めと疲労のようなものが浮かびはじめていた。特にアナウンスもなく、たまに電光掲示板が更新されるたび、ただ「さらに遅れ」の表示だけが増えていく。そんな様子をぼんやりと眺めながら、僕はペットボトルの水を少しずつ飲んでいた。</p>
+<p>帰りの便は、定刻を過ぎても一向に動く気配がなかった。搭乗口の前で座って待つ乗客たちの顔には、次第に諦めと疲労のようなものが浮かびはじめていた。特にアナウンスもなく、たまに電光掲示板が更新されるたび、ただ「さらに遅れ」の表示だけが増えていく。そんな様子をぼんやりと眺めながら、私はペットボトルの水を少しずつ飲んでいた。</p>
 
 <p>結局、離陸は3時間遅れた。原因はよくわからなかったが、何かしらの「トラブル」という曖昧な言葉で処理されていた。ベトジェットエア。価格が安いこともあって今回選んだが、正直なところ信頼感は揺らいだ。空港での待機中、周囲の乗客たちが繰り返し時間を確認していたのも、妙に記憶に残っている。</p>
 
@@ -391,7 +391,7 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 （後略）</p>
 </blockquote>
 
-<p><a href="https://dic.pixiv.net/a/%E3%83%A4%E3%83%95%E3%82%B3%E3%83%A1#h2_6" target="_blank" rel="noopener noreferrer">コメントの特徴 - ヤフコメ (やふこめ)とは【ピクシブ百科事典】</a></p>
+<p><a href="https://dic.pixiv.net/a/%E3%83%A4%E3%83%95%E3%82%B3%E3%83%A1#h2_6">コメントの特徴 - ヤフコメ (やふこめ)とは【ピクシブ百科事典】</a></p>
 
 <p>ピクシブ百科事典やニコニコ大百科は盛れば盛るほど面白いみたいな風潮があるので、適切なリファレンス先としての機能は乏しいです。</p>
 
@@ -405,7 +405,7 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 
 <p>ChatGPTには、Plus以上のユーザー向けにプロンプトをカスタマイズして独自のGPTを作成・利用・共有できる「マイGPT」という機能があります。</p>
 
-<p><a href="https://openai.com/index/introducing-gpts/" target="_blank" rel="noopener noreferrer">Introducing GPTs - OpenAI</a></p>
+<p><a href="https://openai.com/index/introducing-gpts/">Introducing GPTs - OpenAI</a></p>
 
 <p>私はこれまで、架空の東大・京大院生とリベラルな会話を楽しんだり、SpotifyやNotionとのAPI連携に特化したGPTを作ったりと、実用と遊びの両方でマイGPTを活用してきましたが、今回はちょっと違う方向に舵を切りました。</p>
 
@@ -497,7 +497,7 @@ Xロゴ除去、ブルーチェックやGrokも非表示。</p>
 
 <p>作成したGPTはこちら。</p>
 
-<p><a href="https://chatgpt.com/g/g-67c6e6936a5881918e0cf253591bc1d4-yahukome" target="_blank" rel="noopener noreferrer"><strong>ヤフコメ - ChatGPT</strong></a></p>
+<p><a href="https://chatgpt.com/g/g-67c6e6936a5881918e0cf253591bc1d4-yahukome"><strong>ヤフコメ - ChatGPT</strong></a></p>
 
 <p>ぜひ彼とのコミュニケーションを楽しんでください。生成した文章をヤフコメ欄に投稿するなどはしないようにしてください。</p>
 
@@ -908,7 +908,7 @@ noteのような賑やかなカフェも、決して悪くはありません。<
 
 <p>とても稚拙な英訳だったのにアクセス数が結構あったので、この際英訳をブラッシュアップして本記事として再公開することにしました。</p>
 
-<p><a href="https://languageoflife.hatenablog.jp/entry/2018/09/03/231023" target="_blank" rel="noopener noreferrer">はてなブログの当該記事</a></p>
+<p><a href="https://languageoflife.hatenablog.jp/entry/2018/09/03/231023">はてなブログの当該記事</a></p>
 
 <hr />
 
@@ -1009,7 +1009,7 @@ noteのような賑やかなカフェも、決して悪くはありません。<
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/19YKaevk2bce4odJkP5L22?utm_source=generator&amp;theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>]]></content><author><name>Birusupi</name></author><category term="documentation" /><category term="英訳" /><category term="歌詞" /><category term="Frank Ocean" /><category term="Kohh" /><category term="Blonde" /><category term="音楽翻訳" /><category term="洋楽解説" /><category term="ヒップホップ" /><category term="サブカルチャー" /><category term="和訳比較" /><summary type="html"><![CDATA[Frank Ocean『Nikes (Kohh Verse)』の英訳。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/birusupi/assets/img/2025-04-12-frank-ocean-blonde-header.jpg" /><media:content medium="image" url="http://localhost:4000/birusupi/assets/img/2025-04-12-frank-ocean-blonde-header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Xでのフィルム写真ボット運用について</title><link href="http://localhost:4000/birusupi/autolomography" rel="alternate" type="text/html" title="Xでのフィルム写真ボット運用について" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/birusupi/autolomography</id><content type="html" xml:base="http://localhost:4000/birusupi/autolomography"><![CDATA[<h2 id="xでのフィルム写真ボット運用について">Xでのフィルム写真ボット運用について</h2>
 
 <p>X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
-フィルム写真をやっている人は知っていることが多い、<a href="https://www.lomography.com/" target="_blank" rel="noopener noreferrer">Lomography</a>というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
+フィルム写真をやっている人は知っていることが多い、<a href="https://www.lomography.com/">Lomography</a>というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。</p>
 
 <hr />
 
@@ -1025,11 +1025,11 @@ noteのような賑やかなカフェも、決して悪くはありません。<
 
 <h3 id="autolomography-について">AutoLomography について</h3>
 
-<p><strong>リポジトリ</strong>：<a href="https://github.com/spira-unplugged/AutoLomography" target="_blank" rel="noopener noreferrer">GitHub - AutoLomography</a></p>
+<p><strong>リポジトリ</strong>：<a href="https://github.com/spira-unplugged/AutoLomography">GitHub - AutoLomography</a></p>
 
-<p><strong>投稿アカウント</strong>：<a href="https://x.com/AutoLomography" target="_blank" rel="noopener noreferrer">https://x.com/AutoLomography</a></p>
+<p><strong>投稿アカウント</strong>：<a href="https://x.com/AutoLomography">https://x.com/AutoLomography</a></p>
 
-<p><strong>投稿情報</strong>：<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&amp;single=true" target="_blank" rel="noopener noreferrer">Googleスプレッドシート</a></p>
+<p><strong>投稿情報</strong>：<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&amp;single=true">Googleスプレッドシート</a></p>
 
 <p>同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。</p>
 
@@ -1089,7 +1089,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 先日のSteamウィンターセールでグノーシアを購入し、プレイしました。
 一部実績やイベントについてはまだ達成出来ていませんが、シナリオ的には一通り見ることが出来ました。</p>
 
-<p><a href="https://store.steampowered.com/app/1608290/_/" target="_blank" rel="noopener noreferrer">Steam：グノーシア</a></p>
+<p><a href="https://store.steampowered.com/app/1608290/_/">Steam：グノーシア</a></p>
 
 <p>まず一言、とても素晴らしいゲームでした！本当に面白かった。
 私以外の方々にも是非新鮮な気持ちでプレイしていただきたいのでネタバレは避けつつ、どのような点で良かったのかというところを端的に述べたいと思います。</p>
@@ -1108,13 +1108,13 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 <p>このことによって、ループを重ねるにつれてキャラへの理解とともに魅力も高まり、最終的にどのキャラも好きになれるというのはこれまでやってきたゲームの中でも初めての体験でした。マザー・テレサじゃないですがやはり愛することは理解すること、なのかもしれません。
 非常に味わい深い作品でした。</p>
 
-<p>このゲームの制作裏事情をもっと知りたいという方は、<a href="https://jp.ign.com/gnosia/17911/interview/1" target="_blank" rel="noopener noreferrer">IGNのインタビュー</a>が興味深い内容にあふれているのでお読みください。</p>
+<p>このゲームの制作裏事情をもっと知りたいという方は、<a href="https://jp.ign.com/gnosia/17911/interview/1">IGNのインタビュー</a>が興味深い内容にあふれているのでお読みください。</p>
 
 <h3 id="アニメ化について">アニメ化について</h3>
 
 <p>としてそんなグノーシア、なんとアニメ化が決定しています。世はまさに大インディーゲー時代。</p>
 
-<p><a href="https://gnosia-anime.com/" target="_blank" rel="noopener noreferrer">TVアニメ『グノーシア』公式サイト</a></p>
+<p><a href="https://gnosia-anime.com/">TVアニメ『グノーシア』公式サイト</a></p>
 
 <p>果たしてどのような構成のアニメになるのか…とても楽しみです。
 セツが主人公になるのかと思っていましたが、原作プチデポットのめづかれ氏のコメントを読むに、プレイアブルキャラである主人公キャラが登場するようです。
@@ -1124,7 +1124,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
   <p><strong>具体的にはプチデポットメンバーとデザインや世界観などを集約しつつ、本件監修や内容について私が最終承認、決定を行い、アニメチーム編成の立ち上げからプロデューサーとして深く関わっています。</strong></p>
 </blockquote>
 
-<p><a href="https://gnosia-anime.com/news/?id=66735" target="_blank" rel="noopener noreferrer">原作コメント＆アニメ化記念お祝いイラストが到着！ - NEWS ｜ TVアニメ「グノーシア」公式サイト</a></p>
+<p><a href="https://gnosia-anime.com/news/?id=66735">原作コメント＆アニメ化記念お祝いイラストが到着！ - NEWS ｜ TVアニメ「グノーシア」公式サイト</a></p>
 
 <p>このコメントを読むに、既に素晴らしい作品になることが確約されているような気がしています。
 原作は素晴らしいのにアニメ・実写化作品は微妙…というパターンが存在する作品が残念ながら存在します。
@@ -1139,7 +1139,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 クリアしてから知りました。行きたかった。
 素敵な作品を届けてくださった感謝と、これからも素敵なゲームを世の中に送り出して…という応援の気持ちを込めてアクリルブロックとポスターを通販で買いました。届くのが楽しみです。</p>
 
-<p><a href="https://art.parco.jp/galleryx/detail/?id=1604" target="_blank" rel="noopener noreferrer">PARCO Presents GNOSIA STORE 5th Anniversary ｜ GALLERY X BY PARCO ｜ PARCO ART</a></p>
+<p><a href="https://art.parco.jp/galleryx/detail/?id=1604">PARCO Presents GNOSIA STORE 5th Anniversary ｜ GALLERY X BY PARCO ｜ PARCO ART</a></p>
 
 <hr />
 
@@ -1260,45 +1260,36 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 <p>この日はホテルで暫く休養を取って回復したのち、近隣にある夜市（寧夏夜市）まで出歩いて簡単にご飯を食べて床につきました。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/003.png" alt="" /></p>
-
-<p>寧夏夜市</p>
+<div style="text-align: center;">寧夏夜市</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/004.png" alt="" /></p>
 
-<p>日本人なら漢字だけで何が売っているのか分かるもんです</p>
+<div style="text-align: center;">日本人なら漢字だけで何が売っているのか分かるもんです</div>
 
 <h3 id="2日目">2日目</h3>
 
 <p>写真多めでお送りします。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/005.png" alt="" /></p>
-
-<p>独特な尾ひれの金魚</p>
+<div style="text-align: center;">独特な尾ひれの金魚</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/006.png" alt="" /></p>
-
-<p>イニシャルD原チャ</p>
+<div style="text-align: center;">イニシャルD原チャ</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/007.png" alt="" /></p>
-
-<p>龍山寺</p>
+<div style="text-align: center;">龍山寺</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/008.png" alt="" /></p>
-
-<p>胡椒餅</p>
+<div style="text-align: center;">胡椒餅</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/009.png" alt="" /></p>
-
-<p>台北駅にあったCharli XCXの広告</p>
+<div style="text-align: center;">台北駅にあったCharli XCXの広告</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/010.png" alt="" /></p>
-
-<p>BL板南線のICトークンコイン（切符）
-これをゲートにかざして乗ります</p>
+<div style="text-align: center;">BL板南線のICトークンコイン（切符）<br />これをゲートにかざして乗ります</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/011.png" alt="" /></p>
-
-<p>台北101のApple Store</p>
+<div style="text-align: center;">台北101のApple Store</div>
 
 <p>夜になり、歩き疲れて入った喫茶店が森高砂咖啡館という台湾コーヒーの名店だったようで、コーヒーとたまごサンドを頂きました。</p>
 
@@ -1307,48 +1298,32 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 <p>コーヒーは言わずもがなでしたが、たまごサンドがめちゃくちゃ美味しかった…。今まで食べたたまごサンドで一番美味しかったかもしれません。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/012.png" alt="" /></p>
-
-<p>試験管のはアイスコーヒー
-冷たくても美味しいコーヒーは良いコーヒーらしいです</p>
+<div style="text-align: center;">試験管のはアイスコーヒー<br />冷たくても美味しいコーヒーは良いコーヒーらしいです</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/013.png" alt="" /></p>
-
-<p>絶品だったたまごサンド</p>
+<div style="text-align: center;">絶品だったたまごサンド</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/014.png" alt="" /></p>
-
-<p>老爺卍素食という字面の良さ
-素食は台湾の精進料理で卍は素食を表します</p>
+<div style="text-align: center;">老爺卍素食という字面の良さ<br />素食は台湾の精進料理で卍は素食を表します</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/015.png" alt="" /></p>
-
-<p>ゲーミングPCが沢山置いてあるゲームセンター
-みんなLOLみたいなのやってた</p>
+<div style="text-align: center;">ゲーミングPCが沢山置いてあるゲームセンター<br />みんなLOLみたいなのやってた</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/016.png" alt="" /></p>
-
-<p>台湾ビールで〆</p>
+<div style="text-align: center;">台湾ビールで〆</div>
 
 <h3 id="3日目">3日目</h3>
 
 <p>ホテルのチェックアウト後に用務のために迪化街の方に行きましたので、ついで近辺で朝食を食べることにしました。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/017.png" alt="" /></p>
-
-<p>オープン前の閑散とした迪化街
-朝10時くらいですがとっても静か</p>
-
-<p>本当は1、2日目に食べようとしていたのですが逃していた魯肉飯をついに食べることが出来たので、台北旅行のミッションはほぼクリアしたと言ったところ。</p>
+<div style="text-align: center;">オープン前の閑散とした迪化街<br />朝10時くらいですがとっても静か<br /><br />本当は1、2日目に食べようとしていたのですが逃していた魯肉飯をついに食べることが出来たので、台北旅行のミッションはほぼクリアしたと言ったところ。</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/018.png" alt="" /></p>
-
-<p>空いていたお店で魯肉飯</p>
-
-<p>その後仕事を終えMRTで桃園空港まで向かい、帰路につきました。</p>
+<div style="text-align: center;">空いていたお店で魯肉飯<br /><br />その後仕事を終えMRTで桃園空港まで向かい、帰路につきました。</div>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/019.png" alt="" /></p>
-
-<p>MRTからパシャリ</p>
+<div style="text-align: center;">MRTからパシャリ</div>
 
 <hr />
 
@@ -1361,9 +1336,7 @@ Lomographyの写真は多様性があり、特定のテーマに偏らず、毎�
 <p>旅歩き時のセットが先日のAmazonブラックフライデーで上手くまとまったので、ご紹介したいと思います。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/020.png" alt="" /></p>
-
-<p>これらと財布、パスポートをウエストポーチにIN
-（これはiPhone 12 miniで撮影）</p>
+<div style="text-align: center;">これらと財布、パスポートをウエストポーチにIN<br />（これはiPhone 12 miniで撮影）</div>
 
 <h3 id="コンパクトデジタルカメラ-sony-dsc-rx100">コンパクトデジタルカメラ SONY DSC-RX100</h3>
 
@@ -1382,8 +1355,7 @@ Zeissの名レンズ Vario-Sonnar T*と1.0型（13.2×8.8mm）サイズのセン
 小さいこれ1つでスマホからだいたいのノートPCまで全て充電可能なのはとてもありがたいです。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/021.png" alt="" /></p>
-
-<p>Anker公式HP <a href="https://www.ankerjapan.com/pages/anker-nano-2">Anker Nano Ⅱ</a>より</p>
+<div style="text-align: center;">Anker公式HP <a href="https://www.ankerjapan.com/pages/anker-nano-2">Anker Nano Ⅱ</a>より</div>
 
 <p><a href="https://amzn.to/3D6JlHb">Amazon.co.jpで購入する</a></p>
 
@@ -1402,8 +1374,7 @@ Zeissの名レンズ Vario-Sonnar T*と1.0型（13.2×8.8mm）サイズのセン
 ちなみに後述のAirPods Proの第2世代以降はApple Watch充電器でも充電が出来るのですが、この製品でも充電可能です。</p>
 
 <p><img src="/birusupi/assets/img/2024-12-13-taiwantrip/022.png" alt="" /></p>
-
-<p>AirPods Proも充電できますよ</p>
+<div style="text-align: center;">AirPods Proも充電できますよ</div>
 
 <p><a href="https://amzn.to/3BqPvBz">Amazon.co.jpで購入する</a></p>
 

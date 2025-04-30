@@ -10,7 +10,7 @@ image: /assets/img/2025-03-22-autolomography.jpg
 ## Xでのフィルム写真ボット運用について
 
 X（旧Twitter）上で、フィルム写真を自動投稿するボット「AutoLomography」を作成・運用しています。
-フィルム写真をやっている人は知っていることが多い、[Lomography](https://www.lomography.com/){:target="_blank" rel="noopener noreferrer"}というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。
+フィルム写真をやっている人は知っていることが多い、[Lomography](https://www.lomography.com/)というフィルム写真コミュニティと連携し、一定間隔で写真を投稿することで、アナログ写真の魅力を広めることを目的としています。
 
 ---
 
@@ -26,11 +26,11 @@ X（旧Twitter）上で、フィルム写真を自動投稿するボット「Aut
 
 ### AutoLomography について
 
-**リポジトリ**：[GitHub - AutoLomography](https://github.com/spira-unplugged/AutoLomography){:target="_blank" rel="noopener noreferrer"}
+**リポジトリ**：[GitHub - AutoLomography](https://github.com/spira-unplugged/AutoLomography)
 
-**投稿アカウント**：[https://x.com/AutoLomography](https://x.com/AutoLomography){:target="_blank" rel="noopener noreferrer"}
+**投稿アカウント**：[https://x.com/AutoLomography](https://x.com/AutoLomography)
 
-**投稿情報**：[Googleスプレッドシート](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&single=true){:target="_blank" rel="noopener noreferrer"}
+**投稿情報**：[Googleスプレッドシート](https://docs.google.com/spreadsheets/d/e/2PACX-1vQeafKQCtdjsx2O8oGL7FdnODIFzvVyaPzPBFJkZpry13amG8ADKxNBDZkQFEVyPe5ff8P8IbZ7lZ9j/pubhtml?gid=0&single=true)
 
 同一写真の重複投稿を避けるため、Googleスプレッドシートで投稿履歴を管理しています。
 
