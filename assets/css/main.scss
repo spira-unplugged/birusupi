@@ -259,3 +259,16 @@ code {
     }
   }
 }
+
+// =============================
+// アンカー位置調整（目次クリック時のずれ防止）
+// =============================
+
+h2::before,
+h3::before {
+  content: "";
+  display: block;
+  height: $header-thickness; // 56px 
+  margin-top: -$header-thickness;
+  visibility: hidden;
+}
