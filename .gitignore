@@ -1,4 +1,6 @@
 _site
+robots.txt
+sitemap.xml
 Gemfile.lock
 .sass-cache
 .jekyll-metadata
