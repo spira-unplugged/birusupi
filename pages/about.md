@@ -16,9 +16,8 @@ last_modified_at: 2025-04-06 00:00:00 +0900
 自分の思考と趣味の記録が半分、誰か一人くらい楽しんでくれたら嬉しいなという気持ちが半分でできています。
 
 ### リンクまとめ
-
-- 🎮 [@singingsores](https://x.com/singingsores)：ゲーム中心にいろいろつぶやいてます  
-- 💸 [PayPal](https://www.paypal.com/paypalme/birusupi)：応援いただけたら励みになります
+- [@singingsores](https://x.com/singingsores)：ゲーム中心にいろいろつぶやいてます
+- [PayPal](https://www.paypal.com/paypalme/birusupi)：応援いただけたら励みになります
 
 ### サイトについて
 
