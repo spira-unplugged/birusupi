@@ -122,7 +122,7 @@ Zeissの名レンズ Vario-Sonnar T\*と1.0型（13.2×8.8mm）サイズのセ�
 
 もうこれは私からのお願いと言っても良いくらいですが、旅行に行くけど一眼買うのははちょっと…という方には、ぜひ良いコンデジを持ってほしいです。スマホのバッテリーを気にせずババッっと気軽にスナップを沢山撮りましょう。
 
-[Amazon.co.jpで購入する](https://amzn.to/3VAk5j3)
+[Amazon.co.jpで購入する](https://amzn.to/43npCOh)
 
 ### 充電アダプター Anker Nano II
 
@@ -133,14 +133,14 @@ MacBook Proの充電器はその筆頭ですが、どうしてそんなに大き
 <div style="text-align: center;">Anker公式HP <a href="https://www.ankerjapan.com/pages/anker-nano-2">Anker Nano Ⅱ</a>より</div>
 
 
-[Amazon.co.jpで購入する](https://amzn.to/3D6JlHb)
+[Amazon.co.jpで購入する](https://amzn.to/4mHDt9M)
 
 ### モバイルバッテリー Anker Power Bank
 
 先日のAmazonブラックフライデーで購入しました。5年間くらい使っていたAnker PowerCore 10000がヘタってきたので、後継として活躍してもらっています。薄くなったり、充電端子がマイクロUSBからUSB-Cになったたり、残量が％単位で可視化されたりと進化していました。
 電池技術やソフトウェア制御のイノベーションによりモバイルバッテリーから開放される未来が来たら良いなと思っています。
 
-[Amazon.co.jpで購入する](https://amzn.to/3PaqfTD)
+[Amazon.co.jpで購入する](https://amzn.to/4mFco6X)
 
 ### Anker Portable Magnetic Charger（Apple Watch充電器）
 
@@ -152,19 +152,19 @@ MacBook Proの充電器はその筆頭ですが、どうしてそんなに大き
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/022.png)
 <div style="text-align: center;">AirPods Proも充電できますよ</div>
 
-[Amazon.co.jpで購入する](https://amzn.to/3BqPvBz)
+[Amazon.co.jpで購入する](https://amzn.to/43F3lu3)
 
 ### ワイヤレスイヤホン AirPods Pro 2
 
 普段の音楽視聴でも大活躍ですが、飛行機の騒音対策に非常に助かっています。
 
-[Amazon.co.jpで購入する](https://amzn.to/3OPapgR)
+[Amazon.co.jpで購入する](https://amzn.to/3T20OoZ)
 
 ### ウエストポーチ GREGORY テールランナー
 
 そしてこれらをGREGORYのウエストポーチに収納して旅歩きをしているのです。
 
-[Amazon.co.jpで購入する](https://amzn.to/3VyzAbc)
+[Amazon.co.jpで購入する](https://amzn.to/4jxr3yq)
 
 以上です。
 お読みいただきありがとうございました。
