@@ -16,8 +16,8 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'x-twitter', link:    'https://x.com/singingsores'}
-- {icon: 'instagram', link:    'https://www.instagram.com/thesightofspira/'}
-- {icon: 'tumblr', link:    'https://kiyosawa.tumblr.com/'}
+# - {icon: 'instagram', link:    'https://www.instagram.com/thesightofspira/'}
+# - {icon: 'tumblr', link:    'https://kiyosawa.tumblr.com/'}
 - {icon: 'github', link:    'https://github.com/spira-unplugged'}
 - {icon: 'lastfm', link:    'https://www.last.fm/ja/user/realmofflight'}
 - {icon: 'paypal', link:    'https://paypal.me/birusupi'}
