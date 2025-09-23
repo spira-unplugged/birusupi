@@ -4,7 +4,7 @@ title: Playlist
 permalink: /playlist
 image: /assets/img/playlist.jpg
 twitter_card: summary_large_image
-last_modified_at: 2025-04-01 00:00:00 +0900
+last_modified_at: 2025-09-23 00:00:00 +0900
 ---
 
 これまで作ったものをまとめました。
@@ -44,9 +44,13 @@ last_modified_at: 2025-04-01 00:00:00 +0900
 
 ## その他
 
+### 好きなスピッツの曲
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2oZMxVmWCgwFbckkGXpntf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ### 好きなゲーム音楽
 
-任天堂を除く。どうしてもスクエニ系が多くなる。
+任天堂を除く。どうしてもスクエニ系が多くなっちゃう。
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4tpTfkLNADkSXACTroXatk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
