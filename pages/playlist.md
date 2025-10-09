@@ -13,6 +13,10 @@ last_modified_at: 2025-09-23 00:00:00 +0900
 
 友人と四季に合わせてプレイリストを作る催しがあります。
 
+### 2025年秋
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1aeG6utSwGjLDucVxNV005?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 ### 2025年夏
 
 #### A面
