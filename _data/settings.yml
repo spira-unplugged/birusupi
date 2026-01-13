@@ -16,6 +16,7 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {icon: 'x-twitter', link:    'https://x.com/singingsores'}
+- {icon: 'bluesky', link:    'https://bsky.app/profile/thesightofspira.bsky.social'}
 # - {icon: 'instagram', link:    'https://www.instagram.com/thesightofspira/'}
 # - {icon: 'tumblr', link:    'https://kiyosawa.tumblr.com/'}
 - {icon: 'github', link:    'https://github.com/spira-unplugged'}
