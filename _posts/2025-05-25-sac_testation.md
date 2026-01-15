@@ -16,7 +16,7 @@ image: /assets/img/2025-05-25-sactestation/image0.png
 
 <h4>Prime Videoで視聴</h4>
 <p>
-  <a href="https://amzn.to/4dw4TeJ" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.amazon.co.jp/gp/video/detail/B0FPDJG2DV?jic=16%7CCgNhbGwSA2FsbA%3D%3D&linkCode=ll2&tag=birusupi06-22&linkId=7932222e3df06e00dea95b39f880565b&language=ja_JP&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">
     攻殻機動隊 STAND ALONE COMPLEX 第2話「暴走の証明 TESTATION」
   </a>
 </p>
@@ -128,7 +128,7 @@ HAW-206を開発した剣菱重工もまた、最初は情報提供に後ろ向�
 
 <h4>Prime Videoで視聴</h4>
 <p>
-  <a href="https://amzn.to/4dw4TeJ" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.amazon.co.jp/gp/video/detail/B0FPDJG2DV?jic=16%7CCgNhbGwSA2FsbA%3D%3D&linkCode=ll2&tag=birusupi06-22&linkId=7932222e3df06e00dea95b39f880565b&language=ja_JP&ref_=as_li_ss_tl" target="_blank" rel="noopener noreferrer">
     攻殻機動隊 STAND ALONE COMPLEX 第2話「暴走の証明 TESTATION」
   </a>
 </p>
