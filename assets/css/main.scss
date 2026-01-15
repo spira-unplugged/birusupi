@@ -12,15 +12,16 @@ $phone-width: 480px;
 $header-thickness: 56px;
 $icon-transition-time: 1.0s;
 
+// _social-icons.scssも編集必要↓
 $x-twitter-color: #000000;
-$bluesky-color: #186fc5;
-$instagram-color: #863789;
-$github-color: #343434;
-$facebook-color: #3d5b99;
+$bluesky-color: #BDDDFF;
+$instagram-color: #C13584;
+$github-color: #909692;
+$facebook-color: #1877F2;
 $rss-color: #ff6600;
-$tumblr-color: #36465d;
+$tumblr-color: #35465C;
 $lastfm-color: #d51007;
-$paypal-color: #009cde;
+$paypal-color: #0079C1;
 
 @import "-sections-dir";
 
