@@ -9,6 +9,11 @@
   }
 }
 
+.fa-bluesky {
+  padding: 5px;
+  @include social-media-icon($bluesky-color, $icon-transition-time);
+}
+
 .fa-x-twitter {
   padding: 5px;
   @include social-media-icon($x-twitter-color, $icon-transition-time);
