@@ -4,7 +4,7 @@ title: Playlist
 permalink: /playlist
 image: /assets/img/playlist.jpg
 twitter_card: summary_large_image
-last_modified_at: 2025-09-23 00:00:00 +0900
+last_modified_at: 2026-01-21 00:00:00 +0900
 ---
 
 これまで作ったものをまとめました。
@@ -12,6 +12,10 @@ last_modified_at: 2025-09-23 00:00:00 +0900
 ## 四季のPlaylist
 
 友人と四季に合わせてプレイリストを作る催しがあります。
+
+### 2026年冬
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/26gG7YwEf7TKrQ4gfD28Py?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### 2025年秋
 
