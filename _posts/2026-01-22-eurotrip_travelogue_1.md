@@ -26,7 +26,7 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 
 旅の間、A6ノートを持ち歩いて、見たもの、食べたものや気分をメモする日記を書いていました。  
 この記事は、その日記をもとにした旅行記となります。日付順に淡々と進みますが、写真を織り交ぜながら文字に起こしました。読み物としてお楽しみいただければ幸いです。  
-写真と日数の都合、前編（本記事）と[後編](https://spira-unplugged.github.io/birusupi/eurotrip_travelogue_1)に分けています。
+写真と日数の都合、前編（本記事）と[後編](https://spira-unplugged.github.io/birusupi/eurotrip_travelogue_2)に分けています。
 
 また、[別の記事](https://spira-unplugged.github.io/birusupi/eurotrip)でこの旅で得た学びや持ち物などをまとめていますので、同じように旅行をしたい、という方はこちらもお読みいただければ嬉しいです。
 
