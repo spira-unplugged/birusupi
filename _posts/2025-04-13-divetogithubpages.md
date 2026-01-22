@@ -62,7 +62,7 @@ noteやInstagram、X（旧Twitter）を眺めていて気になるのは情報�
 
 ![]({{ site.baseurl }}/assets/img/2025-04-13-divetogithubpages/スクリーンショット 2025-04-15 084019.png)
 
-<div style="text-align: center;">X、どうなってんねんこの情報量</div>
+<div class="img-cap">X、どうなってんねんこの情報量</div>
 
 
 しかし本質的な問題は「量」ではなく、"売ること"や"見られること"を目的に多くのコンテンツが設計されているという点にあります。
@@ -302,7 +302,7 @@ GitHub Pagesは、私にとってそのような「思想の図書館」のよ�
 
 ![]({{ site.baseurl }}/assets/img/2025-04-13-divetogithubpages/Vilhelm_Hammershøi,_Stue_med_kvinde_ved_klaver,_Strandgade_30,_1901.jpg)
 
-<div style="text-align: center;">ピアノを弾く妻イーダのいる室内（1910） - ヴィルヘルム・ハンマースホイ</div>
+<div class="img-cap">ピアノを弾く妻イーダのいる室内（1910） - ヴィルヘルム・ハンマースホイ</div>
 
 ## おわりに 思想は、静かに育てるもの
 
