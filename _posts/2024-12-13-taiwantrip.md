@@ -33,36 +33,36 @@ image: /assets/img/2024-12-13-taiwantrip/001.png
 この日はホテルで暫く休養を取って回復したのち、近隣にある夜市（寧夏夜市）まで出歩いて簡単にご飯を食べて床につきました。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/003.png)
-<div style="text-align: center;">寧夏夜市</div>
+<div class="img-cap">寧夏夜市</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/004.png)
 
-<div style="text-align: center;">日本人なら漢字だけで何が売っているのか分かるもんです</div>
+<div class="img-cap">日本人なら漢字だけで何が売っているのか分かるもんです</div>
 
 ### 2日目
 
 写真多めでお送りします。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/005.png)
-<div style="text-align: center;">独特な尾ひれの金魚</div>
+<div class="img-cap">独特な尾ひれの金魚</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/006.png)
-<div style="text-align: center;">イニシャルD原チャ</div>
+<div class="img-cap">イニシャルD原チャ</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/007.png)
-<div style="text-align: center;">龍山寺</div>
+<div class="img-cap">龍山寺</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/008.png)
-<div style="text-align: center;">胡椒餅</div>
+<div class="img-cap">胡椒餅</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/009.png)
-<div style="text-align: center;">台北駅にあったCharli XCXの広告</div>
+<div class="img-cap">台北駅にあったCharli XCXの広告</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/010.png)
-<div style="text-align: center;">BL板南線のICトークンコイン（切符）<br>これをゲートにかざして乗ります</div>
+<div class="img-cap">BL板南線のICトークンコイン（切符）<br>これをゲートにかざして乗ります</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/011.png)
-<div style="text-align: center;">台北101のApple Store</div>
+<div class="img-cap">台北101のApple Store</div>
 
 夜になり、歩き疲れて入った喫茶店が森高砂咖啡館という台湾コーヒーの名店だったようで、コーヒーとたまごサンドを頂きました。
 
@@ -71,32 +71,32 @@ image: /assets/img/2024-12-13-taiwantrip/001.png
 コーヒーは言わずもがなでしたが、たまごサンドがめちゃくちゃ美味しかった…。今まで食べたたまごサンドで一番美味しかったかもしれません。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/012.png)
-<div style="text-align: center;">試験管のはアイスコーヒー<br>冷たくても美味しいコーヒーは良いコーヒーらしいです</div>
+<div class="img-cap">試験管のはアイスコーヒー<br>冷たくても美味しいコーヒーは良いコーヒーらしいです</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/013.png)
-<div style="text-align: center;">絶品だったたまごサンド</div>
+<div class="img-cap">絶品だったたまごサンド</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/014.png)
-<div style="text-align: center;">老爺卍素食という字面の良さ<br>素食は台湾の精進料理で卍は素食を表します</div>
+<div class="img-cap">老爺卍素食という字面の良さ<br>素食は台湾の精進料理で卍は素食を表します</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/015.png)
-<div style="text-align: center;">ゲーミングPCが沢山置いてあるゲームセンター<br>みんなLOLみたいなのやってた</div>
+<div class="img-cap">ゲーミングPCが沢山置いてあるゲームセンター<br>みんなLOLみたいなのやってた</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/016.png)
-<div style="text-align: center;">台湾ビールで〆</div>
+<div class="img-cap">台湾ビールで〆</div>
 
 ### 3日目
 
 ホテルのチェックアウト後に用務のために迪化街の方に行きましたので、ついで近辺で朝食を食べることにしました。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/017.png)
-<div style="text-align: center;">オープン前の閑散とした迪化街<br>朝10時くらいですがとっても静か<br><br>本当は1、2日目に食べようとしていたのですが逃していた魯肉飯をついに食べることが出来たので、台北旅行のミッションはほぼクリアしたと言ったところ。</div>
+<div class="img-cap">オープン前の閑散とした迪化街<br>朝10時くらいですがとっても静か<br><br>本当は1、2日目に食べようとしていたのですが逃していた魯肉飯をついに食べることが出来たので、台北旅行のミッションはほぼクリアしたと言ったところ。</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/018.png)
-<div style="text-align: center;">空いていたお店で魯肉飯<br><br>その後仕事を終えMRTで桃園空港まで向かい、帰路につきました。</div>
+<div class="img-cap">空いていたお店で魯肉飯<br><br>その後仕事を終えMRTで桃園空港まで向かい、帰路につきました。</div>
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/019.png)
-<div style="text-align: center;">MRTからパシャリ</div>
+<div class="img-cap">MRTからパシャリ</div>
 
 
 ---
@@ -111,7 +111,7 @@ image: /assets/img/2024-12-13-taiwantrip/001.png
 旅歩き時のセットが先日のAmazonブラックフライデーで上手くまとまったので、ご紹介したいと思います。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/020.png)
-<div style="text-align: center;">これらと財布、パスポートをウエストポーチにIN<br>（これはiPhone 12 miniで撮影）</div>
+<div class="img-cap">これらと財布、パスポートをウエストポーチにIN<br>（これはiPhone 12 miniで撮影）</div>
 
 ### コンパクトデジタルカメラ SONY DSC-RX100
 
@@ -130,7 +130,7 @@ MacBook Proの充電器はその筆頭ですが、どうしてそんなに大き
 小さいこれ1つでスマホからだいたいのノートPCまで全て充電可能なのはとてもありがたいです。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/021.png)
-<div style="text-align: center;">Anker公式HP <a href="https://www.ankerjapan.com/pages/anker-nano-2">Anker Nano Ⅱ</a>より</div>
+<div class="img-cap">Anker公式HP <a href="https://www.ankerjapan.com/pages/anker-nano-2">Anker Nano Ⅱ</a>より</div>
 
 
 [Amazon.co.jpで購入する](https://www.amazon.co.jp/dp/B08X11GD52?tag=birusupi06-22)
@@ -150,7 +150,7 @@ MacBook Proの充電器はその筆頭ですが、どうしてそんなに大き
 ちなみに後述のAirPods Proの第2世代以降はApple Watch充電器でも充電が出来るのですが、この製品でも充電可能です。
 
 ![]({{ site.baseurl }}/assets/img/2024-12-13-taiwantrip/022.png)
-<div style="text-align: center;">AirPods Proも充電できますよ</div>
+<div class="img-cap">AirPods Proも充電できますよ</div>
 
 [Amazon.co.jpで購入する](https://www.amazon.co.jp/s?k=Anker+Portable+Magnetic+Charger+for+Apple+Watch&tag=birusupi06-22)
 

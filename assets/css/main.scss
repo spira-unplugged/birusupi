@@ -58,6 +58,14 @@ img {
   border-radius: 0;
 }
 
+.img-cap {
+    text-align: center;
+    font-size: 0.9em;  /* 少し小さく（任意） */
+    color: #666;       /* 少し薄く（任意） */
+    margin-top: 4px;   /* 画像との隙間を微調整 */
+    margin-bottom: 20px; /* 次の文章との距離をあける */
+}
+
 .featured-post {
   background-size: cover;
   background-position: center;
