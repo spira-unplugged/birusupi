@@ -6,7 +6,7 @@ categories: blog
 tags: [travel, europe, packing, winter, backpack, rail]
 excerpt: "3週間の冬のヨーロッパ旅行日記"
 image: /assets/img/2026-01-22-eurotrip_travelogue/Salamander.jpg
-last_modified_at: 2026-01-21 00:00:00 +0900
+last_modified_at: 2026-01-23 00:00:00 +0900
 ---
 
 ※ 写真　スペイン バルセロナ グエル公園 サラマンダー
