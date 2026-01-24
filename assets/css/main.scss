@@ -282,3 +282,34 @@ h3::before {
   margin-top: -$header-thickness;
   visibility: hidden;
 }
+
+// =============================
+// 画像ズーム機能スタイル
+// =============================
+
+/* 画像はズームできることを示す */
+.post-content img {
+  cursor: zoom-in;
+}
+
+/* オーバーレイ */
+.image-zoom-overlay {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.85);
+  z-index: 9999;
+  padding: 16px;
+}
+
+.image-zoom-overlay.is-open {
+  display: flex;
+}
+
+.image-zoom-overlay img {
+  max-width: 95vw;
+  max-height: 95vh;
+  cursor: zoom-out;
+}
