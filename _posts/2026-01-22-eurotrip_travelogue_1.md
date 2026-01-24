@@ -6,7 +6,7 @@ categories: blog
 tags: [travel, europe, packing, winter, backpack, rail]
 excerpt: "3週間の冬のヨーロッパ旅行日記"
 image: /assets/img/2026-01-22-eurotrip_travelogue/Parliament.jpg
-last_modified_at: 2026-01-23 00:00:00 +0900
+last_modified_at: 2026-01-24 00:00:00 +0900
 ---
 
 ※ 写真　ハンガリー ブダペスト 国会議事堂
@@ -193,7 +193,7 @@ iPadでNetflixを開き、水曜どうでしょう ヨーロッパ編とスト�
 ![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02099.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">聖マルティン大聖堂内部</div>
 
-中心街の繁華街のマーケットへ。こちらは人が多く、完全に観光ナイズされた感じだった。軽く冷やかして終わった。
+中心街の繁華街のマーケットへ。こちらは人が多く、完全に観光地化された感じだった。軽く冷やかして終わった。
 
 ![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02101.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">中心街のマーケット</div>
@@ -359,7 +359,7 @@ iPadでNetflixを開くと、こちらではジブリ作品が観られるらし
   より拝借
 </div>
 
-聖ペトロ・パウロ大聖堂内部の壁画もミュシャのようなアール・ヌーヴォー調子の絵が全体に施されていた。実際にはミュシャではなく、František Urban夫妻という者に描かれたらしい。  
+聖ペトロ・パウロ大聖堂内部の壁画もミュシャのようなアール・ヌーヴォー調の絵が全体に施されていた。実際にはミュシャではなく、František Urban夫妻という者に描かれたらしい。  
 その後アパートに戻り、夜はカレル橋を軽く散策したのち、アパートの最寄り駅の地下にある「Albert」というスーパーで翌日以降の食事を調達した。
 ![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02319.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">カレル橋から眺めるモルダウ川とプラハ城夜景</div>
