@@ -18,7 +18,7 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 今日はプルゼニからドイツ・レーゲンスブルクへ移動する日。  
 ホテルで朝食をとる。スクランブルエッグ、ベーコン、ソーセージがとても美味しく、しっかり食べられて満足だった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02351.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02351.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ホテルの朝食</div>
 
 11時にチェックアウトし、徒歩でプルゼニのバスターミナルへ向かう。  
@@ -27,12 +27,12 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 だが、11時55分ちょうど頃、目立つ緑色のバスが遠くから近づいてきた。  
 どうやらFlixBusはこのターミナルにおいては、場所を勝手に使ってるだけなのかよく分からないが、運行情報が掲示板に表示されないらしい。ひとまず無事に乗車できて一安心した。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02359.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02359.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">停車するFlixBus</div>
 
 プルゼニからレーゲンスブルク方面はあまり人気がないのか、乗客は他に5人ほどしかいなかった。終点はミュンヘンのようだった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02362.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02362.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">途中のサービスエリアで休憩 久しぶりの晴れが気持ちいい</div>
 
 チェコ国境からドイツに入る際、検問があった。バス内でドイツの警察官によるパスポートチェックを受けた。特に問題なく、無事ドイツへ入国。
@@ -44,7 +44,7 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 2日間泊まる宿は、カトリック系のゲストハウス。  
 シンプルで素朴だが、清潔感があり、広さもちょうど良い。落ち着いて過ごせそうだった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02366.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02366.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ゲストハウスの部屋 木製の十字架が壁にかけてある</div>
 
 ### Day 10（12月20日）光のレーゲンスブルク
@@ -55,36 +55,36 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 この朝食が、今回の旅で食べたものの中でもトップクラスだった。  
 ポキっぽい和え物、カルパッチョ、香り高いパン。どれも本当に美味しく、ヨーロッパの食事に対して少し感じ始めていた飽きのようなものが、一時的に解消された。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02415.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02415.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">とても美味しい朝ご飯</div>
 
 満足して部屋に戻り、シャワーを浴びてから、昼前より町の観光へ繰り出した。  
 天気は、雲が少しあるものの、しっかり晴れた。青空の下太陽に照らされたレーゲンスブルクの美しさたるや。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02371.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02371.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">レーゲンスブルクを走るドナウ川</div>
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02375.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02375.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">対岸のカラフルな家並み1つ1つが絵になる</div>
 
 レーゲンスブルクは、町全体が世界遺産になっているほど麗しい。この町のことが、とても気に入った。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02381.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02381.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">犬を飼っていたらここを散歩したらとても気持ちよさそう</div>
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02377.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02377.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">レーゲンスブルク大聖堂の遠景</div>
 
 観光名所であるレーゲンスブルク大聖堂にも入った。入場は無料だった。内部は荘厳で、しばらく静かにその空間を味わった。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02397.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02397.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">レーゲンスブルク大聖堂内部</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02407.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02407.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">Danke（「速度を落としてくれてありがとう」「子どもに注意して走ってね」の意図）の標識</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02408.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02408.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">タッチ決済で買えるタバコの自販機 1箱10€（日本円にして2,000円近い）</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02405.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02405.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">惣菜パンやらお菓子やら</div>
 
 写真で、この町の美しさが少しでも伝わればいいと思う。  
@@ -100,24 +100,24 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 
 11時ごろに宿を出て、駅近くにある、オルフェウスの窓の舞台・聖地とされているトゥルン・ウント・タクシス城を、外から軽く眺めた。その後、駅のホームで時間を潰す。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02422.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02422.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">慌ただしい駅のホーム</div>
 
 ベンチが狭く、途中で同年代くらいの女性に「座ってもいい？」と聞かれたので、「どうぞ」と答えた。その人はChatGPTでドイツ語で観光情報を調べているようだった。自分のリュックと同じように、腰サポートのある大きめのバックパックを持っていたので、バックパッカーなのだろう。
 
 彼女は早めに電車に乗ろうとしたのか、ベンチを立つときにコーヒーをこぼしてしまったようだった。こちらを見てどうしようという感じで笑っていたので、自分も笑顔を返し、カバンからウェットティッシュを取り出して渡した。持っていてよかったウェットティッシュ。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02425.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02425.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ニュルンベルクに向かう電車内</div>
 
 レーゲンスブルクからニュルンベルクまでは電車で1時間ほどだった。  
 
 13時半ごろに着いたためホテルのチェックインまで時間があったので、駅前にある聖ローレンツ教会周辺のクリスマスマーケットを軽く散策した。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02429.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02429.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ニュルンベルク旧市街 奥に見えるのが聖ローレンツ教会</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02431.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02431.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ニュルンベルク旧市街</div>
 
 ニュルンベルクは大都市にもかかわらず、雰囲気がとても良く、クリスマスマーケットも過度に商業化された感じがなかった。おそらく旧市街のど真ん中でマーケットが開かれているからなのだろう。
@@ -125,13 +125,13 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 その後、ホテルにチェックインし、夕方頃同行者と合流した。  
 夜もまた旧市街のクリスマスマーケットを散策した。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02440.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02440.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ドイツで幸運の象徴とされる豚のオーナメント（Gluecksschwein）</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02444.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02444.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">豚さんかわいい あちこちでみかける</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02446.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02446.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">お菓子</div>
 
 ### Day 12（12月22日）ローテンブルク・オプ・デア・タウバーへ
@@ -145,43 +145,43 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 途中で2回乗り換えが必要な移動で、しかもローカル線。海外旅行者としては、正直あまり選びたくないルートだと思う。ただ、ブダペストからここまで、すでに5回以上、総距離にして900km以上を電車やバスで移動してきたので、慣れっこ…とは言えないにしても、この程度の乗り換えは大丈夫だろうという余裕があった。とはいえ、シュタインナッハ駅というローテンブルク直前の駅での乗り換えは少し厄介だった。  
 次に乗る電車が2両編成しかなく、日本人・外国人問わず人気の観光地ということもあって、完全にキャパオーバー。一本、電車を逃すことになった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02459.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02459.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">田舎の駅で割と多くの人が電車を待つ異様な光景</div>
 
 駅で同じく足止めを食らった日本人の方々と、ウーバーでも呼びますかね、などと文句を語り合いながら雑談した。結局、ウーバーは使わなかったというより、使えなかった。近くに走っているタクシー自体がほとんどないような場所だった。
 
 駅近くのドライブインで、少し割高なコーヒーとピザを胃に流し込み、1時間後の次の電車でローテンブルクへ向かうことにした。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02468.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02468.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ローテンブルク・オプ・デア・タウバー</div>
 
 電車内で会話した女性の「毎日がクリスマスみたいな町」という言葉はまさしく、実際に町を歩いてみて、その言葉はまさにその通りだと思った。
 ローテンブルク・オプ・デア・タウバーはバイエルン州にある町で、中世の街並みがほぼそのまま残っている、美しい場所だった。  
 ドイツ南部の観光ルート「ロマンティック街道」の一つに位置し、1950年代以降に観光地として整備が進んだらしい。日本では1970年代以降、海外旅行が一般化した時代背景とも重なり、今では日本人のヨーロッパ旅行の定番の町になっている。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02502.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02502.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">プレーンライン（Plönlein）という、有名な撮影スポット</div>
 
 市街の観光のほか、ケーテ・ウォルファルト（Käthe Wohlfahrt）というクリスマス雑貨を非常に幅広く扱うお店を見たりもした。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02489.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02489.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ケーテ・ウォルファルト（Käthe Wohlfahrt）</div>
 
 店の中心には大きなクリスマスツリーが沢山のオーナメントで飾られており、豪華であった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02480.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02480.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">店内の巨大クリスマスツリー</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02483.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02483.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ビールジョッキ（ビアスタイン）</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02487.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02487.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">シュタイフ（Steiff）のぬいぐるみ</div>
 
 夜はローテンブルク名物の夜警ツアーにも軽く参加した。
 中世衣装の夜警（ナイトウォッチマン）がランタンを持って街を案内し、歴史や逸話を語るナイトウォークである。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02520.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02520.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">夜警の語りを聞く人々</div>
 
 ドイツ語訛りではあるが、英語で話してくれるので辛うじて聞き取ることができた。
@@ -192,20 +192,20 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 昨日会った日本人の二人組と、またここで再会し、少し会話をした。彼らは一昨日、私たちが滞在していたニュルンベルクへ向かうとのことで、行き先としてはちょうど正反対だった。
 シュネルドルフ駅に着き、それぞれ反対側のホームへ向かうタイミングで彼らと別れた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02544.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02544.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">シュネルドルフ駅 シュトゥットガルトに向かう電車</div>
 
 シュトゥットガルト行きの電車は、予想以上に混んでいた。結局、1時間ほど立ちっぱなしだった。  
 途中で犬を連れた人が乗ってきた。犬は大人しく座っていて、可愛かった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02546.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02546.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">お利口な犬</div>
 
 ドイツでは、ドレスデン、ニュルンベルク、シュトゥットガルトが三大クリスマスマーケットの開催地と言われているが、正直に言うと、シュトゥットガルトのマーケットは肩透かしだった。
 
 シュトゥットガルト自体、旧市街があまり残っていないらしく、東京のようなビル群の中に人が密集している印象だった。人は多いが、雰囲気という点では乏しい。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02551.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02551.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">シュトゥットガルトのクリスマスマーケット</div>
 
 すでに10か所以上ヨーロッパのクリスマスマーケットを見てきたせいか、良し悪しを付けてしまうくらいには、変にこだわりが出来上がってしまっているようだった。
@@ -216,25 +216,25 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 空港前に[豚の博物館（Schweine-Museum）](https://www.schweinemuseum.de/news-en)にも行ったのだが、12月24日は閉館だった。  
 ホームページに書いておいてくれればありがたかったのだが、仕方がない。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02562.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02562.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">豚の顔に虚しさを覚える</div>
 
 そこで、前日でマーケットは終了しているものの、気になっていたエスリンゲンという街に寄ることにした。  
 エスリンゲンまでの移動にはUバーン（Untergrundbahn）という電車を使った。地下鉄と言いながら、札幌市営地下鉄の真駒内方面の路線のように、区間によっては地上も走るトラムに近い電車だった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02557.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02557.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">地上を走るUバーンの車窓</div>
 
 エスリンゲンには旧市街がしっかり残っており、坂と高低差があることで、立体的な観光ができる町だった。シュトゥットガルト市街よりずっと興味深い街だと思う。エスリンゲン城からの眺めも良い。ただし、とにかく寒かった。この日は雪が降り、さらに風も吹いていて、この旅の中で一番の寒さだった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02566.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02566.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">雪のエスリンゲン城からの眺め</div>
 
 エスリンゲンからシュトゥットガルト空港までは、エスリンゲンから直接出ている空港までのバスで移動した。途中の停留所や、坂のある街並みを眺めながら、ゆっくり空港へ向かった。
 
 なおこの日はクリスマス前日ということで、ほとんどのスーパーが正午ごろには閉まってしまっていた。食料不足を心配していたが、空港にあるEDEKAというスーパーが24時間営業だったので助かった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02580.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02580.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">シュトゥットガルト空港にあるEDEKA</div>
 
 今日は豚の博物館に行けなかったのは残念だった。  
@@ -247,65 +247,65 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 
 空港近くのホテルからは徒歩2分ほど。早朝に到着し、オンラインチェックインを済ませ、保安検査もすぐに通過して搭乗を待つ。イビサ島までは2時間ほどで、あっという間だった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02585.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02585.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">飛行機からの眺め</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02592.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02592.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">イビサ空港 明らかにこれまでとは違う暖かい空気を感じる</div>
 
 正直、イビサ空港で6時間だらだら過ごす選択肢もあったが、せっかくなので外に出ることにした。クリスマス当日なので、市街へ向かうバスはほぼ運休しているだろうと思っていたが、意外にも通常通り運行していた。
 
 市街に出て、イビサ城など、世界遺産に登録されているエリアを軽く散策する。スペインに入って最初に思ったのは、とにかく暖かい、ということだった。中欧やドイツと比べると、空気そのものが全然違う。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02598.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02598.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">イビサ港</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02619.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02619.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">猫</div>
 
 またクリスマス当日ということで観光客は少なく、静かだった。短時間ではあったが良い気分転換になった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02616.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02616.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">世界遺産 ダルト・ヴィラ</div>
 
 その後、無事にバルセロナ・エル・プラット空港へ飛ぶ。  
 到着後、市街連絡バスで中心部へ出て、カタルーニャ広場を軽く眺めてからホテルにチェックインした。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02631.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02631.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">カタルーニャ広場</div>
 
 ### Day 16（12月26日）バルセロナ建築巡り
 
 この日は、バルセロナ市内観光に集中することにした。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02641.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02641.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">雨のバルセロナ</div>
 
 まずホテル近くのブケリア市場へ向かったが、休みで閉まっていた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02643.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02643.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ブケリア市場 クリスマス翌日（聖ステファノの日でカタルーニャでは祝日らしい）なので休み</div>
 
 そのままカタルーニャ音楽堂へ向かう。内装の美しさに見惚れて写真を撮っていると、夕方から行われるコンサートのリハーサルなのか、パイプオルガンの演奏が始まった。思いがけず、荘厳な時間を味わうことになった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02667.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02667.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">カタルーニャ音楽堂</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02658.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02658.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">太陽のステンドグラス</div>
 
 その後、サグラダ・ファミリアへ。  
 予想通り、そのファサードは圧巻だった。道中はすべて徒歩で移動し、街そのものを楽しみながら歩いた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02688.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02688.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">サグラダ・ファミリア</div>
 
 一日の最後にグエル公園にも入った。ここでもガウディの意匠が随所に見られ、高台からのバルセロナ市街の眺めは見事だった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02706.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02706.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">グエル公園 丘の上の家</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02709.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02709.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">グエル公園からのバルセロナ市街の眺め サグラダ・ファミリアの存在感が凄まじい</div>
 
 ただ、バルセロナは重要な建築物があまりにも多い。2日程度では到底足りない。次に来るなら、最低でも4日は欲しいと思った。
@@ -322,17 +322,17 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 
 今日はマドリードへ向かう途中にある、サラゴサという街へ向かう。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02757.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02757.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">まずホテルからバルセロナ中央駅に向かうためのローカル線 グラフィティがヤバすぎて1階席から景色は見られない</div>
 
 ホテルからバルセロナ中央駅に移動した後、スペイン国鉄RENFEの高速鉄道に乗った。電車に乗る前に保安検査があった。  
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02760.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02760.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">保安検査</div>
 
 電車は最高で時速300km出ていた。約1時間半でサラゴサに到着した。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02767.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02767.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">速度表示300km/h</div>
 
 車内のマナーは正直荒れていた。一応静粛車両とされている車両を予約したはずだが、口を抑えず咳き込む人が多く、その人数もかなりのものだった。もはや病床列車かと思うほどだった。
@@ -340,11 +340,11 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 サラゴサに着き、ホテルのチェックインまで少し時間があったので、徒歩で市街へ。  
 サラゴサ中央市場でピクルスを買い、聖母ピラール教会と教会前の広場を観光した。クリスマス後というのに、サラゴサでは普通にクリスマスマーケットをまだ開いていた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02777.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02777.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">サラゴサ 聖母ピラール大聖堂 特徴的な色のタイルで飾られたドームが見える</div>
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02780.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02780.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">聖母ピラール教会内部 非常に豪華なバロック様式の装飾と、緻密な彫刻、金箔が施されたドームが特徴</div>
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02789.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02789.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ピラール広場 雨に濡れた大理石の床が反射して綺麗</div>
 
 あとは部屋でだらだらと過ごし、そのまま早めに寝てしまった。
@@ -357,12 +357,12 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 ヨーロッパ滞在も3週間弱。さすがに日本食がかなり恋しくなってくる頃だ。  
 だが、ふらっと入った店で食べたタパスが、めちゃくちゃ美味しかった。ここまで積もりかけていた日本食への欲求が、一旦全て消えた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02801.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02801.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ピクルス入りマヨソース×スモークサーモン</div>
 
 マヨネーズ系サラダのコクにピクルスの酸味、そしてサーモンの旨みが合っていた。そこにポテトチップスの塩気が加わって、なんとも言えない美味しさ。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02802.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02802.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">トルティージャ＆クロケタ（コロッケっぽいやつ）</div>
 
 分厚いトルティージャ（スペイン風オムレツ）の素朴な旨みと、クロケタのクリーミーな味わいが深い。
@@ -375,15 +375,15 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 今日はマドリードへ移動する日だが、その前に、昨日行けなかったアルハフェリア宮殿へ早朝に向かった。  
 無事にチケットを購入できた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02826.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02826.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">アルハフェリア宮殿外観 霧が濃い</div>
 
 宮殿の内部は、第一印象では少し地味に見えたが、じっくり見るとかなり見応えがあった。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02832.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02832.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">イスラム建築特有の複雑に交差するアーチ</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02853.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02853.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">宮殿上階はゴヤなどの宮廷画家の絵画の展示がなされていた 15世紀後半、カトリック両王によって改築された豪華な広間</div>
 
 ホテルに戻って荷造りをし、チェックアウトした。  
@@ -392,7 +392,7 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 マドリードは確かに美しい街だったが、オーバーツーリズム気味で、どこへ行っても人混みだった。到着してすぐ、正直少し辟易してしまった。  
 長旅で疲労も溜まっている。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02876.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02876.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">旅の終着地 マドリード</div>
 
 早々にホステルへチェックインし、この日は軽く市街を散策するだけにして終えた。
@@ -406,19 +406,19 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 
 展示点数は想像以上に多く、興味を引かれる作品も非常に多かった。結果的に、とても満足できた。印象派の絵画が好きな人は、プラド美術館よりずっとこちらの美術館のほうが刺さるのではないだろうか。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02903.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02903.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">クロード・モネ 『ヴァランジュヴィルの干潮（Low Tide at Varengeville）』</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02915.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02915.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ポール・ゴーギャン 『マタ・ムア（Mata Mua / In Olden Times）』</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02921.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02921.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">フィンセント・ファン・ゴッホ 『アルルの荷揚げ人夫（The Stevedores in Arles）』</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02923.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02923.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">エドゥアール・マネ 『正面の女騎手（L’Amazone / Horsewoman, Full Face）』</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02928.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02928.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">ピエール＝オーギュスト・ルノワール 『庭のパラソルの女（Woman with a Parasol in a Garden）』</div>
 
 ホステルに戻り、ビールを飲みながらカメラの写真を整理した。今回の旅行は静かに締めくくられることになりそうという感覚。
@@ -438,7 +438,7 @@ last_modified_at: 2026-01-23 00:00:00 +0900
 
 フロントには誰もおらず無人だったので、入室カードを受付に置いて建物を出た。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02940.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02940.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">さようなら</div>
 
 早足でマドリード・アトーチャ駅のバスターミナルへ向かい、空港バスに乗り込む。  
@@ -464,10 +464,10 @@ iPadで、この3週間の旅行の写真を振り返った。あっという間
 1月1日。  
 北京から成田へ向かう便に乗り、いよいよ日本へ戻る。機内は減便・渡航自粛の影響もあってか、中国人よりは欧米人の方が目立っていた。
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02950.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02950.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">北京空港</div>
 
-![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02960.jpg)
+![]({{ site.baseurl }}/assets/img/2026-01-22-eurotrip_travelogue/DSC02960.jpg){:loading="lazy" decoding="async"}
 <div class="img-cap">北京上空</div>
 
 機内では特に何かをする気にもなれず、ぼんやりと過ごした。
