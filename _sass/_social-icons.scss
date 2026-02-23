@@ -54,16 +54,7 @@
   @include social-media-icon($lastfm-color, $icon-transition-time);
 }
 
-.social-icon {
-  display: inline-block;
+.fa-paypal {
   padding: 5px;
-}
-
-.social-icon-kofi {
-  width: 1em;
-  height: 1em;
-  background-color: currentColor;
-  mask: url('/birusupi/assets/icons/kofi-fa.svg') center / contain no-repeat;
-  -webkit-mask: url('/birusupi/assets/icons/kofi-fa.svg') center / contain no-repeat;
-  @include social-media-icon($kofi-color, $icon-transition-time);
+  @include social-media-icon($paypal-color, $icon-transition-time);
 }

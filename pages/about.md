@@ -17,7 +17,7 @@ last_modified_at: 2025-04-06 00:00:00 +0900
 
 ### リンクまとめ
 - [@singingsores](https://x.com/singingsores)：ゲーム中心にいろいろつぶやいてます
-- [Ko-fi](https://ko-fi.com/birusupi)：応援いただけたら励みになります
+- [PayPal](https://www.paypal.com/paypalme/birusupi)：応援いただけたら励みになります
 
 ### サイトについて
 
