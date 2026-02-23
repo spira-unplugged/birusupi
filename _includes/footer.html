@@ -1,7 +1,11 @@
 <footer class="footer">
   {% for item in site.data.settings.social %}
     <a href="{{ item.link }}" class="menu-link" target="_blank" rel="noopener">
-      <i class="fa-brands fa-{{ item.icon }}" aria-hidden="true"></i>
+      {% if item.icon == 'kofi' %}
+        <span class="social-icon social-icon-kofi" aria-hidden="true"></span>
+      {% else %}
+        <i class="fa-brands fa-{{ item.icon }}" aria-hidden="true"></i>
+      {% endif %}
     </a>
   {% endfor %}
   
