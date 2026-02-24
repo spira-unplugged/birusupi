@@ -3,9 +3,52 @@ layout: default
 title: Home
 ---
 
-{% for post in paginator.posts %}
-  {% include featured-post.html %}
-{% endfor %}
+{% assign latest_post = site.posts | first %}
+
+{% if paginator.page == 1 and latest_post %}
+  <section class="home-hero">
+    <a href="{{ site.baseurl }}{{ latest_post.url }}" class="home-hero-link">
+      <div class="home-hero-media" {% if latest_post.image %}style="background-image:url('{{ site.baseurl }}/{{ latest_post.image }}')"{% endif %}></div>
+      <div class="home-hero-content">
+        <p class="home-kicker">Latest Story</p>
+        <h1>{{ latest_post.title }}</h1>
+        <p class="home-hero-date">{{ latest_post.date | date: "%Y/%m/%d" }}</p>
+        <p class="home-hero-excerpt">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+      </div>
+    </a>
+  </section>
+{% endif %}
+
+<section class="home-grid">
+  {% if paginator.page == 1 %}
+    {% for post in site.posts offset:1 limit:6 %}
+      <article class="home-card">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
+          <div class="home-card-media" {% if post.image %}style="background-image:url('{{ site.baseurl }}/{{ post.image }}')"{% endif %}></div>
+          <div class="home-card-body">
+            <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
+            <h2>{{ post.title }}</h2>
+            <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  {% else %}
+    {% assign page_offset = paginator.page | minus: 2 | times: 6 | plus: 7 %}
+    {% for post in site.posts offset:page_offset limit:6 %}
+      <article class="home-card">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
+          <div class="home-card-media" {% if post.image %}style="background-image:url('{{ site.baseurl }}/{{ post.image }}')"{% endif %}></div>
+          <div class="home-card-body">
+            <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
+            <h2>{{ post.title }}</h2>
+            <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  {% endif %}
+</section>
 
 <!-- Pagination links -->
 <div class="pagination">
