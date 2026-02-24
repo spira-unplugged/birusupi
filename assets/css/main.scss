@@ -184,16 +184,16 @@ code {
 // =============================
 
 .container {
-  max-width: $container-width;
-  margin: 0 auto;
-  padding: 0 1rem;
-  box-sizing: border-box;
+  width: $container-width;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: $phone-width) {
+@media (max-width: $container-width) {
   .container {
-    width: 100%;
-    padding: 0 0.5rem;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
