@@ -17,6 +17,7 @@
   line-height: 1.2;
   font-size: clamp(2rem, 4.2vw, 2.6rem);
   letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
 }
 
 .post-date {
@@ -75,7 +76,7 @@
 
 @media (max-width: $tablet-width) {
   .post-content {
-    width: 95vw;
+    width: 100%;
     margin-top: 10px;
   }
 
