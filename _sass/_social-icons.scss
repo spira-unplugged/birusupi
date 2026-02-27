@@ -59,7 +59,7 @@
   @include social-media-icon($paypal-color, $icon-transition-time);
 }
 
-.fa-ko-fi {
+.fa-mug-hot {
   padding: 5px;
-  @include social-media-icon($ko-fi-color, $icon-transition-time);
+  @include social-media-icon($mug-hot-color, $icon-transition-time);
 }
