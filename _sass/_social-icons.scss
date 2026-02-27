@@ -29,11 +29,6 @@
   @include social-media-icon($github-color, $icon-transition-time);
 }
 
-.fa-github {
-  padding: 5px;
-  @include social-media-icon($github-color, $icon-transition-time);
-}
-
 .fa-facebook {
   padding: 5px;
   @include social-media-icon($facebook-color, $icon-transition-time);
