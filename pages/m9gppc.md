@@ -2,7 +2,7 @@
 layout: page
 title: My 9 Games 利用規約 & プライバシーポリシー
 permalink: /m9gppc
-last_modified_at: 2025-02-23 00:00:00 +0900
+last_modified_at: 2025-02-26 20:09:00 +0900
 ---
 
 # My 9 Games 利用規約
