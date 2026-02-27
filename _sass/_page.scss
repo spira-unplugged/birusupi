@@ -70,8 +70,12 @@
 }
 
 @media (max-width: $tablet-width) {
+  .page-content {
+    width: 100%;
+  }
+
   .category-content {
-    width: 95vw;
+    width: 100%;
   }
 
   .category-grid {
