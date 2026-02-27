@@ -81,12 +81,14 @@
   .dropdown {
     position: relative;
     margin-left: auto;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
   }
   .dropdown-content {
     display: none;
     position: absolute;
     right: 0;
-    top: calc(100% + 8px);
+    top: calc(100% + 2px);
     background-color: #fff;
     min-width: 200px;
     box-shadow: 0 10px 24px rgba(0,0,0,0.14);
@@ -94,6 +96,8 @@
     border-radius: 12px;
     z-index: 1;
     padding: 0.35rem;
+    max-height: min(70vh, 560px);
+    overflow-y: auto;
   }
   .dropdown-content a {
     color: black;
@@ -104,6 +108,11 @@
   }
   .dropdown-content a:hover {
     background-color: #f1f1f1;
+  }
+  .dropdown-content .fa-brands,
+  .dropdown-content .fa-solid {
+    font-size: 1.85rem;
+    line-height: 1;
   }
   .dropdown:hover .dropdown-content,
   .dropdown:focus-within .dropdown-content {
