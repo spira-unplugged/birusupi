@@ -58,3 +58,8 @@
   padding: 5px;
   @include social-media-icon($paypal-color, $icon-transition-time);
 }
+
+.fa-ko-fi {
+  padding: 5px;
+  @include social-media-icon($ko-fi-color, $icon-transition-time);
+}
