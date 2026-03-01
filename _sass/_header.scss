@@ -45,6 +45,17 @@
   border-radius: 999px;
 }
 
+.kofi-symbol {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 5px;
+  box-sizing: content-box;
+  display: inline-block;
+  margin: 0;
+  max-width: none;
+  vertical-align: middle;
+}
+
 /*
   Responsiveness with a dropdown menu
 */
@@ -113,6 +124,11 @@
   .dropdown-content .fa-solid {
     font-size: 1.85rem;
     line-height: 1;
+  }
+  .dropdown-content .kofi-symbol {
+    width: 2.4rem;
+    height: 2.4rem;
+    vertical-align: top;
   }
   .dropdown.is-open .dropdown-content {
     display: block;

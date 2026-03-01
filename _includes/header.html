@@ -8,8 +8,12 @@
     {% endfor %}
     {% for item in site.data.settings.social %}
       <a href="{{ item.link }}" class="menu-link" target="_blank" rel="noopener">
-        {% assign icon_style = item.style | default: 'brands' %}
-        <i class="fa-{{ icon_style }} fa-{{ item.icon }}" aria-hidden="true"></i>
+        {% if item.link contains 'ko-fi.com' %}
+          <img src="{{ site.baseurl }}/assets/img/kofi_symbol.svg" alt="Ko-fi" class="kofi-symbol">
+        {% else %}
+          {% assign icon_style = item.style | default: 'brands' %}
+          <i class="fa-{{ icon_style }} fa-{{ item.icon }}" aria-hidden="true"></i>
+        {% endif %}
       </a>
     {% endfor %}
   </nav>
@@ -23,8 +27,12 @@
       {% endfor %}
       {% for item in site.data.settings.social %}
         <a href="{{ item.link }}" class="menu-link" target="_blank" rel="noopener">
-          {% assign icon_style = item.style | default: 'brands' %}
-          <i class="fa-{{ icon_style }} fa-{{ item.icon }}" aria-hidden="true"></i>
+          {% if item.link contains 'ko-fi.com' %}
+            <img src="{{ site.baseurl }}/assets/img/kofi_symbol.svg" alt="Ko-fi" class="kofi-symbol">
+          {% else %}
+            {% assign icon_style = item.style | default: 'brands' %}
+            <i class="fa-{{ icon_style }} fa-{{ item.icon }}" aria-hidden="true"></i>
+          {% endif %}
         </a>
       {% endfor %}
     </div>
