@@ -67,6 +67,13 @@
   margin: 0.85rem 0 0;
 }
 
+.post-footer-tags {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid var(--line);
+}
+
 .post-tag-link {
   font-size: 0.8rem;
 }
@@ -79,7 +86,7 @@
 
 .post-layout {
   display: grid;
-  grid-template-columns: 196px minmax(0, 1fr);
+  grid-template-columns: 164px minmax(0, 1fr);
   gap: 28px;
   align-items: start;
 }
