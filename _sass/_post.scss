@@ -1,3 +1,5 @@
+@use "tokens" as *;
+
 .post-shell {
   width: min(980px, 95vw);
   margin: 10px auto 16px;
@@ -247,46 +249,6 @@
 .post-navigation a:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
-}
-
-.related {
-  padding-bottom: 1rem;
-}
-
-.related ul,
-.related ol,
-.related dl {
-  margin: 0;
-}
-
-.related-posts {
-  display: inline-block;
-  padding: 10px 0;
-  list-style: none;
-}
-
-.related-thumbnail {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  max-width: 600px;
-  height: 200px;
-}
-
-.related img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  transform: translate(-50%, -50%);
-}
-
-.related-title {
-  float: right;
-  padding-bottom: 0.5rem;
-  font-family: $base-font-family;
 }
 
 @media (max-width: 960px) {

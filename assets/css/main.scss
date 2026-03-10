@@ -1,29 +1,28 @@
 ---
 ---
 
-$base-font-family: 'IBM Plex Sans JP', 'Noto Sans JP', sans-serif;
-$body-font-family: 'IBM Plex Sans JP', 'Noto Sans JP', sans-serif;
-$code-font-family: 'JetBrains Mono', 'Source Code Pro', monospace;
-
-$brand-color: #0f172a;
-$container-width: 1100px;
-$tablet-width: 600px;
-$phone-width: 480px;
-$header-thickness: 64px;
-$icon-transition-time: 0.25s;
-
-$x-twitter-color: #000000;
-$bluesky-color: #bddcff;
-$instagram-color: #c13584;
-$github-color: #909692;
-$facebook-color: #1877f2;
-$rss-color: #ff6600;
-$tumblr-color: #35465c;
-$lastfm-color: #d51007;
-$paypal-color: #0079c1;
-$mug-hot-color: #ff5e5b;
-
-@import "-sections-dir";
+@use "tokens" with (
+  $base-font-family: ('IBM Plex Sans JP', 'Noto Sans JP', sans-serif),
+  $body-font-family: ('IBM Plex Sans JP', 'Noto Sans JP', sans-serif),
+  $code-font-family: ('JetBrains Mono', 'Source Code Pro', monospace),
+  $brand-color: #0f172a,
+  $container-width: 1100px,
+  $tablet-width: 600px,
+  $phone-width: 480px,
+  $header-thickness: 64px,
+  $icon-transition-time: 0.25s,
+  $x-twitter-color: #000000,
+  $bluesky-color: #bddcff,
+  $instagram-color: #c13584,
+  $github-color: #909692,
+  $facebook-color: #1877f2,
+  $rss-color: #ff6600,
+  $tumblr-color: #35465c,
+  $lastfm-color: #d51007,
+  $paypal-color: #0079c1,
+  $mug-hot-color: #ff5e5b
+);
+@use "index";
 
 :root {
   --bg: #f7f8fb;
@@ -43,14 +42,14 @@ $mug-hot-color: #ff5e5b;
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: calc(#{$header-thickness} + 28px);
+  scroll-padding-top: calc(#{tokens.$header-thickness} + 28px);
 }
 
 body {
   min-height: 100vh;
   background: linear-gradient(180deg, #fafbfd 0%, var(--bg) 52%, #f3f5f8 100%);
   color: var(--text);
-  font-family: $body-font-family;
+  font-family: tokens.$body-font-family;
 }
 
 ::selection {
@@ -80,12 +79,12 @@ img {
 }
 
 .container {
-  width: $container-width;
+  width: tokens.$container-width;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (max-width: $container-width) {
+@media (max-width: tokens.$container-width) {
   .container {
     width: 95vw;
   }
@@ -322,7 +321,7 @@ img {
   cursor: zoom-out;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: tokens.$tablet-width) {
   .toc {
     background: transparent;
     max-height: none;

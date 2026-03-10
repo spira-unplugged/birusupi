@@ -8,7 +8,7 @@ title: Home
 <section class="home-grid">
   {% if paginator.page == 1 and latest_post %}
     <article class="home-card home-card-latest">
-      <a href="{{ site.baseurl }}{{ latest_post.url }}" class="home-card-link">
+      <a href="{{ latest_post.url | relative_url }}" class="home-card-link">
         <div class="home-card-media" {% if latest_post.image %}style="background-image:url('{{ latest_post.image | relative_url }}')"{% endif %}></div>
         <div class="home-card-body">
           <p class="home-card-kicker">Latest</p>
@@ -30,7 +30,7 @@ title: Home
   {% if paginator.page == 1 %}
     {% for post in site.posts offset:1 limit:5 %}
       <article class="home-card">
-        <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
+        <a href="{{ post.url | relative_url }}" class="home-card-link">
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
@@ -51,7 +51,7 @@ title: Home
     {% assign page_offset = paginator.page | minus: 2 | times: 6 | plus: 6 %}
     {% for post in site.posts offset:page_offset limit:6 %}
       <article class="home-card">
-        <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
+        <a href="{{ post.url | relative_url }}" class="home-card-link">
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
@@ -73,7 +73,7 @@ title: Home
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
+    <a class="pagination-button pagination-active" href="{{ paginator.previous_page_path | relative_url }}">
       {{ site.data.settings.pagination.previous_page }}
     </a>
   {% else %}
@@ -81,7 +81,7 @@ title: Home
   {% endif %}
 
   {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
+    <a class="pagination-button pagination-active next" href="{{ paginator.next_page_path | relative_url }}">
       {{ site.data.settings.pagination.next_page }}
     </a>
   {% else %}
