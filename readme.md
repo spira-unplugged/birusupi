@@ -75,8 +75,8 @@ bundle exec jekyll serve
 
 ## 公開について
 
-このリポジトリには独自の GitHub Actions ワークフローは置いていません。  
-公開は GitHub Pages の Jekyll ビルド設定に依存する前提です。
+公開は GitHub Actions 経由で行います。  
+`.github/workflows/pages.yml` が `bundle exec jekyll build` を実行し、生成した `_site` を GitHub Pages にデプロイします。
 
 ## 変更時チェックリスト
 
