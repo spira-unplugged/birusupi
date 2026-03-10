@@ -2,8 +2,11 @@
 layout: default
 ---
 
-<div class="page-content">
-  <header>
+<div class="page-content{% if page.body_class %} {{ page.body_class }}{% endif %}">
+  <header class="page-hero">
+    {% if page.kicker %}
+      <p class="page-kicker">{{ page.kicker }}</p>
+    {% endif %}
     <h1 class="page-title">{{ page.title }}</h1>
 
     {% if page.description %}

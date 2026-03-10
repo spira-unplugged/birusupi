@@ -3,6 +3,8 @@ layout: page
 title: About
 permalink: /about
 image: /assets/img/about.jpg
+description: このサイトの運営方針、自己紹介、ポリシーをまとめています。
+kicker: About This Site
 twitter_card: summary_large_image
 last_modified_at: 2026-02-27 00:00:00 +0900
 ---
@@ -16,6 +18,7 @@ last_modified_at: 2026-02-27 00:00:00 +0900
 自分の思考と趣味の記録が半分、誰か一人くらい楽しんでくれたら嬉しいなという気持ちが半分でできています。
 
 ### リンクまとめ
+
 - [X(Twitter)](https://x.com/singingsores)：ゲーム中心にいろいろつぶやいてます
 - [Ko-fi](https://ko-fi.com/birusupi)：応援いただけたら励みになります
 

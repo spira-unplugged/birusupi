@@ -19,10 +19,12 @@ dl, dd, ol, ul, figure {
   Basic styling
 */
 
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+  font-family: $base-font-family;
+  font-weight: 600;
+  letter-spacing: -0.02em;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
 }
@@ -30,99 +32,97 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2rem;
 }
+
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
+
 h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  font-size: 1.22rem;
 }
+
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem;
 }
 
-/* Body */
 body {
   font-family: $base-font-family;
-}
-body img {
-  align: middle;
-  margin: 5px auto auto auto;
-  display: block;
-  max-width: 600px;
 }
 
 p {
   display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  line-height: 1.65;
+  margin: 1em 0;
+  color: var(--text);
+  line-height: 1.72;
   font-family: $body-font-family;
 }
 
-/* Lists */
-ul, ol, dl {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1.5rem;
+ul,
+ol,
+dl {
+  margin: 1rem 0 1rem 1.5rem;
   font-family: $body-font-family;
-}
-
-ol li {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1.5rem;
 }
 
 li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 dt {
-  font-weight: bold;
-}
-dd {
-  margin-bottom: .5rem;
+  font-weight: 600;
 }
 
-/*
-  Links
-*/
+dd {
+  margin-bottom: 0.5rem;
+}
 
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
 }
-
-/*
-  Blockquote
-*/
 
 blockquote {
-  margin: 10px 20px 10px;
-  padding: 0px 15px;
-  border-left: 0.25em solid #ccc;
-  color: #999;
-  line-height: 1.5;
+  margin: 1.8rem 0;
+  padding: 0.2rem 0 0.2rem 1.1rem;
+  border: 0;
+  border-left: 3px solid var(--line-strong);
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
 }
 
-/**
- * Tables
- */
+blockquote p {
+  color: inherit;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
 table {
-  border-collapse: collapse;
-  margin-bottom: 30px;
   width: 100%;
+  margin-bottom: 1.8rem;
+  border-collapse: collapse;
+  background: var(--surface);
 }
 
-table, th, td {
-  border: 1px solid black;
+table,
+th,
+td {
+  border: 1px solid var(--line);
 }
-th, td {
-  padding: 15px;
+
+th,
+td {
+  padding: 0.9rem 1rem;
   text-align: left;
+}
+
+th {
+  background: var(--surface-2);
 }
