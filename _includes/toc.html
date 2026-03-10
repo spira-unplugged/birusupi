@@ -1,21 +1,83 @@
-<nav class="toc">
-  <h2>目次</h2>
+<details class="toc" open>
+  <summary>On this page</summary>
   <ul id="toc-list"></ul>
-</nav>
+</details>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    const toc = document.querySelector(".toc");
     const tocList = document.getElementById("toc-list");
-    const container = document.querySelector(".post-body"); // ← ここ！
+    const container = document.querySelector(".post-body");
+    if (!toc || !tocList || !container) return;
 
-    if (!container) return;
+    const headings = Array.from(container.querySelectorAll("h2, h3"));
+    if (!headings.length) {
+      toc.hidden = true;
+      return;
+    }
 
-    const headings = container.querySelectorAll("h2, h3");
+    const tocItems = [];
+    let ticking = false;
 
-    headings.forEach(heading => {
+    const syncTocState = function () {
+      if (window.matchMedia("(max-width: 960px)").matches) {
+        toc.removeAttribute("open");
+      } else {
+        toc.setAttribute("open", "");
+      }
+    };
+
+    const setActiveItem = function (id, shouldScrollIntoView) {
+      let activeElement = null;
+
+      tocItems.forEach(function (item) {
+        const isActive = item.id === id;
+        item.element.classList.toggle("is-active", isActive);
+        if (isActive) {
+          item.link.setAttribute("aria-current", "location");
+          activeElement = item.element;
+        } else {
+          item.link.removeAttribute("aria-current");
+        }
+      });
+
+      if (activeElement && shouldScrollIntoView) {
+        activeElement.scrollIntoView({ block: "nearest" });
+      }
+    };
+
+    const getActiveId = function () {
+      const offset = window.scrollY + 140;
+      let activeId = tocItems[0].id;
+
+      tocItems.forEach(function (item) {
+        if (item.heading.offsetTop <= offset) {
+          activeId = item.id;
+        }
+      });
+
+      return activeId;
+    };
+
+    const updateActiveItem = function (shouldScrollIntoView) {
+      if (!tocItems.length) return;
+      setActiveItem(getActiveId(), shouldScrollIntoView);
+    };
+
+    syncTocState();
+    window.addEventListener("resize", function () {
+      syncTocState();
+      updateActiveItem(false);
+    });
+
+    headings.forEach(function (heading) {
       const text = heading.textContent;
       const existingId = heading.id;
-      const id = existingId || text.toLowerCase().replace(/[^\w]+/g, "-");
+      const id = existingId || text
+        .toLowerCase()
+        .trim()
+        .replace(/[^\w\u3040-\u30ff\u3400-\u9fff-]+/g, "-")
+        .replace(/^-+|-+$/g, "");
 
       if (!existingId) heading.id = id;
 
@@ -25,9 +87,32 @@
       const a = document.createElement("a");
       a.href = `#${id}`;
       a.textContent = text;
+      a.addEventListener("click", function () {
+        setActiveItem(id, true);
+        window.setTimeout(function () {
+          updateActiveItem(true);
+        }, 120);
+      });
 
       li.appendChild(a);
       tocList.appendChild(li);
+      tocItems.push({ id: id, element: li, link: a, heading: heading });
     });
+
+    const onScroll = function () {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(function () {
+        updateActiveItem(true);
+        ticking = false;
+      });
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("hashchange", function () {
+      updateActiveItem(true);
+    });
+
+    updateActiveItem(false);
   });
 </script>

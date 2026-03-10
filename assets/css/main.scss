@@ -1,188 +1,83 @@
 ---
 ---
 
-$base-font-family: 'Roboto', 'Noto Sans JP', sans-serif;
-$body-font-family: 'Roboto', 'Noto Sans JP', sans-serif;
-$code-font-family: "Source Code Pro", monospace;
+$base-font-family: 'IBM Plex Sans JP', 'Noto Sans JP', sans-serif;
+$body-font-family: 'IBM Plex Sans JP', 'Noto Sans JP', sans-serif;
+$code-font-family: 'JetBrains Mono', 'Source Code Pro', monospace;
 
-$brand-color: black;
+$brand-color: #0f172a;
 $container-width: 1100px;
 $tablet-width: 600px;
 $phone-width: 480px;
-$header-thickness: 56px;
-$icon-transition-time: 1.0s;
+$header-thickness: 64px;
+$icon-transition-time: 0.25s;
 
-// _social-icons.scssも編集必要↓
 $x-twitter-color: #000000;
-$bluesky-color: #BDDDFF;
-$instagram-color: #C13584;
+$bluesky-color: #bddcff;
+$instagram-color: #c13584;
 $github-color: #909692;
-$facebook-color: #1877F2;
+$facebook-color: #1877f2;
 $rss-color: #ff6600;
-$tumblr-color: #35465C;
+$tumblr-color: #35465c;
 $lastfm-color: #d51007;
-$paypal-color: #0079C1;
-$mug-hot-color: #FF5E5B;
+$paypal-color: #0079c1;
+$mug-hot-color: #ff5e5b;
 
 @import "-sections-dir";
 
-// =============================
-// 共通スタイル
-// =============================
+:root {
+  --bg: #f7f8fb;
+  --surface: #ffffff;
+  --surface-2: #f2f4f7;
+  --text: #0f172a;
+  --muted: #667085;
+  --line: #dde3eb;
+  --line-strong: #cdd6e1;
+  --accent: #4b6fff;
+  --accent-soft: #edf1ff;
+  --code-bg: #0b1220;
+  --code-text: #e6edf7;
+  --shadow-soft: 0 4px 12px rgba(15, 23, 42, 0.03);
+  --shadow-hover: 0 8px 18px rgba(15, 23, 42, 0.05);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(#{$header-thickness} + 28px);
+}
 
 body {
-  background: white;
-  color: #111;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fafbfd 0%, var(--bg) 52%, #f3f5f8 100%);
+  color: var(--text);
   font-family: $body-font-family;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+::selection {
+  background: rgba(75, 111, 255, 0.16);
+  color: var(--text);
 }
 
-.page-content img {
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
 
 .featured-image {
-  margin: 1.5em 0;
+  margin: 1.4rem 0 0;
   text-align: center;
 }
 
 .featured-image img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
   border-radius: 0;
 }
-
-.img-cap {
-    text-align: center;
-    font-size: 0.9em;  /* 少し小さく（任意） */
-    color: #666;       /* 少し薄く（任意） */
-    margin-top: 4px;   /* 画像との隙間を微調整 */
-    margin-bottom: 20px; /* 次の文章との距離をあける */
-}
-
-.featured-post {
-  background-size: cover;
-  background-position: center;
-  aspect-ratio: 16 / 2.5;
-  height: auto;
-  border-radius: 4px;
-  overflow: hidden;
-  position: relative;
-
-  h2 {
-    margin: 0;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-
-    span {
-      display: inline-block;
-      color: white;
-      font: bold 20px/1.4 $base-font-family;
-      letter-spacing: -0.5px;
-      background: rgba(0, 0, 0, 0.6);
-      padding: 10px;
-    }
-  }
-}
-
-// モバイル用フォントサイズ調整
-@media (max-width: $phone-width) {
-  .featured-post h2 span {
-    font-size: 14px;
-    line-height: 1.3;
-    padding: 6px 8px;
-  }
-}
-
-// =============================
-// 前後記事ナビゲーション
-// =============================
-
-.post-navigation {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  flex-wrap: wrap; /* ←追加！ */
-  gap: 0.5rem;      /* ←ちょっと空ける */
-}
-
-.post-navigation a {
-  flex: 1 1 auto; /* ←両方あるときは均等に、片方だけなら自然な幅 */
-  text-align: center;
-  padding: 0.5em 1em;
-  background: #f7f7f7;
-  border-radius: 6px;
-  color: #007acc;
-  text-decoration: none;
-}
-
-// =============================
-// 引用ブロック
-// =============================
-
-blockquote {
-  margin: 2rem 0;
-  padding: 1rem 1.5rem;
-  background: #f9f9f9;
-  border-left: 4px solid #eeecec;
-  color: #555;
-  border-radius: 0px;
-}
-
-blockquote p {
-  margin: 0;
-}
-
-.post-navigation a:hover {
-  background: #e0e0e0;
-}
-
-// =============================
-// コードブロック
-// =============================
-
-pre {
-  background: #222;
-  color: #fff;
-  padding: 1rem;
-  border-radius: 6px;
-  overflow-x: auto;
-  position: relative; /* コピーボタン配置用 */
-  font-family: $code-font-family;
-}
-
-code {
-  background: transparent;
-  color: inherit;
-  font-family: $code-font-family;
-}
-
-// =============================
-// シェアアイコン
-// =============================
-
-.sharing-icons {
-  font-size: 0;
-}
-
-.sharing-icons a {
-  font-size: 16px;
-  margin: 0 6px;
-  display: inline-block;
-}
-
-// =============================
-// コンテナ
-// =============================
 
 .container {
   width: $container-width;
@@ -193,116 +88,226 @@ code {
 @media (max-width: $container-width) {
   .container {
     width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
-// =============================
-// レスポンシブ対応 YouTube埋め込みスタイル
-// =============================
+.section-kicker,
+.page-kicker {
+  margin: 0 0 0.7rem;
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
 
-.post-content img,
-.page-content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
+.img-cap {
+  margin: 0.55rem 0 1.4rem;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.meta-pills,
+.card-tags,
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.meta-pills li {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  min-height: 1.8rem;
+  padding: 0.2rem 0.62rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.2;
+}
+
+.card-tags li,
+.post-tags li {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.card-tags li::before,
+.post-tags li::before {
+  content: "#";
+  margin-right: 0.08rem;
+  color: var(--line-strong);
+}
+
+.post-tag-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-tag-link:hover {
+  color: var(--accent);
+}
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.page-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.55rem;
+  padding: 0 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.page-action:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.page-note {
+  margin-top: 1.1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9の比率 */
-  height: 0;
   overflow: hidden;
+  width: 100%;
+  margin: 1.75rem 0;
+  padding-bottom: 56.25%;
+  border-radius: 10px;
+  background: #000;
 }
 
 .video-wrapper iframe {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
+  border: 0;
 }
-
-
-// =============================
-// 目次（TOC）
-// =============================
 
 .toc {
-  background: #eeecec;
-  padding: 1rem;
-  margin: 2rem 0;
-  border-left: 4px solid #000000;
-  border-radius: 0px;
-
-  h2 {
-    margin-top: 0;
-    font-size: 1.2rem;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
-
-    li {
-      margin: 0.25rem 0;
-
-      &.h2 a {
-        font-weight: bold;
-      }
-
-      &.h3 {
-        margin-left: 1rem;
-      }
-
-      a {
-        text-decoration: none;
-        color: inherit;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.52);
+  max-height: calc(100dvh - 112px);
+  overflow-y: auto;
+  scrollbar-gutter: stable;
 }
 
-// =============================
-// アンカー位置調整（目次クリック時のずれ防止）
-// =============================
+.toc summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0.95rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: rgba(247, 248, 251, 0.96);
+  border-bottom: 1px solid rgba(221, 227, 235, 0.75);
+}
 
-h2::before,
-h3::before {
-  content: "";
+.toc summary::-webkit-details-marker {
+  display: none;
+}
+
+.toc summary::after {
+  content: "+";
+  color: var(--accent);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.toc[open] summary::after {
+  content: "-";
+}
+
+.toc ul {
+  margin: 0;
+  padding: 0 0.95rem 0.9rem;
+  list-style: none;
+}
+
+.toc li {
+  margin: 0;
+  border-left: 2px solid transparent;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.toc li + li {
+  margin-top: 0.55rem;
+}
+
+.toc li.h3 {
+  padding-left: 0.8rem;
+}
+
+.toc a {
   display: block;
-  height: $header-thickness; // 56px 
-  margin-top: -$header-thickness;
-  visibility: hidden;
+  padding: 0.12rem 0 0.12rem 0.55rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  text-decoration: none;
+  line-height: 1.45;
+  transition: color 0.2s ease;
 }
 
-// =============================
-// 画像ズーム機能スタイル
-// =============================
+.toc a:hover {
+  color: var(--accent);
+}
 
-/* 画像はズームできることを示す */
+.toc li.is-active {
+  border-left-color: var(--accent);
+}
+
+.toc li.is-active a {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .post-content img {
   cursor: zoom-in;
 }
 
-/* オーバーレイ */
 .image-zoom-overlay {
   position: fixed;
   inset: 0;
+  z-index: 9999;
   display: none;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,.85);
-  z-index: 9999;
-  padding: 16px;
+  padding: 1.5rem;
+  background: rgba(11, 18, 32, 0.88);
+  backdrop-filter: blur(6px);
 }
 
 .image-zoom-overlay.is-open {
@@ -312,5 +317,23 @@ h3::before {
 .image-zoom-overlay img {
   max-width: 95vw;
   max-height: 95vh;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
   cursor: zoom-out;
+}
+
+@media (max-width: $tablet-width) {
+  .toc {
+    background: transparent;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .page-actions {
+    gap: 0.6rem;
+  }
+
+  .page-action {
+    min-height: 2.45rem;
+  }
 }

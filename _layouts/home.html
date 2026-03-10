@@ -5,44 +5,65 @@ title: Home
 
 {% assign latest_post = site.posts | first %}
 
-{% if paginator.page == 1 and latest_post %}
-  <section class="home-hero">
-    <a href="{{ site.baseurl }}{{ latest_post.url }}" class="home-hero-link">
-      <div class="home-hero-media" {% if latest_post.image %}style="background-image:url('{{ latest_post.image | relative_url }}')"{% endif %}></div>
-      <div class="home-hero-content">
-        <p class="home-kicker">Latest Story</p>
-        <h1>{{ latest_post.title }}</h1>
-        <p class="home-hero-date">{{ latest_post.date | date: "%Y/%m/%d" }}</p>
-        <p class="home-hero-excerpt">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
-      </div>
-    </a>
-  </section>
-{% endif %}
-
 <section class="home-grid">
+  {% if paginator.page == 1 and latest_post %}
+    <article class="home-card home-card-latest">
+      <a href="{{ site.baseurl }}{{ latest_post.url }}" class="home-card-link">
+        <div class="home-card-media" {% if latest_post.image %}style="background-image:url('{{ latest_post.image | relative_url }}')"{% endif %}></div>
+        <div class="home-card-body">
+          <p class="home-card-kicker">Latest</p>
+          <p class="home-card-date">{{ latest_post.date | date: "%Y/%m/%d" }}</p>
+          <h3>{{ latest_post.title }}</h3>
+          <p class="home-card-excerpt">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+          {% if latest_post.tags %}
+            <ul class="card-tags">
+              {% for tag in latest_post.tags limit:3 %}
+                <li>{{ tag }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </a>
+    </article>
+  {% endif %}
+
   {% if paginator.page == 1 %}
-    {% for post in site.posts offset:1 limit:6 %}
+    {% for post in site.posts offset:1 limit:5 %}
       <article class="home-card">
         <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
-            <h2>{{ post.title }}</h2>
+            <h3>{{ post.title }}</h3>
             <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+            {% if post.tags %}
+              <ul class="card-tags">
+                {% for tag in post.tags limit:3 %}
+                  <li>{{ tag }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </div>
         </a>
       </article>
     {% endfor %}
   {% else %}
-    {% assign page_offset = paginator.page | minus: 2 | times: 6 | plus: 7 %}
+    {% assign page_offset = paginator.page | minus: 2 | times: 6 | plus: 6 %}
     {% for post in site.posts offset:page_offset limit:6 %}
       <article class="home-card">
         <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
-            <h2>{{ post.title }}</h2>
+            <h3>{{ post.title }}</h3>
             <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+            {% if post.tags %}
+              <ul class="card-tags">
+                {% for tag in post.tags limit:3 %}
+                  <li>{{ tag }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </div>
         </a>
       </article>
@@ -50,7 +71,6 @@ title: Home
   {% endif %}
 </section>
 
-<!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
     <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
