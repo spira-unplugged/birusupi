@@ -38,19 +38,20 @@ layout: default
             </div>
           {% endif %}
 
-          {% if page.tags %}
-            <ul class="post-tags">
-              {% for tag in page.tags %}
-                {% assign tag_anchor = tag | replace: ' ', '-' | replace: '/', '-' | replace: '#', '' | replace: '.', '' | replace: ',', '' %}
-                <li><a class="post-tag-link" href="{{ '/tags' | relative_url }}#tag-{{ tag_anchor }}">{{ tag }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
         </header>
 
         <article class="post-body">
           {{ content }}
         </article>
+
+        {% if page.tags %}
+          <ul class="post-tags post-footer-tags">
+            {% for tag in page.tags %}
+              {% assign tag_anchor = tag | replace: ' ', '-' | replace: '/', '-' | replace: '#', '' | replace: '.', '' | replace: ',', '' %}
+              <li><a class="post-tag-link" href="{{ '/tags' | relative_url }}#tag-{{ tag_anchor }}">{{ tag }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
 
         {% if site.hide_post_share != true %}
           {% include post-share.html %}

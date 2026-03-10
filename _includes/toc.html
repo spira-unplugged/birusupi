@@ -1,5 +1,5 @@
-<details class="toc" open>
-  <summary>On this page</summary>
+<details class="toc">
+  <summary>目次</summary>
   <ul id="toc-list"></ul>
 </details>
 
@@ -17,13 +17,12 @@
     }
 
     const tocItems = [];
-    let ticking = false;
+    const visibleHeadings = new Set();
+    const activationOffset = 112;
 
     const syncTocState = function () {
       if (window.matchMedia("(max-width: 960px)").matches) {
         toc.removeAttribute("open");
-      } else {
-        toc.setAttribute("open", "");
       }
     };
 
@@ -46,17 +45,44 @@
       }
     };
 
-    const getActiveId = function () {
-      const offset = window.scrollY + 140;
-      let activeId = tocItems[0].id;
+    const findItemByHash = function () {
+      const hash = window.location.hash.replace(/^#/, "");
+      if (!hash) return null;
+      return tocItems.find(function (item) {
+        return item.id === hash;
+      });
+    };
 
-      tocItems.forEach(function (item) {
-        if (item.heading.offsetTop <= offset) {
-          activeId = item.id;
-        }
+    const getFallbackActiveId = function () {
+      const passed = tocItems.filter(function (item) {
+        return item.heading.getBoundingClientRect().top <= activationOffset;
       });
 
-      return activeId;
+      if (passed.length) {
+        return passed[passed.length - 1].id;
+      }
+
+      return tocItems[0].id;
+    };
+
+    const getActiveId = function () {
+      const hashItem = findItemByHash();
+      if (hashItem) {
+        const hashTop = hashItem.heading.getBoundingClientRect().top;
+        if (hashTop >= 0 && hashTop <= window.innerHeight * 0.45) {
+          return hashItem.id;
+        }
+      }
+
+      const visibleItems = tocItems.filter(function (item) {
+        return visibleHeadings.has(item.id);
+      });
+
+      if (visibleItems.length) {
+        return visibleItems[visibleItems.length - 1].id;
+      }
+
+      return getFallbackActiveId();
     };
 
     const updateActiveItem = function (shouldScrollIntoView) {
@@ -88,10 +114,7 @@
       a.href = `#${id}`;
       a.textContent = text;
       a.addEventListener("click", function () {
-        setActiveItem(id, true);
-        window.setTimeout(function () {
-          updateActiveItem(true);
-        }, 120);
+        setActiveItem(id, false);
       });
 
       li.appendChild(a);
@@ -99,20 +122,48 @@
       tocItems.push({ id: id, element: li, link: a, heading: heading });
     });
 
-    const onScroll = function () {
-      if (ticking) return;
-      ticking = true;
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          visibleHeadings.add(entry.target.id);
+        } else {
+          visibleHeadings.delete(entry.target.id);
+        }
+      });
+
       window.requestAnimationFrame(function () {
         updateActiveItem(true);
-        ticking = false;
       });
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("hashchange", function () {
-      updateActiveItem(true);
+    }, {
+      rootMargin: "-" + activationOffset + "px 0px -55% 0px",
+      threshold: [0, 1]
     });
 
-    updateActiveItem(false);
+    tocItems.forEach(function (item) {
+      observer.observe(item.heading);
+    });
+
+    window.addEventListener("scroll", function () {
+      window.requestAnimationFrame(function () {
+        updateActiveItem(false);
+      });
+    }, { passive: true });
+
+    window.addEventListener("hashchange", function () {
+      const hashItem = findItemByHash();
+      if (hashItem) {
+        setActiveItem(hashItem.id, true);
+        return;
+      }
+
+      updateActiveItem(false);
+    });
+
+    const initialHashItem = findItemByHash();
+    if (initialHashItem) {
+      setActiveItem(initialHashItem.id, false);
+    } else {
+      updateActiveItem(false);
+    }
   });
 </script>
