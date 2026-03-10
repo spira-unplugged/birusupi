@@ -2,13 +2,13 @@
   <div class="post-share-label">{{ site.data.settings.sharing_button_prompt }}</div>
   <div class="sharing-icons">
     <a
-      href="https://x.com/intent/post?text={{ page.title | url_encode }}&amp;url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+      href="https://x.com/intent/post?text={{ page.title | url_encode }}&amp;url={{ page.url | absolute_url }}"
       target="_blank" rel="noopener" aria-label="Share this post on X"
     >
     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
     </a>
     <a
-      href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}&amp;title={{ page.title | url_encode }}"
+      href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}&amp;title={{ page.title | url_encode }}"
       target="_blank" rel="noopener" aria-label="Share this post on Facebook"
     >
       <i class="fa-brands fa-facebook" aria-hidden="true"></i>

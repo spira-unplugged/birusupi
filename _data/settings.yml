@@ -34,8 +34,6 @@ pagination:
 
 sharing_button_prompt: 'share'
 
-related_posts: 'Related Posts'
-
 post_date_prefix: 'Written on'
 
 home_intro_kicker: 'Signal Terminal'

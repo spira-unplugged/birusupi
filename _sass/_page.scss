@@ -1,3 +1,5 @@
+@use "tokens" as *;
+
 .page-content {
   width: min(840px, 95vw);
   display: block;

@@ -20,7 +20,7 @@ layout: default
     {% for post in category_posts %}
       {% if post.categories contains page.category %}
         <article class="category-card">
-          <a href="{{ site.baseurl }}{{ post.url }}" class="category-card-link">
+          <a href="{{ post.url | relative_url }}" class="category-card-link">
             <div class="category-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
             <div class="category-card-body">
               <p class="category-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
