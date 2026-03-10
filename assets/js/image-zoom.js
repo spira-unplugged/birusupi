@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
   // オーバーレイ要素を1個だけ作って使い回す
   const overlay = document.createElement("div");
   overlay.className = "image-zoom-overlay";
-  overlay.innerHTML = `<img alt="">`;
+  const overlayImg = document.createElement("img");
+  overlayImg.alt = "";
+  overlay.appendChild(overlayImg);
   document.body.appendChild(overlay);
-
-  const overlayImg = overlay.querySelector("img");
 
   const close = () => {
     overlay.classList.remove("is-open");

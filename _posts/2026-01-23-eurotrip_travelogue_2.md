@@ -11,7 +11,7 @@ last_modified_at: 2026-01-24 00:00:00 +0900
 
 ※ 写真　スペイン バルセロナ グエル公園 サラマンダー
 
-前編→[冬のヨーロッパ旅行記・前編【3週間・バックパック周遊】](https://spira-unplugged.github.io/birusupi/eurotrip_travelogue_1)
+前編→[冬のヨーロッパ旅行記・前編【3週間・バックパック周遊】]({{ '/eurotrip_travelogue_1' | relative_url }})
 
 ### Day 9（12月19日）プルゼニからドイツへ
 

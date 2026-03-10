@@ -36,7 +36,7 @@ last_modified_at: 2026-02-27 00:00:00 +0900
 
 ### アクセス解析について
 
-[当サイト](https://spira-unplugged.github.io/birusupi/)では、Google Analyticsを使用して訪問者のアクセス解析を行っています。
+[当サイト]({{ '/' | relative_url }})では、Google Analyticsを使用して訪問者のアクセス解析を行っています。
 
 Google Analyticsはトラフィックデータの収集のためにCookieを使用しています。このデータは匿名で収集されており、個人を特定するものではありません。
 
