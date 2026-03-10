@@ -5,6 +5,8 @@ permalink: /m9gppc
 last_modified_at: 2025-02-26 20:09:00 +0900
 ---
 
+2025-02-26 20:09:00時点のものとなります。
+
 # My 9 Games 利用規約
 
 ## 1. 適用範囲
@@ -144,10 +146,8 @@ This service uses IGDB data. We display the following attribution on user-facing
 ## 10. お問い合わせ
 本ポリシーに関するお問い合わせは、メールで受け付けます。  
 連絡先（メール）: [moosapporo+my9games@gmail.com](mailto:moosapporo+my9games@gmail.com)  
-運営者情報: [https://spira-unplugged.github.io/birusupi/about](https://spira-unplugged.github.io/birusupi/about)
+運営者情報: [About]({{ '/about' | relative_url }})
 
 ## IGDB Attribution
 This service uses IGDB data. We display the following attribution on user-facing pages that use game metadata:
 ["Games metadata is powered by IGDB.com"](https://www.igdb.com).
-
-

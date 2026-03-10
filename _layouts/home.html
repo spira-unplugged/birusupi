@@ -8,7 +8,7 @@ title: Home
 {% if paginator.page == 1 and latest_post %}
   <section class="home-hero">
     <a href="{{ site.baseurl }}{{ latest_post.url }}" class="home-hero-link">
-      <div class="home-hero-media" {% if latest_post.image %}style="background-image:url('{{ site.baseurl }}/{{ latest_post.image }}')"{% endif %}></div>
+      <div class="home-hero-media" {% if latest_post.image %}style="background-image:url('{{ latest_post.image | relative_url }}')"{% endif %}></div>
       <div class="home-hero-content">
         <p class="home-kicker">Latest Story</p>
         <h1>{{ latest_post.title }}</h1>
@@ -24,7 +24,7 @@ title: Home
     {% for post in site.posts offset:1 limit:6 %}
       <article class="home-card">
         <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
-          <div class="home-card-media" {% if post.image %}style="background-image:url('{{ site.baseurl }}/{{ post.image }}')"{% endif %}></div>
+          <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
             <h2>{{ post.title }}</h2>
@@ -38,7 +38,7 @@ title: Home
     {% for post in site.posts offset:page_offset limit:6 %}
       <article class="home-card">
         <a href="{{ site.baseurl }}{{ post.url }}" class="home-card-link">
-          <div class="home-card-media" {% if post.image %}style="background-image:url('{{ site.baseurl }}/{{ post.image }}')"{% endif %}></div>
+          <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
             <h2>{{ post.title }}</h2>

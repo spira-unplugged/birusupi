@@ -38,7 +38,7 @@ last_modified_at: 2025-04-22 00:00:00 +0900
 <br>
 </blockquote>
 
-  ➡️ <a href="https://spira-unplugged.github.io/birusupi/yhcm" target="_blank">ヤフコメGPTの解説記事</a>
+  ➡️ <a href="{{ '/yhcm' | relative_url }}">ヤフコメGPTの解説記事</a>
 
 
 </details>
