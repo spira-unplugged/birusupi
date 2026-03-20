@@ -19,6 +19,7 @@
   {% endif %}
   {% include google-analytics.html %}
   {% seo %}
+  {% include json-ld.html %}
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const links = document.querySelectorAll("a[href^='http']:not([href*='" + window.location.hostname + "'])");
