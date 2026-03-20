@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "私を構成する9つのゲーム 振り返り"
+title: "私を構成する9つのゲーム My 9 Games 開発の振り返り"
 author: "Birusupi"
 categories: blog
 tags: [個人開発, Webアプリ, 公開運用, 設計, ポストモーテム, My9Games]
