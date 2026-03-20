@@ -144,19 +144,9 @@
 }
 
 .post-body h2 {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
   margin-top: 3.2rem;
   font-size: clamp(1.45rem, 1.9vw, 1.8rem);
   line-height: 1.24;
-}
-
-.post-body h2::before {
-  content: "";
-  flex: 0 0 26px;
-  height: 1px;
-  background: linear-gradient(90deg, var(--accent), transparent);
 }
 
 .post-body h3 {
