@@ -31,6 +31,10 @@ timezone: Asia/Tokyo
 # Language (for SEO and og:locale)
 lang: ja
 
+# Twitter/X account (used by jekyll-seo-tag for twitter:site meta tag)
+twitter:
+  username: singingsores
+
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
