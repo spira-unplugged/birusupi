@@ -12,7 +12,7 @@ image: /assets/img/2026-03-20-my9games-devlog/001.png
 
 ## はじめに
 
-「私を構成する9枚」というミームをご存知でしょうか。音楽アルバムを9枚並べて、自分の趣味や人格を表現する、あの文化です。
+2016年1月〜2月頃にTwitterやInstagramで爆発的に流行した「私を構成する9枚」というミームをご存知でしょうか。音楽アルバムを9枚並べて、自分の趣味や人格を表現する、あの文化です。
 
 ![]({{ site.baseurl }}/assets/img/2026-03-20-my9games-devlog/002.png){:loading="lazy" decoding="async"}
 
