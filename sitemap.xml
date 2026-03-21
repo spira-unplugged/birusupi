@@ -8,6 +8,13 @@ layout: null
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
     <lastmod>{{ page.date | default: site.time | date_to_xmlschema }}</lastmod>
+    {%- if page.url == "/" %}
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    {%- else %}
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    {%- endif %}
   </url>
   {%- endunless %}
   {%- endfor %}
@@ -16,6 +23,8 @@ layout: null
   <url>
     <loc>{{ post.url | absolute_url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   {%- endunless %}
   {%- endfor %}
