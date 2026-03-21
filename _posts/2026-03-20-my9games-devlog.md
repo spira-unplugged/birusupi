@@ -1,14 +1,12 @@
 ---
 layout: post
-tititle: "私を構成する9つのゲーム My 9 Games 開発の振り返り"
+title: "私を構成する9つのゲーム My 9 Games 開発の振り返り"
 author: "Birusupi"
 categories: blog
 tags: [個人開発, Webアプリ, 公開運用, 設計, ポストモーテム, My9Games]
 excerpt: "個人開発のWebアプリがバズで逼迫し、サービス停止に。基盤やDB設計・運用ルールなどを全面的に作り直した記録。"
 image: /assets/img/2026-03-20-my9games-devlog/001.png
 ---
-
-
 
 ## はじめに
 
