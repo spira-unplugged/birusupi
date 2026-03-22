@@ -182,13 +182,13 @@
     background: var(--line);
   }
 
-  .dropdown-social {
+  .dropdown-icons {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0.45rem;
   }
 
-  .dropdown-social .menu-link-icon {
+  .dropdown-icons .menu-link-icon {
     display: flex;
     width: 100%;
     min-width: 0;
@@ -199,13 +199,13 @@
     background: var(--surface-2);
   }
 
-  .dropdown-social .menu-link-icon .fa-brands,
-  .dropdown-social .menu-link-icon .fa-solid {
+  .dropdown-icons .menu-link-icon .fa-brands,
+  .dropdown-icons .menu-link-icon .fa-solid {
     font-size: 1rem;
     line-height: 1;
   }
 
-  .dropdown-social .menu-link-icon .kofi-symbol {
+  .dropdown-icons .menu-link-icon .kofi-symbol {
     width: 1.35rem;
     height: 1.35rem;
   }

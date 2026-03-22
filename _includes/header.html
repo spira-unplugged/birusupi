@@ -33,7 +33,7 @@
           {% endfor %}
         </div>
         <div class="dropdown-divider" aria-hidden="true"></div>
-        <div class="dropdown-section dropdown-social">
+        <div class="dropdown-section dropdown-icons">
           {% for item in site.data.settings.social %}
             <a href="{{ item.link }}" class="menu-link menu-link-icon" target="_blank" rel="noopener" aria-label="{% if item.link contains 'ko-fi.com' %}Ko-fi{% else %}{{ item.icon }}{% endif %}">
               {% if item.link contains 'ko-fi.com' %}
