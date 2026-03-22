@@ -6,6 +6,7 @@ categories: documentation
 tags: [英訳, 歌詞, Frank Ocean, Kohh, Blonde, 音楽翻訳, 洋楽解説, ヒップホップ, サブカルチャー, 和訳比較]
 excerpt: "Frank Ocean『Nikes (Kohh Verse)』の英訳。"
 image: /assets/img/2025-04-12-frank-ocean-blonde-header.jpg
+last_modified_at: 2025-04-12 00:00:00 +0900
 ---
 
 昔はてなブログで投稿した記事の移設です。
