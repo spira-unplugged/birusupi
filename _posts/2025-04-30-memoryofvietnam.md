@@ -6,6 +6,7 @@ categories: blog
 tags: [ベトナム, ホーチミン, 海外旅行, メコン川, フォー, 旅行記]
 excerpt: "5年前に訪れたホーチミンの記憶を辿る。"
 image: /assets/img/2025-04-30-mov/image0.jpg
+last_modified_at: 2025-04-30 00:00:00 +0900
 ---
 
 ## はじめに
