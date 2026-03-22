@@ -2,7 +2,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
@@ -17,7 +16,6 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
   {% if page.math == true %}
-    <!-- TODO: Add integrity="sha384-..." once hash is verified via srihash.org -->
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
       crossorigin="anonymous">
@@ -26,13 +24,4 @@
   {% include google-analytics.html %}
   {% seo %}
   {% include json-ld.html %}
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const links = document.querySelectorAll("a[href^='http']:not([href*='" + window.location.hostname + "'])");
-      links.forEach(link => {
-        link.setAttribute("target", "_blank");
-        link.setAttribute("rel", "noopener noreferrer");
-      });
-    });
-  </script>
 </head>
