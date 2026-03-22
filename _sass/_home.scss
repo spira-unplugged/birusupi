@@ -84,6 +84,11 @@
   color: var(--accent);
 }
 
+span.pagination-button {
+  opacity: 0.3;
+  cursor: default;
+}
+
 @media (max-width: $tablet-width) {
   .home-grid {
     grid-template-columns: 1fr;
