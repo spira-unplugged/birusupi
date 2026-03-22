@@ -6,6 +6,7 @@
   left: 0;
   right: 0;
   z-index: 100;
+  overflow: visible;
   border-bottom: 1px solid rgba(221, 227, 235, 0.9);
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(14px);
@@ -105,7 +106,7 @@
   vertical-align: middle;
 }
 
-@media (min-width: $container-width) {
+@media (min-width: #{$container-width + 1}) {
   .dropbtn,
   .dropdown-content {
     display: none;
@@ -187,21 +188,24 @@
     gap: 0.45rem;
   }
 
-  .menu-link-icon {
+  .dropdown-social .menu-link-icon {
+    display: flex;
     width: 100%;
+    min-width: 0;
     min-height: 40px;
     padding: 0;
     border: 1px solid transparent;
+    border-radius: 10px;
     background: var(--surface-2);
   }
 
-  .menu-link-icon .fa-brands,
-  .menu-link-icon .fa-solid {
+  .dropdown-social .menu-link-icon .fa-brands,
+  .dropdown-social .menu-link-icon .fa-solid {
     font-size: 1rem;
     line-height: 1;
   }
 
-  .menu-link-icon .kofi-symbol {
+  .dropdown-social .menu-link-icon .kofi-symbol {
     width: 1.35rem;
     height: 1.35rem;
   }
