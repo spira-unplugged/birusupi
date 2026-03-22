@@ -6,6 +6,7 @@ categories: documentation
 tags: [Python, ノイズ除去, 音声処理, noisereduce, ハイブリッドセミナー, 録音トラブル, Web会議, 社内DX, 音声ファイル処理, 技術メモ]
 excerpt: "Pythonライブラリnoisereduceを使って、社内セミナー録音のノイズ除去に挑戦。実際のコードと処理手順を紹介します。"
 image: /assets/img/2024-12-3-noisereduce/001.jpg
+last_modified_at: 2024-12-03 00:00:00 +0900
 ---
 ※noteでも同内容を投稿しています。
 

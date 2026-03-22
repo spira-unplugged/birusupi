@@ -6,6 +6,7 @@ categories: blog
 tags: [攻殻機動隊, STAND ALONE COMPLEX, アニメレビュー, SFアニメ, ネタバレ, 暴走の証明]
 excerpt: "アニメ 攻殻機動隊 STAND ALONE COMPLEX 第2話 暴走の証明 の魅力"
 image: /assets/img/2025-05-25-sactestation/image0.png
+last_modified_at: 2025-05-25 00:00:00 +0900
 ---
 
 ### 1. はじめに

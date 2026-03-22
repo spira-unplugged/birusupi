@@ -135,16 +135,35 @@
   font-weight: 600;
 }
 
-.tag-row-meta {
-  margin-top: 0.65rem;
+.tag-post-list {
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.35rem;
 }
 
-.tag-row-meta a {
+.tag-post-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.tag-post-date {
+  flex-shrink: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.tag-post-item a {
   color: var(--text);
-}
+  text-decoration: none;
 
-.tag-row-meta span {
-  margin-left: 0.5rem;
+  &:hover {
+    color: var(--accent);
+  }
 }
 
 .page-404 .page-body {

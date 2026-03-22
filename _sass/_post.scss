@@ -228,7 +228,8 @@
 
 .post-navigation a {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   min-height: 3.75rem;
   padding: 0.85rem 0.95rem;
   border: 1px solid var(--line);
@@ -238,6 +239,18 @@
   text-decoration: none;
   line-height: 1.5;
   transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.post-nav-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+.post-nav-title {
+  font-size: 0.9rem;
 }
 
 .post-navigation a:hover {

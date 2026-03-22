@@ -6,6 +6,7 @@ categories: blog
 tags: [台湾旅行, RX100, SONY, 旅カメラ, コンデジ, 写真日記, ガジェット紹介, 軽量装備, ミニマル旅行, 出張ログ]
 excerpt: "2泊3日の台北出張（ほぼ旅行）を、名機RX100と共に記録。軽量装備で巡った台湾の街並みと旅メモ。"
 image: /assets/img/2024-12-13-taiwantrip/001.png
+last_modified_at: 2024-12-13 00:00:00 +0900
 ---
 ※noteでも同内容を投稿しています。
 
