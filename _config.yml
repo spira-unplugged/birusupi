@@ -1,16 +1,47 @@
 # Site Build Settings
 
-# jekyll-paginate configuration
-paginate:            6
-
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-last-modified-at
+  - jekyll-minifier
+
+# jekyll-paginate-v2
+pagination:
+  enabled:      true
+  per_page:     6
+  permalink:    '/page/:num/'
+  sort_field:   'date'
+  sort_reverse: true
+
+# jekyll-archives
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+  layouts:
+    year:  archive-date
+    month: archive-date
+    tag:   tag
+  permalinks:
+    year:  '/archive/:year/'
+    month: '/archive/:year/:month/'
+    tag:   '/tags/:name/'
+
+# jekyll-minifier (JS は複雑な構文があるため無効化)
+jekyll-minifier:
+  compress_javascript: false
+
+# SCSS ソースマップを無効化 (jekyll-last-modified-at との競合回避)
+sass:
+  sourcemap: never
 
 # Ensure Jekyll includes favicon.ico in the output
 include:

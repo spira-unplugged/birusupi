@@ -47,8 +47,8 @@ layout: default
         {% if page.tags %}
           <ul class="post-tags post-footer-tags">
             {% for tag in page.tags %}
-              {% assign tag_anchor = tag | replace: ' ', '-' | replace: '/', '-' | replace: '#', '' | replace: '.', '' | replace: ',', '' %}
-              <li><a class="post-tag-link" href="{{ '/tags' | relative_url }}#tag-{{ tag_anchor }}">{{ tag }}</a></li>
+              {% assign tag_slug = tag | slugify %}
+              <li><a class="post-tag-link" href="{{ '/tags/' | append: tag_slug | relative_url }}/">{{ tag }}</a></li>
             {% endfor %}
           </ul>
         {% endif %}
