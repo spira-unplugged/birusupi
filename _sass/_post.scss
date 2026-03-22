@@ -90,7 +90,7 @@
 
 .post-sidebar {
   position: sticky;
-  top: 88px;
+  top: calc(#{$header-thickness} + 24px);
 }
 
 .post-sidebar .toc {

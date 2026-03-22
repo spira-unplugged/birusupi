@@ -3,12 +3,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   if (typeof gtag !== "function") return;
 
-  var pageTitle = document.title;
+  const pageTitle = document.title;
 
   // Share button clicks (X, Facebook)
   document.querySelectorAll(".post-share .sharing-icons a").forEach(function (link) {
     link.addEventListener("click", function () {
-      var method = "unknown";
+      let method = "unknown";
       if (link.href.indexOf("x.com") !== -1) method = "x";
       else if (link.href.indexOf("facebook.com") !== -1) method = "facebook";
       gtag("event", "share", {
@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Social icon clicks (header & footer)
   document.querySelectorAll(".menu-social a, .dropdown-icons a, .footer-social a").forEach(function (link) {
     link.addEventListener("click", function () {
-      var location = link.closest(".footer-social") ? "footer" : "header";
-      var platform = link.getAttribute("aria-label") || "unknown";
+      const location = link.closest(".footer-social") ? "footer" : "header";
+      const platform = link.getAttribute("aria-label") || "unknown";
       gtag("event", "social_click", {
         platform: platform,
         link_location: location,
@@ -64,10 +64,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Reading progress (25%, 50%, 75%, 100%)
-  var article = document.querySelector(".post-body");
+  const article = document.querySelector(".post-body");
   if (article) {
-    var fired = {};
-    var thresholds = [25, 50, 75, 100];
+    const fired = {};
+    const thresholds = [25, 50, 75, 100];
 
     var checkProgress = function () {
       var rect = article.getBoundingClientRect();
