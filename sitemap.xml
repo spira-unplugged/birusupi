@@ -7,7 +7,7 @@ layout: null
   {%- unless page.sitemap == false or page.url == "/404.html" %}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
-    <lastmod>{{ page.date | default: site.time | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
     {%- if page.url == "/" %}
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -22,7 +22,7 @@ layout: null
   {%- unless post.sitemap == false %}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
