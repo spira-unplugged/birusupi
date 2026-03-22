@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="page-content category-content">
+  <header class="page-hero page-hero-category">
+    <p class="page-kicker">Tag</p>
+    <h1>{{ page.title }}</h1>
+    <p class="page-subtitle">{{ page.posts | size }} 件の記事</p>
+  </header>
+
+  <section class="category-grid">
+    {% assign tag_posts = page.posts | sort: 'date' | reverse %}
+    {% for post in tag_posts %}
+      <article class="category-card">
+        <a href="{{ post.url | relative_url }}" class="category-card-link">
+          <div class="category-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
+          <div class="category-card-body">
+            <p class="category-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
+            <h2>{{ post.title }}</h2>
+            <p class="category-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 90 }}</p>
+            {% if post.tags %}
+              <ul class="card-tags">
+                {% for t in post.tags limit:3 %}
+                  <li>{{ t }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </a>
+      </article>
+    {% endfor %}
+  </section>
+</div>
