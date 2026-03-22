@@ -55,6 +55,13 @@
   gap: 0.2rem;
 }
 
+.menu-social {
+  gap: 0.1rem;
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--line);
+}
+
 .menu-link {
   display: inline-flex;
   align-items: center;
