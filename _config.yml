@@ -18,7 +18,7 @@ include:
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:               "Birusupi"
-description:         "Blog and Documentation"
+description:         "びるすぴの個人サイト。ゲーム、DTM、旅行記、技術メモなど雑多な記録を綴っています。"
 author:              "Birusupi"
 
 url: "https://spira-unplugged.github.io"
@@ -33,7 +33,15 @@ lang: ja
 # Twitter/X account (used by jekyll-seo-tag for twitter:site meta tag)
 twitter:
   username: singingsores
+  card: summary_large_image
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+
+# Default front-matter values (fallback og:image for pages without image)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/about.jpg
