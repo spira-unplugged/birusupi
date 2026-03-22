@@ -37,5 +37,5 @@ sharing_button_prompt: 'share'
 post_date_prefix: 'Written on'
 
 home_intro_kicker: 'Signal Terminal'
-home_intro_title: 'Build logs, documentation, and notes worth keeping.'
-home_intro_text: 'GitHub Pages で育てる個人サイト。技術メモ、制作記録、考えごとを、静的で軽い紙面に整理して残します。'
+home_intro_title: 'Build logs and notes worth keeping.'
+home_intro_text: '個人サイト。技術メモ、制作記録、考えごとを、静的で軽い紙面に整理して残します。'
