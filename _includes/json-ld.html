@@ -28,7 +28,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": {{ post_category | jsonify }},
-      "item": "{{ '/' | absolute_url }}"
+      "item": "{{ post_category | downcase | prepend: '/' | absolute_url }}"
     },
     {
       "@type": "ListItem",
