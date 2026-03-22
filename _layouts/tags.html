@@ -25,13 +25,14 @@ layout: default
           <h2>{{ tag_name }}</h2>
           <span class="tag-count">{{ tag_posts | size }} posts</span>
         </div>
-        {% if latest_post %}
-          <p class="tag-row-meta">
-            Latest:
-            <a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a>
-            <span>{{ latest_post.date | date: "%Y/%m/%d" }}</span>
-          </p>
-        {% endif %}
+        <ul class="tag-post-list">
+          {% for post in tag_posts %}
+            <li class="tag-post-item">
+              <span class="tag-post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </article>
     {% endfor %}
   </section>
