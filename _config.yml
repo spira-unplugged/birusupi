@@ -35,9 +35,9 @@ twitter:
   username: singingsores
   card: summary_large_image
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+# Point jekyll-feed output to the custom RSS 2.0 feed
+feed:
+  path: rss-feed.xml
 
 # Default front-matter values (fallback og:image for pages without image)
 defaults:
