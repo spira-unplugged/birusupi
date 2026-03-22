@@ -15,6 +15,7 @@ plugins:
 # Ensure Jekyll includes favicon.ico in the output
 include:
   - favicon.ico
+  - favicon.png
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:               "Birusupi"
