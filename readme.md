@@ -10,10 +10,12 @@ Jekyll 4 系をベースに、Millennial テーマをカスタムした構成で
 - Ruby + Jekyll (`~> 4.2`)
 - Sass（`assets/css/main.scss` + `_sass/`）
 - Jekyll plugins
-  - `jekyll-paginate`
-  - `jekyll-sitemap`
-  - `jekyll-feed`
-  - `jekyll-seo-tag`
+  - `jekyll-paginate-v2` - 高度なページネーション（1ページあたり6件）
+  - `jekyll-feed` - Atom フィード生成
+  - `jekyll-seo-tag` - SEO メタタグ自動生成
+  - `jekyll-archives` - 年/月/タグ別アーカイブページ自動生成
+  - `jekyll-last-modified-at` - 最終更新日時の自動追加
+  - `jekyll-minifier` - HTML/CSS 最小化（JS はオフ）
 
 依存関係は [Gemfile](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/Gemfile) と [Gemfile.lock](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/Gemfile.lock) で管理しています。
 
@@ -52,6 +54,16 @@ bundle exec jekyll serve
 ブラウザ確認先（通常）:
 - `http://127.0.0.1:4000/birusupi/`
 
+## 主な機能
+
+- **Content Security Policy (CSP)** - `_includes/head.html` で厳密な CSP ヘッダーを設定
+- **条件付き JS 読み込み** - `_layouts/default.html` で post レイアウトのみ画像ズームと目次 JS を読み込み
+- **外部リンク対策** - 外部リンクに `rel="noopener noreferrer"` を自動付与
+- **メニュー切り替え** - モバイル対応のメニュートグル機能
+- **Google Analytics 統合** - ページ閲覧イベント自動記録
+- **数式表示** - `math: true` をフロントマッターに設定すると MathJax で数式をレンダリング
+- **Spotify 埋め込み** - CSP で Spotify iframe を許可
+
 ## 日常運用フロー
 
 ### 1. 記事を追加する
@@ -73,10 +85,15 @@ bundle exec jekyll serve
 2. アイコン表示ロジックは `_includes/header.html` を参照
 3. アイコンスタイルは `_sass/_social-icons.scss` と `_sass/_header.scss` を調整
 
+## アーカイブとページネーション
+
+- **アーカイブ**: `/archive/:year/`, `/archive/:year/:month/`, `/tags/:name/` で自動生成
+- **ページネーション**: `/page/2/`, `/page/3/` など、1ページあたり6件で自動分割
+
 ## 公開について
 
-公開は GitHub Actions 経由で行います。  
-`.github/workflows/pages.yml` が `bundle exec jekyll build` を実行し、生成した `_site` を GitHub Pages にデプロイします。
+公開は GitHub Actions 経由で行います。
+`.github/workflows/pages.yml` が `bundle exec jekyll build` を実行（Ruby 3.3）し、生成した `_site` を GitHub Pages にデプロイします。
 
 ## 変更時チェックリスト
 
