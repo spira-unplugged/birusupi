@@ -7,11 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
   overlay.appendChild(overlayImg);
   document.body.appendChild(overlay);
 
+  let lastFocused = null;
+
   const close = () => {
     overlay.classList.remove("is-open");
     overlayImg.removeAttribute("src");
     overlayImg.removeAttribute("alt");
     document.body.style.overflow = "";
+    if (lastFocused) {
+      lastFocused.focus();
+      lastFocused = null;
+    }
   };
 
   overlay.addEventListener("click", close);
@@ -25,12 +31,25 @@ document.addEventListener("DOMContentLoaded", () => {
     // すでにリンク付きの画像（<a><img></a>）は邪魔しない
     if (img.closest("a")) return;
 
-    img.addEventListener("click", () => {
+    img.setAttribute("tabindex", "0");
+    img.setAttribute("role", "button");
+    img.setAttribute("aria-label", img.alt ? img.alt + "を拡大表示" : "画像を拡大表示");
+
+    const openZoom = () => {
+      lastFocused = img;
       overlayImg.src = img.currentSrc || img.src;
       overlayImg.alt = img.alt || "";
       overlay.classList.add("is-open");
       // 背景スクロールを止める（スマホで効く）
       document.body.style.overflow = "hidden";
+    };
+
+    img.addEventListener("click", openZoom);
+    img.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openZoom();
+      }
     });
   });
 });

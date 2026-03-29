@@ -59,6 +59,9 @@ baseurl: "/birusupi"
 # Timezone
 timezone: Asia/Tokyo
 
+# Date format used across templates
+date_format: "%Y.%m.%d"
+
 # Language (for SEO and og:locale)
 lang: ja
 

@@ -12,9 +12,11 @@
       {% include footer.html %}
     </div>
 
+    {% if page.layout == "post" %}
     <script src="{{ '/assets/js/image-zoom.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/menu-toggle.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
+    {% endif %}
+    <script src="{{ '/assets/js/menu-toggle.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/external-links.js' | relative_url }}"></script>
     {% include ga-events.html %}
 

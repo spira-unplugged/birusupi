@@ -40,8 +40,40 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   document.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
+    if (event.key === "Escape" && dropdown.classList.contains("is-open")) {
       closeMenu();
+      button.focus();
+    }
+  });
+
+  // 矢印キーでメニュー内を移動
+  menu.addEventListener("keydown", function (event) {
+    const links = Array.from(menu.querySelectorAll("a"));
+    if (!links.length) return;
+    const focused = document.activeElement;
+    const idx = links.indexOf(focused);
+
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      links[Math.min(idx + 1, links.length - 1)].focus();
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      if (idx <= 0) {
+        closeMenu();
+        button.focus();
+      } else {
+        links[idx - 1].focus();
+      }
+    }
+  });
+
+  // ボタンから↓でメニューの最初のリンクへ
+  button.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      openMenu();
+      const first = menu.querySelector("a");
+      if (first) first.focus();
     }
   });
 });

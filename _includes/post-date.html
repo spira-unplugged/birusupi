@@ -1,5 +1,5 @@
 <div class="post-meta-item post-date">
-  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
   <span class="post-meta-separator" aria-hidden="true">/</span>
   <span class="post-author">
     {% if page.author %}

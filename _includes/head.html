@@ -1,6 +1,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdn.jsdelivr.net; img-src 'self' data: https:; connect-src https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com; frame-src https://open.spotify.com https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
   <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}">
@@ -20,6 +21,7 @@
   {% if page.math == true %}
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
+      integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei"
       crossorigin="anonymous">
     </script>
   {% endif %}

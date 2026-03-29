@@ -1,0 +1,17 @@
+<article class="category-card">
+  <a href="{{ include.post.url | relative_url }}" class="category-card-link">
+    <div class="category-card-media"{% if include.post.image %} style="background-image:url('{{ include.post.image | relative_url }}')"{% endif %}></div>
+    <div class="category-card-body">
+      <p class="category-card-date">{{ include.post.date | date: site.date_format }}</p>
+      <h2>{{ include.post.title }}</h2>
+      <p class="category-card-excerpt">{{ include.post.excerpt | strip_html | strip_newlines | truncate: 90 }}</p>
+      {% if include.post.tags %}
+        <ul class="card-tags">
+          {% for tag in include.post.tags limit:3 %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
+  </a>
+</article>

@@ -12,7 +12,7 @@ title: Home
         <div class="home-card-media" {% if latest_post.image %}style="background-image:url('{{ latest_post.image | relative_url }}')"{% endif %}></div>
         <div class="home-card-body">
           <p class="home-card-kicker">Latest</p>
-          <p class="home-card-date">{{ latest_post.date | date: "%Y/%m/%d" }}</p>
+          <p class="home-card-date">{{ latest_post.date | date: site.date_format }}</p>
           <h3>{{ latest_post.title }}</h3>
           <p class="home-card-excerpt">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
           {% if latest_post.tags %}
@@ -33,7 +33,7 @@ title: Home
         <a href="{{ post.url | relative_url }}" class="home-card-link">
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
-            <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
+            <p class="home-card-date">{{ post.date | date: site.date_format }}</p>
             <h3>{{ post.title }}</h3>
             <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
             {% if post.tags %}
@@ -54,7 +54,7 @@ title: Home
         <a href="{{ post.url | relative_url }}" class="home-card-link">
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
-            <p class="home-card-date">{{ post.date | date: "%Y/%m/%d" }}</p>
+            <p class="home-card-date">{{ post.date | date: site.date_format }}</p>
             <h3>{{ post.title }}</h3>
             <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
             {% if post.tags %}
