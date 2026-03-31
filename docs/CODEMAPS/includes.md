@@ -1,6 +1,6 @@
 # Includes Architecture
 
-**Last Updated:** 2026-03-29
+**Last Updated:** 2026-03-31
 
 ## Include Files Overview
 
@@ -65,8 +65,12 @@ category.html (extends default)
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 
-  <!-- Content Security Policy (NEWLY ADDED) -->
-  <meta http-equiv="Content-Security-Policy" content="...">
+  <!-- Content Security Policy (conditional on twitter_embed front matter) -->
+  {% if page.twitter_embed %}
+  <meta http-equiv="Content-Security-Policy" content="... +platform.twitter.com +twitter.com +syndication.twitter.com +t.co">
+  {% else %}
+  <meta http-equiv="Content-Security-Policy" content="... (no Twitter domains)">
+  {% endif %}
 
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -107,6 +111,7 @@ category.html (extends default)
 
 **Key Variables:**
 - `page.math` - Loads MathJax if true
+- `page.twitter_embed` - Adds Twitter/X CSP allowlist (platform.twitter.com, twitter.com, syndication.twitter.com, t.co) when true
 - `site.title` - From _config.yml
 
 **Dependencies:**
@@ -483,9 +488,29 @@ home_intro_text: 'GitHub Pages で育てる個人サイト。...'
 - `post-share.html` - Only if `site.hide_post_share != true`
 - `disqus.html` - Only if `site.data.settings.disqus.comments == true`
 - `page.math` - Only loads MathJax if explicitly enabled
+- `page.twitter_embed` - CSP expands to allow Twitter/X domains if true
 
 **External Resources (in head.html):**
 - Fonts: Google Fonts (preconnect)
 - Icons: Font Awesome CDN
 - Analytics: Google Analytics (async)
 - Optional: MathJax (async, on-demand)
+
+## Twitter/X Embed Front Matter
+
+Posts containing Twitter/X embeds (`<blockquote class="twitter-tweet">`) must set `twitter_embed: true` in front matter to allow the CSP to load `platform.twitter.com/widgets.js` and render the iframe.
+
+**Posts currently using this flag:**
+- `_posts/2025-01-03-gnosia.md`
+- `_posts/2026-01-07-eurotrip.md`
+- `_posts/2026-03-20-my9games-devlog.md`
+
+**Required CSP domains (twitter_embed pages):**
+
+| Directive | Domain | Purpose |
+|-----------|--------|---------|
+| `script-src` | `https://platform.twitter.com` | widgets.js |
+| `frame-src` | `https://platform.twitter.com` | embed iframe |
+| `frame-src` | `https://twitter.com` | embed iframe redirect |
+| `connect-src` | `https://syndication.twitter.com` | widget API |
+| `connect-src` | `https://t.co` | shortened link resolution |

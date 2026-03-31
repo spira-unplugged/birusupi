@@ -7,6 +7,7 @@ tags: [個人開発, Webアプリ, 公開運用, 設計, ポストモーテム, 
 excerpt: "個人開発のWebアプリがバズで逼迫し、サービス停止に。基盤やDB設計・運用ルールなどを全面的に作り直した記録。"
 image: /assets/img/2026-03-20-my9games-devlog/001.png
 last_modified_at: 2026-03-21 00:00:00 +0900
+twitter_embed: true
 ---
 
 ※ 写真　[私を構成する9つのゲーム My 9 Games](https://my9games.com/) トップページ
