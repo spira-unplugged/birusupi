@@ -17,22 +17,22 @@ Jekyll 4 系をベースに、Millennial テーマをカスタムした構成で
   - `jekyll-last-modified-at` - 最終更新日時の自動追加
   - `jekyll-minifier` - HTML/CSS 最小化（JS はオフ）
 
-依存関係は [Gemfile](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/Gemfile) と [Gemfile.lock](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/Gemfile.lock) で管理しています。
+依存関係は [Gemfile](Gemfile) と [Gemfile.lock](Gemfile.lock) で管理しています。
 
 ## ディレクトリ設計
 
-- [_posts](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/_posts): ブログ記事（`YYYY-MM-DD-title.md`）
-- [pages](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/pages): 固定ページ（About, Blog, Documentation, GPTs, Playlist など）
-- [_layouts](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/_layouts): レイアウトテンプレート
-- [_includes](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/_includes): 共通パーツ（header/footer/シェア/Toc 等）
-- [_sass](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/_sass): セクション別スタイル
-- [assets](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/assets): 画像・JS・CSSエントリ
-- [_data/settings.yml](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/_data/settings.yml): ナビゲーション/SNS/表示文言設定
-- [_config.yml](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/_config.yml): サイト全体設定（`url`, `baseurl`, timezone, plugins など）
+- [_posts](_posts): ブログ記事（`YYYY-MM-DD-title.md`）
+- [pages](pages): 固定ページ（About, Blog, Documentation, GPTs, Playlist など）
+- [_layouts](_layouts): レイアウトテンプレート
+- [_includes](_includes): 共通パーツ（header/footer/シェア/Toc 等）
+- [_sass](_sass): セクション別スタイル
+- [assets](assets): 画像・JS・CSSエントリ
+- [_data/settings.yml](_data/settings.yml): ナビゲーション/SNS/表示文言設定
+- [_config.yml](_config.yml): サイト全体設定（`url`, `baseurl`, timezone, plugins など）
 
 補足:
 - `baseurl` は `/birusupi` 前提です。
-- テーマ仕様は [millennial.gemspec](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/millennial.gemspec) でも管理しています（`birusupi-theme`）。
+- テーマ仕様は [millennial.gemspec](millennial.gemspec) でも管理しています（`birusupi-theme`）。
 
 ## ローカル開発
 
@@ -105,4 +105,4 @@ bundle exec jekyll serve
 ## ライセンス
 
 MIT License  
-[LICENSE.md](/mnt/c/Users/moosa/Documents/001_Repository/birusupi/LICENSE.md)
+[LICENSE.md](LICENSE.md)
