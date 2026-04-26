@@ -3,13 +3,14 @@ layout: page
 title: GPTs
 permalink: /gpts
 image: /assets/img/gpts.png
+description: 自作した ChatGPT GPTs の一覧と会話例。ヤフコメ風、村上春樹風、PvPダークファンタジー Reverie Blades など、目的特化の GPT を紹介します。
 twitter_card: summary_large_image
 last_modified_at: 2025-04-22 00:00:00 +0900
 ---
 
 作成したGPTsをまとめました。各見出しをクリックするとGPTに飛びます。
 
-### [ヤフコメ](https://chatgpt.com/g/g-67c6e6936a5881918e0cf253591bc1d4-yahukome)
+## [ヤフコメ](https://chatgpt.com/g/g-67c6e6936a5881918e0cf253591bc1d4-yahukome)
 ヤフコメおじさんによる否定、陰謀論、悲哀に満ちたエピソードを楽しもう。
 <details>
 <summary>会話例</summary>
@@ -43,7 +44,7 @@ last_modified_at: 2025-04-22 00:00:00 +0900
 
 </details>
 
-### [村上春樹](https://chatgpt.com/g/g-6800bf33ccb0819198ffd127d7ba1616-cun-shang-chun-shu)
+## [村上春樹](https://chatgpt.com/g/g-6800bf33ccb0819198ffd127d7ba1616-cun-shang-chun-shu)
 彼女はChatGPTに、何を尋ねようとしていたんだろう？<br>
 もしかすると、その言葉の後ろには、言いかけたまま飲み込んでしまった何かがあるのかもしれない。
 <details>
@@ -72,7 +73,7 @@ last_modified_at: 2025-04-22 00:00:00 +0900
 </blockquote>
 </details>
 
-### [Reverie Blades](https://chatgpt.com/g/g-67e3c13e0c0081918719093ab21471b9-reverie-blades)
+## [Reverie Blades](https://chatgpt.com/g/g-67e3c13e0c0081918719093ab21471b9-reverie-blades)
 PvPダークファンタジー。<br>
 ビルドは詩、戦いは舞、敗北は伝承…。
 

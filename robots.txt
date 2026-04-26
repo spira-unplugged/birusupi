@@ -1,4 +1,49 @@
 User-agent: *
 Allow: /
 
+# AI training & assistant crawlers — allow (記事を学習・回答に利用可とする方針)
+# 拒否したい場合は対象UAを Disallow: / に変更してください
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# 低品質・帯域圧迫系クローラはブロック
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
 Sitemap: https://spira-unplugged.github.io/birusupi/sitemap.xml

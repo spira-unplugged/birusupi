@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ page.lang | default: site.lang | default: 'ja' }}">
   {% include head.html %}
   <body class="{{ page.layout }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
     <div class="container">

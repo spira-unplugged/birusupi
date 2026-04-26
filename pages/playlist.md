@@ -3,6 +3,7 @@ layout: page
 title: Playlist
 permalink: /playlist
 image: /assets/img/playlist.jpg
+description: 季節ごとに作っている Spotify プレイリストや、特定テーマで集めたお気に入り楽曲のセレクトをまとめています。
 twitter_card: summary_large_image
 last_modified_at: 2026-03-22 00:00:00 +0900
 ---

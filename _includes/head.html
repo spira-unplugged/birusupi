@@ -1,7 +1,11 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdn.jsdelivr.net https://platform.twitter.com; img-src 'self' data: https:; connect-src https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://syndication.twitter.com https://t.co; frame-src https://open.spotify.com https://www.youtube.com https://www.youtube-nocookie.com https://platform.twitter.com https://twitter.com; object-src 'none'">
+  {%- comment -%} noindex for paginated/404/opt-out pages {%- endcomment -%}
+  {%- if page.noindex or paginator.page > 1 or page.url == "/404.html" -%}
+  <meta name="robots" content="noindex, follow">
+  {%- endif -%}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://cdn.jsdelivr.net https://platform.twitter.com; img-src 'self' data: https:; connect-src https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://www.google.com https://syndication.twitter.com https://t.co; frame-src https://open.spotify.com https://www.youtube.com https://www.youtube-nocookie.com https://platform.twitter.com https://twitter.com; object-src 'none'">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
   <link rel="icon" href="{{ '/favicon.png' | relative_url }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}">
@@ -27,5 +31,42 @@
   {% endif %}
   {% include google-analytics.html %}
   {% seo %}
+
+  {%- comment -%} ===== Extended OGP / Twitter / Article meta ===== {%- endcomment -%}
+  {%- assign og_image = page.image | default: site.defaults[0].values.image -%}
+  {%- if og_image -%}
+  {%- assign og_w = og_image | image_width -%}
+  {%- assign og_h = og_image | image_height -%}
+  {%- comment -%} jekyll-seo-tag emits og:image only when page.image is set;
+                  fill the gap for jekyll-archives pages (which lack frontmatter). {%- endcomment -%}
+  {%- unless page.image %}
+  <meta property="og:image" content="{{ og_image | absolute_url }}">
+  {%- endunless %}
+  <meta property="og:image:alt" content="{{ page.title | default: site.title | xml_escape }}">
+  {%- if og_w != "" and og_h != "" %}
+  <meta property="og:image:width" content="{{ og_w }}">
+  <meta property="og:image:height" content="{{ og_h }}">
+  {%- endif -%}
+  {%- endif -%}
+
+  {%- if page.layout == "post" %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="article:modified_time" content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}">
+  <meta property="article:author" content="{{ page.author | default: site.author }}">
+  {%- if page.categories and page.categories.size > 0 %}
+  <meta property="article:section" content="{{ page.categories | first }}">
+  {%- endif %}
+  {%- for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag | xml_escape }}">
+  {%- endfor %}
+
+  {%- assign words = page.content | strip_html | number_of_words -%}
+  {%- assign read_minutes = words | divided_by: 400 | plus: 1 -%}
+  <meta name="twitter:label1" content="Written by">
+  <meta name="twitter:data1" content="{{ page.author | default: site.author }}">
+  <meta name="twitter:label2" content="Reading time">
+  <meta name="twitter:data2" content="{{ read_minutes }} min read">
+  {%- endif %}
+
   {% include json-ld.html %}
 </head>

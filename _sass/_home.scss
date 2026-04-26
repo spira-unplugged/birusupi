@@ -38,10 +38,12 @@
   text-transform: uppercase;
 }
 
-.home-card h3 {
+.home-card h2 {
   margin: 0.55rem 0 0.45rem;
   font-size: 1.22rem;
+  font-weight: 600;
   line-height: 1.25;
+  letter-spacing: -0.02em;
 }
 
 .home-card-excerpt {
@@ -114,7 +116,7 @@ span.pagination-button {
     padding: 12px;
   }
 
-  .home-card h3 {
+  .home-card h2 {
     font-size: 1.04rem;
   }
 

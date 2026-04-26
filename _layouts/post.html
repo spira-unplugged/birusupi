@@ -34,7 +34,7 @@ layout: default
 
           {% if page.image %}
             <div class="featured-image post-cover">
-              <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+              <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="eager" fetchpriority="high"{{ page.image | image_dims }}>
             </div>
           {% endif %}
 

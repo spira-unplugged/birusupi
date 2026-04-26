@@ -5,6 +5,14 @@ title: Home
 
 {% assign latest_post = site.posts | first %}
 
+<h1 class="visually-hidden">
+  {%- if paginator.page == 1 -%}
+    {{ site.title }} — {{ site.description }}
+  {%- else -%}
+    {{ site.title }} — Page {{ paginator.page }}
+  {%- endif -%}
+</h1>
+
 <section class="home-grid">
   {% if paginator.page == 1 and latest_post %}
     <article class="home-card home-card-latest">
@@ -13,7 +21,7 @@ title: Home
         <div class="home-card-body">
           <p class="home-card-kicker">Latest</p>
           <p class="home-card-date">{{ latest_post.date | date: site.date_format }}</p>
-          <h3>{{ latest_post.title }}</h3>
+          <h2>{{ latest_post.title }}</h2>
           <p class="home-card-excerpt">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
           {% if latest_post.tags %}
             <ul class="card-tags">
@@ -34,7 +42,7 @@ title: Home
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: site.date_format }}</p>
-            <h3>{{ post.title }}</h3>
+            <h2>{{ post.title }}</h2>
             <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
             {% if post.tags %}
               <ul class="card-tags">
@@ -55,7 +63,7 @@ title: Home
           <div class="home-card-media" {% if post.image %}style="background-image:url('{{ post.image | relative_url }}')"{% endif %}></div>
           <div class="home-card-body">
             <p class="home-card-date">{{ post.date | date: site.date_format }}</p>
-            <h3>{{ post.title }}</h3>
+            <h2>{{ post.title }}</h2>
             <p class="home-card-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
             {% if post.tags %}
               <ul class="card-tags">

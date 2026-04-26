@@ -2,6 +2,8 @@
 layout: page
 title: My 9 Games 利用規約 & プライバシーポリシー
 permalink: /m9gppc
+description: My 9 Games（私を構成する9つのゲーム）サービスの利用規約とプライバシーポリシー。
+noindex: true
 last_modified_at: 2025-02-26 20:09:00 +0900
 ---
 

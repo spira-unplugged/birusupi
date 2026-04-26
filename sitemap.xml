@@ -2,30 +2,63 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {%- for page in site.pages %}
-  {%- unless page.sitemap == false or page.url == "/404.html" %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemaps-image/0.9">
+  {%- assign now = site.time | date: "%s" | plus: 0 -%}
+  {%- comment -%} Static pages {%- endcomment -%}
+  {%- for page in site.pages -%}
+  {%- unless page.sitemap == false or page.permalink == "404.html" or page.url == "/404.html" or page.noindex -%}
+  {%- assign url_no_html = page.url | replace: ".html", "" -%}
+  {%- assign ext = page.url | split: "." | last -%}
+  {%- if ext == page.url or ext == "html" -%}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>
     <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
     {%- if page.url == "/" %}
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     {%- else %}
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+    {%- endif %}
+    {%- if page.image %}
+    <image:image>
+      <image:loc>{{ page.image | absolute_url }}</image:loc>
+      <image:title>{{ page.title | xml_escape }}</image:title>
+    </image:image>
     {%- endif %}
   </url>
-  {%- endunless %}
-  {%- endfor %}
-  {%- for post in site.posts %}
-  {%- unless post.sitemap == false %}
+  {%- endif -%}
+  {%- endunless -%}
+  {%- endfor -%}
+  {%- comment -%} Posts — newer = more frequent updates expected {%- endcomment -%}
+  {%- for post in site.posts -%}
+  {%- unless post.sitemap == false or post.noindex -%}
+  {%- assign post_s = post.date | date: "%s" | plus: 0 -%}
+  {%- assign post_age_days = now | minus: post_s | divided_by: 86400 -%}
   <url>
     <loc>{{ post.url | absolute_url }}</loc>
     <lastmod>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</lastmod>
+    {%- if post_age_days < 30 %}
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    {%- elsif post_age_days < 365 %}
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    {%- else %}
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    {%- endif %}
+    {%- if post.image %}
+    <image:image>
+      <image:loc>{{ post.image | absolute_url }}</image:loc>
+      <image:title>{{ post.title | xml_escape }}</image:title>
+      {%- if post.excerpt %}
+      <image:caption>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 | xml_escape }}</image:caption>
+      {%- endif %}
+    </image:image>
+    {%- endif %}
   </url>
-  {%- endunless %}
-  {%- endfor %}
+  {%- endunless -%}
+  {%- endfor -%}
 </urlset>
