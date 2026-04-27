@@ -38,6 +38,7 @@ jekyll-archives:
 # jekyll-minifier (JS は複雑な構文があるため無効化)
 jekyll-minifier:
   compress_javascript: false
+  exclude: 'cacaulay-mulkin.html'
 
 # SCSS ソースマップを無効化 (jekyll-last-modified-at との競合回避)
 sass:
