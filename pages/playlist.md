@@ -5,7 +5,7 @@ permalink: /playlist
 image: /assets/img/playlist.jpg
 description: 季節ごとに作っている Spotify プレイリストや、特定テーマで集めたお気に入り楽曲のセレクトをまとめています。
 twitter_card: summary_large_image
-last_modified_at: 2026-03-22 00:00:00 +0900
+last_modified_at: 2026-05-26 00:00:00 +0900
 ---
 
 これまで作ったものをまとめました。
@@ -13,6 +13,10 @@ last_modified_at: 2026-03-22 00:00:00 +0900
 ## 四季のPlaylist
 
 友人と四季に合わせてプレイリストを作る催しがあります。
+
+### 2026年夏
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0wCWta2sseOkvhcAvp4BtM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### 2026年春
 
