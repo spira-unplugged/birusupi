@@ -29,6 +29,9 @@ last_modified_at: 2026-03-31 00:00:00 +0900
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">私を構成する9つのゲーム <a href="https://twitter.com/hashtag/My9Games">#My9Games</a> <a href="https://twitter.com/hashtag/%E7%A7%81%E3%82%92%E6%A7%8B%E6%88%90%E3%81%99%E3%82%8B9%E3%81%A4%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0">#私を構成する9つのゲーム</a></p>&mdash; はじめしゃちょー(hajime) (@hajimesyacho) <a href="https://twitter.com/hajimesyacho/status/2029858117530566731?ref_src=twsrc%5Etfw">March 5, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+こちらにまとめています。
+[あの人の選ぶ9本 | 推しクリエイターのゲーム選 | My 9 Games](https://my9games.com/featured)
+
 メディアにも取り上げていただきました。
 
 - [「My 9 Games」が流行の兆し。マイナータイトルや「ネタバレ防止機能」もある、ゲーム特化の思い出共有サイト - AUTOMATON](https://automaton-media.com/articles/newsjp/20260226-424512/)
