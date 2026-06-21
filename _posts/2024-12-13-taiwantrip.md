@@ -8,9 +8,6 @@ excerpt: "2泊3日の台北出張（ほぼ旅行）を、名機RX100と共に記
 image: /assets/img/2024-12-13-taiwantrip/001.png
 last_modified_at: 2024-12-13 00:00:00 +0900
 ---
-※noteでも同内容を投稿しています。
-
-[台湾旅行記 SONY RX100とともに｜びるすぴ](https://note.com/vonflume/n/n56556222024d)
 
 ## はじめに
 

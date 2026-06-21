@@ -8,9 +8,6 @@ excerpt: "Pythonライブラリnoisereduceを使って、社内セミナー録�
 image: /assets/img/2024-12-3-noisereduce/001.jpg
 last_modified_at: 2024-12-03 00:00:00 +0900
 ---
-※noteでも同内容を投稿しています。
-
-[Pythonを用いた音声ファイルのノイズの除去（ライブラリ: noisereduce）｜びるすぴ](https://note.com/vonflume/n/n3788d8770df7)
 
 ## はじめに
 
