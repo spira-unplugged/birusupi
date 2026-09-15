@@ -4,7 +4,6 @@ title: About
 permalink: /about
 image: /assets/img/about.jpg
 description: このサイトの運営方針、自己紹介、ポリシーをまとめています。
-kicker: About This Site
 twitter_card: summary_large_image
 last_modified_at: 2026-03-10 00:00:00 +0900
 ---

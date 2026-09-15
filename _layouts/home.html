@@ -19,7 +19,6 @@ title: Home
       <a href="{{ latest_post.url | relative_url }}" class="home-card-link">
         <div class="home-card-media" {% if latest_post.image %}style="background-image:url('{{ latest_post.image | relative_url }}')"{% endif %}></div>
         <div class="home-card-body">
-          <p class="home-card-kicker">Latest</p>
           <p class="home-card-date">{{ latest_post.date | date: site.date_format }}</p>
           <h2>{{ latest_post.title }}</h2>
           <p class="home-card-excerpt">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
