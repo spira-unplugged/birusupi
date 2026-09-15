@@ -13,7 +13,7 @@ Jekyll 4 系をベースに、Millennial テーマをカスタムした構成で
   - `jekyll-paginate-v2` - 高度なページネーション（1ページあたり6件）
   - `jekyll-feed` - Atom フィード生成
   - `jekyll-seo-tag` - SEO メタタグ自動生成
-  - `jekyll-archives` - 年/月/タグ別アーカイブページ自動生成
+  - `jekyll-archives` - 年/月別アーカイブページ自動生成
   - `jekyll-last-modified-at` - 最終更新日時の自動追加
   - `jekyll-minifier` - HTML/CSS 最小化（JS はオフ）
 
@@ -22,7 +22,7 @@ Jekyll 4 系をベースに、Millennial テーマをカスタムした構成で
 ## ディレクトリ設計
 
 - [_posts](_posts): ブログ記事（`YYYY-MM-DD-title.md`）
-- [pages](pages): 固定ページ（About, Blog, Documentation, GPTs, Playlist など）
+- [pages](pages): 固定ページ（About, Blog, Documentation, Playlist など）
 - [_layouts](_layouts): レイアウトテンプレート
 - [_includes](_includes): 共通パーツ（header/footer/シェア/Toc 等）
 - [_sass](_sass): セクション別スタイル
@@ -69,7 +69,7 @@ bundle exec jekyll serve
 ### 1. 記事を追加する
 
 1. `_posts` に `YYYY-MM-DD-<slug>.md` を追加
-2. Front Matter に `layout`, `title`, `categories`, `tags`, `excerpt`, `image` などを設定
+2. Front Matter に `layout`, `title`, `categories`, `tags`, `excerpt`, `image` などを設定（`tags` は OGP / JSON-LD 用のメタデータのみ。タグ一覧ページは廃止済み）
 3. 記事画像は `assets/img/<post-id>/` に配置
 4. `bundle exec jekyll serve` で表示確認
 
@@ -87,7 +87,7 @@ bundle exec jekyll serve
 
 ## アーカイブとページネーション
 
-- **アーカイブ**: `/archive/:year/`, `/archive/:year/:month/`, `/tags/:name/` で自動生成
+- **アーカイブ**: `/archive/:year/`, `/archive/:year/:month/` で自動生成
 - **ページネーション**: `/page/2/`, `/page/3/` など、1ページあたり6件で自動分割
 
 ## 公開について

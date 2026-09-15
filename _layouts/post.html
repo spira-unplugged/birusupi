@@ -44,15 +44,6 @@ layout: default
           {{ content }}
         </article>
 
-        {% if page.tags %}
-          <ul class="post-tags post-footer-tags">
-            {% for tag in page.tags %}
-              {% assign tag_slug = tag | slugify %}
-              <li><a class="post-tag-link" href="{{ '/tags/' | append: tag_slug | relative_url }}/">{{ tag }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-
         {% if site.hide_post_share != true %}
           {% include post-share.html %}
         {% endif %}

@@ -9,8 +9,6 @@ google-ID: 'G-W1PYX136X2'
 menu:
 - {name: 'Blog',       url: 'blog'}
 - {name: 'Documentation',      url: 'documentation'}
-- {name: 'Tags',      url: 'tags'}
-- {name: 'GPTs',      url: 'gpts'}
 - {name: 'Playlist',      url: 'playlist'}
 - {name: 'About',              url: 'about'}
 

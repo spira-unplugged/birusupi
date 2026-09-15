@@ -4,7 +4,7 @@
   - WebPage on every page.
   - BreadcrumbList on non-home pages.
   - BlogPosting on posts (linked to Person/Organization).
-  - CollectionPage + ItemList on listing pages (home, blog, archive, tag).
+  - CollectionPage + ItemList on listing pages (home, blog, archive).
 {%- endcomment -%}
 
 {%- assign site_url = site.url | append: site.baseurl -%}
@@ -147,7 +147,7 @@
     {%- endunless -%}
 
     {%- comment -%} CollectionPage on listing-style pages {%- endcomment -%}
-    {%- assign listing_layouts = "home,tag,tags,archive-date,category" | split: "," -%}
+    {%- assign listing_layouts = "home,archive-date,category" | split: "," -%}
     {%- if listing_layouts contains page.layout -%}
     ,{
       "@type": "CollectionPage",

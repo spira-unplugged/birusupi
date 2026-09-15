@@ -20,8 +20,6 @@ birusupi/
 │   ├── page.html               # Standard page layout (with hero section)
 │   ├── post.html               # Blog post layout (with TOC, metadata, navigation)
 │   ├── category.html           # Category archive page with post grid
-│   ├── tag.html                # Individual tag page
-│   ├── tags.html               # Tags index page
 │   └── archive-date.html       # Year/month archive layout
 ├── _includes/                  # Reusable HTML components
 │   ├── head.html               # Document head (CSP, meta, links, analytics)
@@ -62,7 +60,6 @@ birusupi/
 ├── _posts/                     # Blog posts in YYYY-MM-DD-slug.md format
 ├── _drafts/                    # Draft posts (not published)
 ├── pages/                      # Static pages (blog, about, documentation, etc.)
-├── _tag/                       # Tag archive pages (generated)
 ├── .github/workflows/          # GitHub Actions (publish to Pages)
 └── Gemfile                     # Ruby dependencies
 ```
@@ -77,8 +74,6 @@ default.html (base)
 ├── page.html (standard page)
 ├── post.html (blog post with sidebar)
 ├── category.html (category archive)
-├── tags.html (tags index)
-├── tag.html (individual tag page)
 └── archive-date.html (year/month archive)
 ```
 
@@ -88,14 +83,14 @@ default.html (base)
 - Markdown: kramdown
 - Syntax highlighting: rouge
 - Plugins: jekyll-paginate-v2, jekyll-feed, jekyll-seo-tag, jekyll-archives, jekyll-last-modified-at, jekyll-minifier
-- Archive layouts: year, month, tags
+- Archive layouts: year, month
 - Pagination: 6 posts per page (homepage: 1 latest + 5 regular on page 1)
 - Date format: `YYYY.MM.DD`
 - Timezone: Asia/Tokyo
 - Language: ja (Japanese)
 
 **_data/settings.yml:**
-- Menu: Blog, Documentation, Tags, GPTs, Playlist, About
+- Menu: Blog, Documentation, Playlist, About
 - Social: X/Twitter, Bluesky, GitHub, Last.fm, Ko-fi
 - Analytics: Google Analytics ID G-W1PYX136X2
 - Comments: Disqus disabled
@@ -151,7 +146,7 @@ bundle exec jekyll serve
 **Production:**
 - GitHub Actions workflow: `.github/workflows/pages.yml`
 - Builds and deploys to GitHub Pages on push to main
-- URL pattern: `/archive/YYYY/MM/` (month), `/archive/YYYY/` (year), `/tags/TAGNAME/` (tags)
+- URL pattern: `/archive/YYYY/MM/` (month), `/archive/YYYY/` (year)
 
 ## Related Codemaps
 

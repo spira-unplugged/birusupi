@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: "静かな山小屋をつくる理由―思想と表現の純度を保つために"
 author: "Birusupi"
 categories: blog

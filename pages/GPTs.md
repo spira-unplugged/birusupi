@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: GPTs
 permalink: /gpts
 image: /assets/img/gpts.png

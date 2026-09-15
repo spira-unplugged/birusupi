@@ -25,15 +25,12 @@ jekyll-archives:
   enabled:
     - year
     - month
-    - tags
   layouts:
     year:  archive-date
     month: archive-date
-    tag:   tag
   permalinks:
     year:  '/archive/:year/'
     month: '/archive/:year/:month/'
-    tag:   '/tags/:name/'
 
 # jekyll-minifier (JS は複雑な構文があるため無効化)
 jekyll-minifier:

@@ -30,7 +30,7 @@ Welcome to the Birusupi blog codebase documentation. This directory contains com
 
 **Key Features:**
 - Paginated blog with post grid
-- Tag-based archives (year, month, tags)
+- Date-based archives (year, month)
 - Responsive design (mobile, tablet, desktop)
 - Keyboard accessible navigation
 - Image zoom with accessibility
@@ -138,8 +138,6 @@ default.html (base for all pages)
 ├─ page.html → Standard content pages
 ├─ post.html → Blog posts with sidebar and TOC
 ├─ category.html → Category archives
-├─ tag.html → Tag archive (auto-generated)
-├─ tags.html → Tags index
 └─ archive-date.html → Year/month archives (auto-generated)
 ```
 
@@ -179,7 +177,7 @@ default.html (base for all pages)
 2. **Enhanced accessibility:** `menu-toggle.js` and `image-zoom.js` improvements
 3. **Content Security Policy:** Added to `head.html` for security
 4. **New plugins:**
-   - jekyll-archives - Year/month/tag archives
+   - jekyll-archives - Year/month archives
    - jekyll-last-modified-at - "Updated" date for posts
    - jekyll-minifier - CSS/HTML minification (JS disabled)
 
@@ -225,7 +223,7 @@ tags: [tag1, tag2]
 | jekyll-feed | Atom feed (`/feed.xml`) |
 | jekyll-seo-tag | SEO meta tags |
 | jekyll-paginate-v2 | Homepage pagination |
-| jekyll-archives | Archive pages (year/month/tag) |
+| jekyll-archives | Archive pages (year/month) |
 | jekyll-last-modified-at | Post update date |
 | jekyll-minifier | CSS/HTML minification |
 

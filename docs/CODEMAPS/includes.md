@@ -162,8 +162,6 @@ category.html (extends default)
   ```yaml
   - {name: 'Blog', url: 'blog'}
   - {name: 'Documentation', url: 'documentation'}
-  - {name: 'Tags', url: 'tags'}
-  - {name: 'GPTs', url: 'gpts'}
   - {name: 'Playlist', url: 'playlist'}
   - {name: 'About', url: 'about'}
   ```
@@ -212,11 +210,6 @@ category.html (extends default)
       <p class="category-card-date">{{ post.date | date }}</p>
       <h2>{{ post.title }}</h2>
       <p class="category-card-excerpt">{{ post.excerpt | truncate: 90 }}</p>
-      <ul class="card-tags">
-        {% for tag in post.tags limit:3 %}
-          <li>{{ tag }}</li>
-        {% endfor %}
-      </ul>
     </div>
   </a>
 </article>
@@ -226,7 +219,7 @@ category.html (extends default)
 - category.html (for each post in category)
 
 **Styling:**
-- CSS classes: category-card, category-card-link, category-card-media, category-card-body, category-card-date, card-tags
+- CSS classes: category-card, category-card-link, category-card-media, category-card-body, category-card-date
 
 ---
 
@@ -453,8 +446,6 @@ google-ID: 'G-W1PYX136X2'
 menu:
   - {name: 'Blog', url: 'blog'}
   - {name: 'Documentation', url: 'documentation'}
-  - {name: 'Tags', url: 'tags'}
-  - {name: 'GPTs', url: 'gpts'}
   - {name: 'Playlist', url: 'playlist'}
   - {name: 'About', url: 'about'}
 

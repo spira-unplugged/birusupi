@@ -247,9 +247,6 @@ $transition-timing: ease-in-out;
            ├─ .post-body
            │  └─ Post markdown content (h2-h6, p, lists, code, blockquote)
            │
-           ├─ .post-tags.post-footer-tags
-           │  └─ .post-tag-link
-           │
            ├─ .post-share
            │  └─ Share buttons
            │
@@ -291,9 +288,7 @@ $transition-timing: ease-in-out;
   ├─ .home-card-kicker (optional, "Latest" label)
   ├─ .home-card-date, .category-card-date
   ├─ h3 (title)
-  ├─ .home-card-excerpt, .category-card-excerpt
-  └─ .card-tags
-     └─ li (tag items)
+  └─ .home-card-excerpt, .category-card-excerpt
 
 .home-card-latest
   └─ Larger featured card variant
