@@ -1,15 +1,18 @@
 ---
 layout: page
-title: My 9 Games 利用規約 & プライバシーポリシー
+title: MY9GAMES 利用規約 & プライバシーポリシー
 permalink: /m9gppc
-description: My 9 Games（私を構成する9つのゲーム）サービスの利用規約とプライバシーポリシー。
+description: MY9GAMES（My 9 Games | 私を構成する9つのゲーム）の利用規約とプライバシーポリシー。
 noindex: true
-last_modified_at: 2025-02-26 20:09:00 +0900
+published: false  # 2026-10-01 公開を停止（旧版の控え。現行の規約は https://my9games.com/agreement ほか）
+last_modified_at: 2026-02-26 20:09:00 +0900
 ---
 
-2025-02-26 20:09:00時点のものとなります。
+2026-02-26 20:09:00時点のものとなります。
 
-# My 9 Games 利用規約
+本ページでは、MY9GAMES（My 9 Games \| 私を構成する9つのゲーム）を以下「本サービス」といいます。
+
+# MY9GAMES 利用規約
 
 ## 1. 適用範囲
 本規約は、本サービスの提供条件および本サービスの利用に関する本サービス運用者と利用者との間の権利義務関係を定めます。
@@ -74,7 +77,7 @@ last_modified_at: 2025-02-26 20:09:00 +0900
 This service uses IGDB data. We display the following attribution on user-facing pages that use game metadata:
 ["Games metadata is powered by IGDB.com"](https://www.igdb.com).
 
-# My 9 Games プライバシーポリシー
+# MY9GAMES プライバシーポリシー
 
 ## 1. 取得する情報
 - 利用者が入力・送信する情報

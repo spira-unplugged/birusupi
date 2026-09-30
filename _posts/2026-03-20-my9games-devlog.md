@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "私を構成する9つのゲーム My 9 Games 開発の振り返り"
+title: "私を構成する9つのゲーム MY9GAMES（My 9 Games）開発の振り返り"
 author: "Birusupi"
 categories: documentation
 tags: [個人開発, Webアプリ, 公開運用, 設計, ポストモーテム, My9Games]
 excerpt: "個人開発のWebアプリがバズで逼迫し、サービス停止に。基盤やDB設計・運用ルールなどを全面的に作り直した記録。"
 image: /assets/img/2026-03-20-my9games-devlog/001.png
-last_modified_at: 2026-09-29 00:00:00 +0900
+last_modified_at: 2026-10-01 00:00:00 +0900
 ---
 
-※ 写真　[私を構成する9つのゲーム My 9 Games](https://my9games.com/) トップページ
+※ 写真　[私を構成する9つのゲーム MY9GAMES](https://my9games.com/) トップページ
 
 ## はじめに
 
@@ -19,7 +19,7 @@ last_modified_at: 2026-09-29 00:00:00 +0900
 
 <div class="img-cap">Google画像検索で見る「私を構成する9枚」ミームの例</div>
 
-これのゲーム版が欲しくなりまして、[My 9 Games](https://my9games.com/) というWebアプリをこの度作ってみました。9本のゲームを選んで3×3の画像にし、共有ページとして見せられるようにしたものです。投稿データを集計して、[コミュニティ全体でどんなゲームが選ばれているか](https://my9games.com/trends)も見られるようにしています。
+これのゲーム版が欲しくなりまして、[MY9GAMES](https://my9games.com/)（My 9 Games \| 私を構成する9つのゲーム、以下「MY9GAMES」）というWebアプリをこの度作ってみました。9本のゲームを選んで3×3の画像にし、共有ページとして見せられるようにしたものです。投稿データを集計して、[コミュニティ全体でどんなゲームが選ばれているか](https://my9games.com/trends)も見られるようにしています。
 
 作り始めたときは、検索して、選んで、画像にできれば十分だと思っていました。ところがいざ公開運用を始めると、検索、画像生成、ランキング、コスト、保存方針、サイトのルールまで、色々と問題が立ち上がってきました。
 
@@ -30,7 +30,7 @@ last_modified_at: 2026-09-29 00:00:00 +0900
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">私を構成する9つのゲーム <a href="https://twitter.com/hashtag/My9Games">#My9Games</a> <a href="https://twitter.com/hashtag/%E7%A7%81%E3%82%92%E6%A7%8B%E6%88%90%E3%81%99%E3%82%8B9%E3%81%A4%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0">#私を構成する9つのゲーム</a></p>&mdash; はじめしゃちょー(hajime) (@hajimesyacho) <a href="https://twitter.com/hajimesyacho/status/2029858117530566731?ref_src=twsrc%5Etfw">March 5, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 こちらに様々な方の投稿をまとめています。
-[あの人の選ぶ9本 | 推しクリエイターのゲーム選 | My 9 Games](https://my9games.com/featured)
+[あの人の選ぶ9本 | 推しクリエイターのゲーム選 | MY9GAMES](https://my9games.com/featured)
 
 メディアにも取り上げていただきました。
 
@@ -183,7 +183,7 @@ Vercelが悪いという話ではありません。どの処理がデータ転�
 
 よければ遊んでみてください。
 
-[My 9 Games - 9本のゲームで自分を紹介してシェア](https://my9games.com/)
+[MY9GAMES - 9本のゲームで自分を紹介してシェア](https://my9games.com/)
 
 そして、ご支援という形で支えてくださった方にも、本当に感謝しています。止める判断をしたあとに立て直しきれたのは、遊んでくださった方や拡散してくださった方はもちろん、応援の言葉や支援で背中を押してくださった方々のおかげでした。
 
